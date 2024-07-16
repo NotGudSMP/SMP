@@ -324,3 +324,17 @@ java.lang.IllegalStateException: not found
 [20:02:09] [Geyser Fabric connection thread-6-1/INFO]: Floodgate player logged in as .Alpheta5267 disconnected
 [20:02:09] [Server thread/INFO]: .Alpheta5267 lost connection: Disconnected
 [20:02:09] [Server thread/INFO]: .Alpheta5267 left the game
+[20:03:36] [Server thread/INFO]: Stopping the server
+[20:03:36] [Server thread/INFO]: Shutting down Geyser.
+[20:03:36] [Server thread/INFO]: Geyser shutdown successfully.
+[20:03:36] [WebSocketConnectReadThread-64/INFO]: The skin uploader has been closed
+[20:03:38] [Server thread/INFO]: Stopping server
+[20:03:38] [Server thread/INFO]: Saving players
+[20:03:38] [Server thread/INFO]: Saving worlds
+[20:03:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:03:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:03:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:03:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:03:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:03:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:03:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
