@@ -3,3 +3,32 @@
 [2024-07-18 13:28:58] [main/TRACE] (BlossomLib): register config manager BlossomTpa.json
 [2024-07-18 13:28:58] [main/TRACE] (BlossomLib): loading config BlossomTpa.json
 [2024-07-18 13:28:58] [main/TRACE] (BlossomLib): saving config BlossomTpa.json
+[2024-07-18 14:13:58] [main/ INFO] (BlossomLib): BlossomLib mixins loading
+[2024-07-18 14:14:05] [main/ INFO] (BlossomLib): BlossomLib has starting
+[2024-07-18 14:14:05] [main/TRACE] (BlossomLib): register config manager BlossomTpa.json
+[2024-07-18 14:14:05] [main/TRACE] (BlossomLib): loading config BlossomTpa.json
+[2024-07-18 14:14:05] [main/TRACE] (BlossomLib): saving config BlossomTpa.json
+[2024-07-18 14:18:35] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 9167a24f-da69-38b3-a896-09694b6626bc (3.0 s)
+[2024-07-18 14:18:38] [Server thread/DEBUG] (BlossomLib): genericCountdown for 9167a24f-da69-38b3-a896-09694b6626bc has ended
+[2024-07-18 14:21:33] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 9167a24f-da69-38b3-a896-09694b6626bc (3.0 s)
+[2024-07-18 14:21:36] [Server thread/DEBUG] (BlossomLib): genericCountdown for 9167a24f-da69-38b3-a896-09694b6626bc has ended
+[2024-07-18 14:22:40] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 9167a24f-da69-38b3-a896-09694b6626bc (3.0 s)
+[2024-07-18 14:22:43] [Server thread/DEBUG] (BlossomLib): genericCountdown for 9167a24f-da69-38b3-a896-09694b6626bc has ended
+[2024-07-18 14:42:29] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f (3.0 s)
+[2024-07-18 14:42:32] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has ended
+[2024-07-18 14:44:26] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f (3.0 s)
+[2024-07-18 14:44:29] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has ended
+[2024-07-18 14:47:21] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 16b43eed-e1c8-3818-8dd4-53dbf9de5dac (3.0 s)
+[2024-07-18 14:47:24] [Server thread/DEBUG] (BlossomLib): genericCountdown for 16b43eed-e1c8-3818-8dd4-53dbf9de5dac has ended
+[2024-07-18 14:52:35] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 4cd5c492-c173-313d-af5b-cab7e80d5719 (3.0 s)
+[2024-07-18 14:52:38] [Server thread/DEBUG] (BlossomLib): genericCountdown for 4cd5c492-c173-313d-af5b-cab7e80d5719 has ended
+[2024-07-18 16:09:56] [Timer-8/ INFO] (BlossomTpa): TpaRequest[teleportWho=00000000-0000-0000-0009-01fb4b494f1f, teleportTo=9167a24f-da69-38b3-a896-09694b6626bc, initiator=00000000-0000-0000-0009-01fb4b494f1f, receiver=9167a24f-da69-38b3-a896-09694b6626bc] timed out
+[2024-07-18 16:20:25] [Timer-10/ INFO] (BlossomTpa): TpaRequest[teleportWho=16b43eed-e1c8-3818-8dd4-53dbf9de5dac, teleportTo=00000000-0000-0000-0009-01fb4b494f1f, initiator=16b43eed-e1c8-3818-8dd4-53dbf9de5dac, receiver=00000000-0000-0000-0009-01fb4b494f1f] timed out
+[2024-07-18 16:23:01] [Timer-11/ INFO] (BlossomTpa): TpaRequest[teleportWho=16b43eed-e1c8-3818-8dd4-53dbf9de5dac, teleportTo=00000000-0000-0000-0009-01fb4b494f1f, initiator=16b43eed-e1c8-3818-8dd4-53dbf9de5dac, receiver=00000000-0000-0000-0009-01fb4b494f1f] timed out
+[2024-07-18 16:38:23] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 (3.0 s)
+[2024-07-18 16:38:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has ended
+[2024-07-18 16:51:26] [main/ INFO] (BlossomLib): BlossomLib mixins loading
+[2024-07-18 16:51:33] [main/ INFO] (BlossomLib): BlossomLib has starting
+[2024-07-18 16:51:33] [main/TRACE] (BlossomLib): register config manager BlossomTpa.json
+[2024-07-18 16:51:33] [main/TRACE] (BlossomLib): loading config BlossomTpa.json
+[2024-07-18 16:51:33] [main/TRACE] (BlossomLib): saving config BlossomTpa.json
