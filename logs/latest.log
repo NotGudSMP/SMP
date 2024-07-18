@@ -914,3 +914,30 @@ java.lang.IllegalStateException: not found
 [19:39:31] [Server thread/WARN]: .Itemisu24 moved too quickly! -763.1858296428161,-2.0,113.95074095624324
 [19:40:14] [Server thread/WARN]: HDung24 moved too quickly! 0.0,-11.549749572659096,0.0
 [19:41:06] [Server thread/WARN]: HDung24 moved too quickly! 5.366101069036176,3.2731999018430713,-7.840307538154093
+[19:50:15] [localSession-7-1/INFO]: Itemisu24 has disconnected from the Java server because of Bedrock client timed out
+[19:50:15] [Geyser Fabric connection thread-6-2/INFO]: Floodgate player logged in as .Itemisu24 disconnected
+[19:50:15] [Server thread/INFO]: .Itemisu24 lost connection: Disconnected
+[19:50:15] [Server thread/INFO]: .Itemisu24 left the game
+[19:50:29] [Server thread/INFO]: HDung24 lost connection: Timed out
+[19:50:29] [Server thread/INFO]: HDung24 left the game
+[19:53:49] [epollEventLoopGroup-4-2/INFO]: Player connected with username Itemisu24
+[19:53:49] [localSession-7-2/INFO]: Itemisu24 (logged in as: Itemisu24) has connected to the Java server
+[19:53:50] [pool-5-thread-2/INFO]: Floodgate player who is logged in as .Itemisu24 00000000-0000-0000-0009-01fe43583a04 joined
+[19:53:51] [ForkJoinPool.commonPool-worker-16/WARN]: failed to fetch skin on first join
+java.lang.IllegalStateException: not found
+	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at net.minecraft.class_3248.mda5369f$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.mda5369f$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[19:53:51] [Server thread/INFO]: .Itemisu24[/127.85.187.138:0] logged in with entity id 24560 at (-1536.1204, 71.9216, -315.944)
+[19:53:51] [Server thread/INFO]: Floodgate player logged in as .Itemisu24 joined (UUID: 00000000-0000-0000-0009-01fe43583a04)
+[19:53:51] [Server thread/INFO]: .Itemisu24 joined the game
