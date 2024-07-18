@@ -963,3 +963,5 @@ java.lang.IllegalStateException: not found
 [20:04:20] [Server thread/INFO]: .Itemisu24 lost connection: Disconnected
 [20:04:20] [Server thread/INFO]: .Itemisu24 left the game
 [20:13:51] [Server thread/INFO]: HDung24 has made the advancement [Suit Up]
+[20:30:57] [Server thread/INFO]: HDung24 lost connection: Disconnected
+[20:30:57] [Server thread/INFO]: HDung24 left the game
