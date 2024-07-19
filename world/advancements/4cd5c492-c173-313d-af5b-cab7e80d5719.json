@@ -569,7 +569,9 @@
       "minecraft:stray": "2024-07-18 09:30:55 +0000",
       "minecraft:spider": "2024-07-18 08:12:36 +0000",
       "minecraft:zombie": "2024-07-18 03:07:16 +0000",
-      "minecraft:creeper": "2024-07-18 08:15:14 +0000"
+      "minecraft:creeper": "2024-07-18 08:15:14 +0000",
+      "minecraft:drowned": "2024-07-19 04:56:00 +0000",
+      "minecraft:zombie_villager": "2024-07-19 04:40:04 +0000"
     },
     "done": false
   },

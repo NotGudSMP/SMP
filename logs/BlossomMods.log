@@ -161,3 +161,21 @@
 [2024-07-19 04:00:27] [main/TRACE] (BlossomLib): saving config BlossomTpa.json
 [2024-07-19 04:11:41] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 16b43eed-e1c8-3818-8dd4-53dbf9de5dac (3.0 s)
 [2024-07-19 04:11:44] [Server thread/DEBUG] (BlossomLib): genericCountdown for 16b43eed-e1c8-3818-8dd4-53dbf9de5dac has ended
+[2024-07-19 04:30:14] [main/ INFO] (BlossomLib): BlossomLib mixins loading
+[2024-07-19 04:30:21] [main/ INFO] (BlossomLib): BlossomLib has starting
+[2024-07-19 04:30:21] [main/TRACE] (BlossomLib): register config manager BlossomTpa.json
+[2024-07-19 04:30:21] [main/TRACE] (BlossomLib): loading config BlossomTpa.json
+[2024-07-19 04:30:21] [main/TRACE] (BlossomLib): saving config BlossomTpa.json
+[2024-07-19 04:36:07] [main/ INFO] (BlossomLib): BlossomLib mixins loading
+[2024-07-19 04:36:14] [main/ INFO] (BlossomLib): BlossomLib has starting
+[2024-07-19 04:36:14] [main/TRACE] (BlossomLib): register config manager BlossomTpa.json
+[2024-07-19 04:36:14] [main/TRACE] (BlossomLib): loading config BlossomTpa.json
+[2024-07-19 04:36:14] [main/TRACE] (BlossomLib): saving config BlossomTpa.json
+[2024-07-19 04:42:08] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 9167a24f-da69-38b3-a896-09694b6626bc (3.0 s)
+[2024-07-19 04:42:11] [Server thread/DEBUG] (BlossomLib): genericCountdown for 9167a24f-da69-38b3-a896-09694b6626bc has ended
+[2024-07-19 04:50:58] [Timer-2/ INFO] (BlossomTpa): TpaRequest[teleportWho=9167a24f-da69-38b3-a896-09694b6626bc, teleportTo=16b43eed-e1c8-3818-8dd4-53dbf9de5dac, initiator=9167a24f-da69-38b3-a896-09694b6626bc, receiver=16b43eed-e1c8-3818-8dd4-53dbf9de5dac] timed out
+[2024-07-19 05:04:05] [main/ INFO] (BlossomLib): BlossomLib mixins loading
+[2024-07-19 05:04:13] [main/ INFO] (BlossomLib): BlossomLib has starting
+[2024-07-19 05:04:13] [main/TRACE] (BlossomLib): register config manager BlossomTpa.json
+[2024-07-19 05:04:13] [main/TRACE] (BlossomLib): loading config BlossomTpa.json
+[2024-07-19 05:04:13] [main/TRACE] (BlossomLib): saving config BlossomTpa.json
