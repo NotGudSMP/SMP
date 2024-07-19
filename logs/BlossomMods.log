@@ -188,3 +188,8 @@
 [2024-07-19 05:39:31] [main/TRACE] (BlossomLib): register config manager BlossomTpa.json
 [2024-07-19 05:39:31] [main/TRACE] (BlossomLib): loading config BlossomTpa.json
 [2024-07-19 05:39:31] [main/TRACE] (BlossomLib): saving config BlossomTpa.json
+[2024-07-19 06:11:46] [main/ INFO] (BlossomLib): BlossomLib mixins loading
+[2024-07-19 06:11:53] [main/ INFO] (BlossomLib): BlossomLib has starting
+[2024-07-19 06:11:53] [main/TRACE] (BlossomLib): register config manager BlossomTpa.json
+[2024-07-19 06:11:53] [main/TRACE] (BlossomLib): loading config BlossomTpa.json
+[2024-07-19 06:11:53] [main/TRACE] (BlossomLib): saving config BlossomTpa.json
