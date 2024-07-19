@@ -1273,3 +1273,148 @@ java.lang.IllegalStateException: not found
 [15:18:49] [Server thread/INFO]: [Admin] BaoIsHere » nhức nhức cái đầu :))))
 [15:19:13] [Server thread/INFO]: [[Admin] BaoIsHere: Teleported [Admin] BaoIsHere to 331.500000, 73.000000, 1425.500000]
 [15:19:56] [Server thread/INFO]: Villager class_1646['Mason'/55075, l='ServerLevel[New World]', x=250.57, y=71.00, z=1421.95] died, message: 'Mason was slain by [Admin] BaoIsHere'
+[15:26:57] [Server thread/INFO]: Quyen27 lost connection: Disconnected
+[15:26:57] [Server thread/INFO]: ☁ Quyen27 left the game
+[15:29:36] [Server thread/INFO]: HDung24 » địt cụ
+[15:29:44] [Server thread/INFO]: [[Admin] BaoIsHere: Teleported [Admin] BaoIsHere to 812.500000, 126.000000, 1332.500000]
+[15:29:50] [Server thread/INFO]: HDung24 » ko những đ lấy đc cái heavy core
+[15:29:59] [Server thread/INFO]: HDung24 » maf còn nát giáp
+[15:33:16] [Server thread/INFO]: HDung24 » wow
+[15:33:50] [Server thread/INFO]: [Admin] BaoIsHere » bay à dũng :)))
+[15:34:01] [Server thread/INFO]: HDung24 » nah
+[15:34:12] [Server thread/INFO]: [Server] nah cai gi ma nah
+[15:39:18] [ForkJoinPool.commonPool-worker-27/WARN]: failed to fetch skin on first join
+java.lang.IllegalStateException: not found
+	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[15:39:19] [Server thread/INFO]: Quyen27[/127.50.241.14:51903] logged in with entity id 64623 at (291.89734310560556, 77.0, 1416.3967449814988)
+[15:39:19] [Server thread/INFO]: ✚ Quyen27 joined the game
+[15:40:12] [Server thread/INFO]: TuiLadre lost connection: Disconnected
+[15:40:12] [Server thread/INFO]: ☁ [Admin] TuiLadre left the game
+[15:40:26] [Server thread/INFO]: [Admin] BaoIsHere has made the advancement [A Seedy Place]
+[15:42:18] [Server thread/INFO]: HDung24 lost connection: Disconnected
+[15:42:18] [Server thread/INFO]: ☁ HDung24 left the game
+[15:42:23] [ForkJoinPool.commonPool-worker-29/WARN]: failed to fetch skin on first join
+java.lang.IllegalStateException: not found
+	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[15:42:25] [Server thread/INFO]: HDung24[/127.85.189.177:58673] logged in with entity id 65112 at (388.30000001192093, 70.0, 1468.8986435277586)
+[15:42:25] [Server thread/INFO]: ✚ HDung24 joined the game
+[15:42:39] [Server thread/INFO]: HDung24 lost connection: Disconnected
+[15:42:39] [Server thread/INFO]: ☁ HDung24 left the game
+[15:43:00] [Server thread/INFO]: BaoIsHere lost connection: Disconnected
+[15:43:00] [Server thread/INFO]: ☁ [Admin] BaoIsHere left the game
+[15:50:18] [Server thread/INFO]: Quyen27 » :8ball
+[15:57:05] [Server thread/INFO]: Quyen27 lost connection: Disconnected
+[15:57:05] [Server thread/INFO]: ☁ Quyen27 left the game
+[15:59:39] [Server thread/INFO]: [Server] server con ai onl khong
+[15:59:46] [Server thread/INFO]: [Server] khong onl la tat dau
+[15:59:51] [Server thread/INFO]: [Server] day*
+[16:00:16] [epollEventLoopGroup-4-2/INFO]: Player connected with username Dangdayy
+[16:00:16] [localSession-7-2/INFO]: Dangdayy (logged in as: Dangdayy) has connected to the Java server
+[16:00:17] [pool-5-thread-2/INFO]: Floodgate player who is logged in as .Dangdayy 00000000-0000-0000-0009-01fb4b494f1f joined
+[16:00:17] [ForkJoinPool.commonPool-worker-31/WARN]: failed to fetch skin on first join
+java.lang.IllegalStateException: not found
+	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[16:00:17] [Server thread/INFO]: .Dangdayy[/127.173.169.146:0] logged in with entity id 68036 at (991.4568, 77.0, 1759.6382)
+[16:00:17] [Server thread/INFO]: Floodgate player logged in as .Dangdayy joined (UUID: 00000000-0000-0000-0009-01fb4b494f1f)
+[16:00:17] [Server thread/INFO]: ✚ .Dangdayy joined the game
+[16:00:27] [localSession-7-2/INFO]: Dangdayy has disconnected from the Java server because of Bedrock client disconnected
+[16:00:27] [Geyser Fabric connection thread-6-3/INFO]: Floodgate player logged in as .Dangdayy disconnected
+[16:00:27] [Server thread/INFO]: .Dangdayy lost connection: Disconnected
+[16:00:27] [Server thread/INFO]: ☁ .Dangdayy left the game
+[16:01:06] [epollEventLoopGroup-4-3/INFO]: Player connected with username Dangdayy
+[16:01:06] [localSession-7-3/INFO]: Dangdayy (logged in as: Dangdayy) has connected to the Java server
+[16:01:06] [pool-5-thread-2/INFO]: Floodgate player who is logged in as .Dangdayy 00000000-0000-0000-0009-01fb4b494f1f joined
+[16:01:07] [ForkJoinPool.commonPool-worker-32/WARN]: failed to fetch skin on first join
+java.lang.IllegalStateException: not found
+	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[16:01:07] [Server thread/INFO]: .Dangdayy[/127.173.169.146:0] logged in with entity id 68417 at (991.4568, 77.0, 1759.6382)
+[16:01:07] [Server thread/INFO]: Floodgate player logged in as .Dangdayy joined (UUID: 00000000-0000-0000-0009-01fb4b494f1f)
+[16:01:07] [Server thread/INFO]: ✚ .Dangdayy joined the game
+[16:01:28] [ForkJoinPool.commonPool-worker-32/WARN]: failed to fetch skin on first join
+java.lang.IllegalStateException: not found
+	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[16:01:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=994, y=77, z=1761}
+[16:01:29] [Server thread/INFO]: Quyen27[/127.50.241.14:60335] logged in with entity id 68783 at (292.3097075551266, 79.0, 1419.1122502066075)
+[16:01:29] [Server thread/INFO]: ✚ Quyen27 joined the game
+[16:01:52] [Server thread/INFO]: .Dangdayy » đ ai onl ngoài m à q
+[16:01:56] [Server thread/INFO]: .Dangdayy » ê
+[16:02:05] [Server thread/INFO]: .Dangdayy » m biết chỗ nào có gỗ thông kop
+[16:02:09] [Server thread/INFO]: Quyen27 » gio t moi vo
+[16:02:16] [Server thread/INFO]: Quyen27 » t chiu
+[16:02:28] [Server thread/INFO]: .Dangdayy has made the advancement [Take Aim]
+[16:02:44] [Server thread/INFO]: [Server] :v
+[16:02:51] [ForkJoinPool.commonPool-worker-31/WARN]: failed to fetch skin on first join
+java.lang.IllegalStateException: not found
+	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
