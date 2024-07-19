@@ -236,3 +236,18 @@
 [02:27:14] [epollEventLoopGroup-3-2/INFO]: Started Geyser on 0.0.0.0:19132
 [02:27:14] [Server thread/INFO]: Done (5.693s)! Run /geyser help for help!
 [02:27:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5923ms or 118 ticks behind
+[02:31:37] [Thread-15/WARN]: failed to fetch skin on first join
+java.lang.IllegalStateException: not found
+	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at net.minecraft.class_3248.mdf8cc46$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.mdf8cc46$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[02:31:40] [Server thread/INFO]: Quyen27[/127.50.241.14:54591] logged in with entity id 17 at (-6122.58552136452, 112.0, 249.934585827111)
+[02:31:41] [Server thread/INFO]: Quyen27 joined the game
+[02:31:57] [Server thread/INFO]: TuiLadre[/127.127.53.134:53035] logged in with entity id 335 at (-2627.727954810459, 68.0, 636.8837905309309)
+[02:31:57] [Server thread/INFO]: TuiLadre joined the game
+[02:35:13] [Server thread/WARN]: TuiLadre moved wrongly!
