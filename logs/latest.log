@@ -1418,3 +1418,161 @@ java.lang.IllegalStateException: not found
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[16:02:56] [Server thread/INFO]: HDung24[/127.85.189.177:38739] logged in with entity id 69690 at (395.39838568402814, 64.5625, 1469.8219609550422)
+[16:02:56] [Server thread/INFO]: ✚ HDung24 joined the game
+[16:03:29] [Server thread/INFO]: HDung24 » ê nhãn
+[16:03:37] [Server thread/INFO]: .Dangdayy » n
+[16:03:37] [Server thread/INFO]: HDung24 » tí m có thức k
+[16:03:43] [Server thread/INFO]: .Dangdayy » ko
+[16:03:47] [Server thread/INFO]: HDung24 » mấy h m off
+[16:03:57] [Server thread/INFO]: .Dangdayy » tí off h
+[16:04:04] [Server thread/INFO]: .Dangdayy » tìm đồ xây nhà th
+[16:04:59] [Server thread/INFO]: hy_GXix4_0704[/127.250.110.223:42083] logged in with entity id 70459 at (779.9467724680384, 115.0, 1320.958454652661)
+[16:04:59] [Server thread/INFO]: ✚ [Admin] hy_GXix4_0704 joined the game
+[16:05:03] [Server thread/INFO]: ☠ Quyen27 was slain by HDung24 using [Con cặc của HDũng]
+[16:05:08] [Server thread/INFO]: Quyen27 » ditmem
+[16:05:15] [Server thread/INFO]: [Admin] hy_GXix4_0704 » :))
+[16:05:21] [Server thread/INFO]: Quyen27 » ditmem
+[16:05:22] [Server thread/INFO]: HDung24 » m buú cu t đến chết à
+[16:05:34] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Creative Mode]
+[16:05:35] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Survival Mode]
+[16:06:01] [Server thread/INFO]: [Admin] hy_GXix4_0704 has reached the goal [The Next Generation]
+[16:06:43] [Server thread/INFO]: ☠ Quyen27 was slain by HDung24 using [Con cặc của HDũng]
+[16:06:57] [Server thread/INFO]: HDung24 » bú sướn k
+[16:07:02] [Server thread/INFO]: HDung24 » ê long
+[16:07:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=77, z=1763} class_2338{x=976, y=71, z=1731}
+[16:07:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=77, z=1763} class_2338{x=976, y=72, z=1728}
+[16:07:20] [Server thread/INFO]: HDung24 » tí 12h t chs đc k
+[16:07:30] [Server thread/INFO]: [Admin] hy_GXix4_0704 » chac duoc
+[16:07:55] [Server thread/INFO]: ☠ Quyen27 was slain by HDung24 using [Con cặc của HDũng]
+[16:08:01] [Server thread/INFO]: Quyen27 » lol mem
+[16:08:09] [Server thread/INFO]: Quyen27 » de im bo xay nha
+[16:08:12] [Server thread/INFO]: HDung24 » ok
+[16:08:16] [Server thread/INFO]: HDung24 » a off
+[16:08:22] [Server thread/INFO]: HDung24 » 12h a ngoi lên
+[16:08:24] [Server thread/INFO]: [Admin] hy_GXix4_0704 » them mod de thuoc stack duoc khong
+[16:08:33] [Server thread/INFO]: .Dangdayy » tuyy
+[16:08:34] [Server thread/INFO]: HDung24 lost connection: Disconnected
+[16:08:34] [Server thread/INFO]: ☁ HDung24 left the game
+[16:09:05] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Creative Mode]
+[16:09:18] [Server thread/INFO]: .Dangdayy » ai bt biome gỗ thông kop
+[16:09:22] [Server thread/INFO]: .Dangdayy » với gỗ đen
+[16:09:26] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Survival Mode]
+[16:09:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=77, z=1763} class_2338{x=676, y=71, z=1892}
+[16:09:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=77, z=1763} class_2338{x=675, y=71, z=1895}
+[16:09:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=676, y=70, z=1898} class_2338{x=676, y=72, z=1896}
+[16:09:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=676, y=70, z=1898} class_2338{x=677, y=71, z=1898}
+[16:09:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=676, y=70, z=1898} class_2338{x=676, y=71, z=1898}
+[16:09:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=676, y=70, z=1898} class_2338{x=677, y=72, z=1899}
+[16:09:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=676, y=70, z=1898} class_2338{x=674, y=71, z=1898}
+[16:09:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=671, y=70, z=1900} class_2338{x=673, y=72, z=1899}
+[16:09:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=674, y=70, z=1895} class_2338{x=674, y=71, z=1896}
+[16:09:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=674, y=70, z=1895} class_2338{x=673, y=71, z=1892}
+[16:09:47] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Creative Mode]
+[16:09:53] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Survival Mode]
+[16:10:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=534, y=63, z=1951} class_2338{x=534, y=65, z=1953}
+[16:10:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=534, y=63, z=1951} class_2338{x=537, y=64, z=1949}
+[16:10:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=534, y=63, z=1951} class_2338{x=540, y=65, z=1949}
+[16:10:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=541, y=63, z=1951} class_2338{x=541, y=64, z=1950}
+[16:10:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=542, y=63, z=1950} class_2338{x=543, y=64, z=1946}
+[16:10:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=542, y=63, z=1950} class_2338{x=544, y=64, z=1946}
+[16:10:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=542, y=63, z=1950} class_2338{x=544, y=65, z=1945}
+[16:11:45] [Server thread/INFO]: .Dangdayy has made the advancement [Ice Bucket Challenge]
+[16:12:11] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Spectator Mode]
+[16:12:13] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Teleported [Admin] hy_GXix4_0704 to Quyen27]
+[16:13:16] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Creative Mode]
+[16:13:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=430, y=62, z=1858} class_2338{x=398, y=63, z=1964}
+[16:13:57] [Server thread/WARN]: .Dangdayy moved wrongly!
+[16:14:42] [Server thread/INFO]: .Dangdayy has made the advancement [Best Friends Forever]
+[16:14:51] [Server thread/WARN]: Horse (vehicle of .Dangdayy) moved too quickly! -7.015045166015625,1.0,7.2537841796875
+[16:15:48] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Survival Mode]
+[16:15:56] [Server thread/WARN]: Horse (vehicle of .Dangdayy) moved wrongly! 0.2823486328125
+[16:15:56] [Server thread/WARN]: Horse (vehicle of .Dangdayy) moved wrongly! 0.6759033203125
+[16:15:56] [Server thread/WARN]: Horse (vehicle of .Dangdayy) moved wrongly! 1.072265625
+[16:15:56] [Server thread/WARN]: Horse (vehicle of .Dangdayy) moved wrongly! 1.47369384765625
+[16:15:56] [Server thread/WARN]: Horse (vehicle of .Dangdayy) moved wrongly! 1.881591796875
+[16:16:13] [Server thread/WARN]: Horse (vehicle of .Dangdayy) moved wrongly! 0.254638671875
+[16:16:13] [Server thread/WARN]: Horse (vehicle of .Dangdayy) moved wrongly! 0.65283203125
+[16:16:13] [Server thread/WARN]: Horse (vehicle of .Dangdayy) moved wrongly! 1.126708984375
+[16:18:10] [Server thread/INFO]: [Admin] hy_GXix4_0704 has made the advancement [Who Needs Rockets?]
+[16:18:19] [Server thread/INFO]: .Dangdayy » long ơip
+[16:18:22] [Server thread/INFO]: [Admin] hy_GXix4_0704 » HA
+[16:18:30] [Server thread/INFO]: .Dangdayy » gửi cho tôi seee map vào mess đc k
+[16:18:37] [Server thread/INFO]: [Admin] hy_GXix4_0704 » khong
+[16:18:45] [Server thread/INFO]: .Dangdayy » điii
+[16:18:50] [Server thread/INFO]: .Dangdayy » pe sao cheack
+[16:19:00] [Server thread/INFO]: [Admin] hy_GXix4_0704 » :)
+[16:19:18] [Server thread/INFO]: [Admin] hy_GXix4_0704 has made the advancement [Acquire Hardware]
+[16:19:38] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Summoned new Iron Golem]
+[16:19:45] [Server thread/INFO]: [Admin] hy_GXix4_0704 has completed the challenge [Over-Overkill]
+[16:25:52] [Server thread/INFO]: Villager class_1646['Nitwit'/68836, l='ServerLevel[New World]', x=297.58, y=75.00, z=1391.42] died, message: 'Nitwit was burned to a crisp while fighting [Admin] hy_GXix4_0704'
+[16:26:09] [Server thread/INFO]: Villager class_1646['Leatherworker'/68843, l='ServerLevel[New World]', x=298.30, y=79.00, z=1417.88] died, message: 'Leatherworker was slain by [Admin] hy_GXix4_0704 using [Stardust Breaker]'
+[16:26:25] [localSession-7-3/INFO]: Dangdayy has disconnected from the Java server because of Bedrock client disconnected
+[16:26:25] [Geyser Fabric connection thread-6-4/INFO]: Floodgate player logged in as .Dangdayy disconnected
+[16:26:25] [Server thread/INFO]: .Dangdayy lost connection: Disconnected
+[16:26:25] [Server thread/INFO]: ☁ .Dangdayy left the game
+[16:29:50] [Server thread/INFO]: Villager class_1646['Nitwit'/68794, l='ServerLevel[New World]', x=298.51, y=83.00, z=1451.54] died, message: 'Nitwit was slain by [Admin] hy_GXix4_0704 using [Stardust Breaker]'
+[16:32:54] [epollEventLoopGroup-4-4/INFO]: Player connected with username Dangdayy
+[16:32:54] [localSession-7-4/INFO]: Dangdayy (logged in as: Dangdayy) has connected to the Java server
+[16:32:54] [pool-5-thread-3/INFO]: Floodgate player who is logged in as .Dangdayy 00000000-0000-0000-0009-01fb4b494f1f joined
+[16:32:55] [ForkJoinPool.commonPool-worker-42/WARN]: failed to fetch skin on first join
+java.lang.IllegalStateException: not found
+	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[16:32:55] [Server thread/INFO]: .Dangdayy[/127.173.169.146:0] logged in with entity id 86379 at (931.56055, 61.13983, 1727.7)
+[16:32:55] [Server thread/INFO]: Floodgate player logged in as .Dangdayy joined (UUID: 00000000-0000-0000-0009-01fb4b494f1f)
+[16:32:55] [Server thread/INFO]: ✚ .Dangdayy joined the game
+[16:33:08] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Spectator Mode]
+[16:33:10] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Teleported [Admin] hy_GXix4_0704 to .Dangdayy]
+[16:33:14] [Server thread/INFO]: TuiLadre[/127.127.53.134:49843] logged in with entity id 86809 at (343.0903522391449, 80.0, 1501.2342192702758)
+[16:33:14] [Server thread/INFO]: ✚ [Admin] TuiLadre joined the game
+[16:34:17] [localSession-7-4/INFO]: Dangdayy has disconnected from the Java server because of Bedrock client disconnected
+[16:34:17] [Geyser Fabric connection thread-6-5/INFO]: Floodgate player logged in as .Dangdayy disconnected
+[16:34:17] [Server thread/INFO]: .Dangdayy lost connection: Disconnected
+[16:34:17] [Server thread/INFO]: ☁ .Dangdayy left the game
+[16:34:23] [Server thread/INFO]: TuiLadre lost connection: Disconnected
+[16:34:23] [Server thread/INFO]: ☁ [Admin] TuiLadre left the game
+[16:34:43] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Survival Mode]
+[16:35:15] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Spectator Mode]
+[16:35:17] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Survival Mode]
+[16:35:19] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Creative Mode]
+[16:35:23] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Survival Mode]
+[16:37:32] [Server thread/INFO]: [Server] hmm
+[16:37:35] [Server thread/INFO]: [Server] chan the
+[16:37:48] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:37:48] [Server thread/INFO]: chac mai tim cai gi day de xay thoi<--[HERE]
+[16:37:55] [Server thread/INFO]: [Server] chac mai tim cai gi day de xay thoi
+[16:38:04] [Server thread/INFO]: hy_GXix4_0704 lost connection: Disconnected
+[16:38:04] [Server thread/INFO]: ☁ [Admin] hy_GXix4_0704 left the game
+[16:40:17] [epollEventLoopGroup-4-5/INFO]: Player connected with username Dangdayy
+[16:40:17] [localSession-7-5/INFO]: Dangdayy (logged in as: Dangdayy) has connected to the Java server
+[16:40:17] [pool-5-thread-4/INFO]: Floodgate player who is logged in as .Dangdayy 00000000-0000-0000-0009-01fb4b494f1f joined
+[16:40:17] [ForkJoinPool.commonPool-worker-46/WARN]: failed to fetch skin on first join
+java.lang.IllegalStateException: not found
+	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[16:40:17] [Server thread/INFO]: .Dangdayy[/127.173.169.146:0] logged in with entity id 90495 at (995.54913, 77.0, 1760.2369)
+[16:40:17] [Server thread/INFO]: Floodgate player logged in as .Dangdayy joined (UUID: 00000000-0000-0000-0009-01fb4b494f1f)
+[16:40:17] [Server thread/INFO]: ✚ .Dangdayy joined the game
