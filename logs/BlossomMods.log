@@ -122,3 +122,8 @@
 [2024-07-18 19:19:58] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fe43583a04 has ended
 [2024-07-18 19:39:28] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 00000000-0000-0000-0009-01fe43583a04 (3.0 s)
 [2024-07-18 19:39:31] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fe43583a04 has ended
+[2024-07-19 02:26:34] [main/ INFO] (BlossomLib): BlossomLib mixins loading
+[2024-07-19 02:26:53] [main/ INFO] (BlossomLib): BlossomLib has starting
+[2024-07-19 02:26:53] [main/TRACE] (BlossomLib): register config manager BlossomTpa.json
+[2024-07-19 02:26:53] [main/TRACE] (BlossomLib): loading config BlossomTpa.json
+[2024-07-19 02:26:53] [main/TRACE] (BlossomLib): saving config BlossomTpa.json
