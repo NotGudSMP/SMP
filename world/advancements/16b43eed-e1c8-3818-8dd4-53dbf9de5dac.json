@@ -815,6 +815,7 @@
       "minecraft:endermite": "2024-07-18 17:54:06 +0000",
       "minecraft:vex": "2024-07-18 16:35:58 +0000",
       "minecraft:zombie": "2024-07-16 15:18:50 +0000",
+      "minecraft:drowned": "2024-07-19 07:23:26 +0000",
       "minecraft:zombie_villager": "2024-07-18 05:36:35 +0000"
     },
     "done": false
@@ -3988,6 +3989,36 @@
   "minecraft:recipes/misc/bolt_armor_trim_smithing_template": {
     "criteria": {
       "has_bolt_armor_trim_smithing_template": "2024-07-19 05:14:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2024-07-19 07:39:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2024-07-19 07:39:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2024-07-19 07:39:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_cherry_wood": {
+    "criteria": {
+      "has_log": "2024-07-19 08:15:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-07-19 08:15:47 +0000"
     },
     "done": true
   },

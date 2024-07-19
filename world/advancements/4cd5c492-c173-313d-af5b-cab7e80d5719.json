@@ -2333,5 +2333,11 @@
     },
     "done": true
   },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2024-07-19 07:31:14 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
