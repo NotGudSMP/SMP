@@ -405,13 +405,17 @@
     "criteria": {
       "minecraft:flower_forest": "2024-07-19 16:08:58 +0000",
       "minecraft:beach": "2024-07-19 16:15:48 +0000",
+      "minecraft:dark_forest": "2024-07-19 16:55:37 +0000",
       "minecraft:forest": "2024-07-19 14:07:48 +0000",
+      "minecraft:taiga": "2024-07-19 16:46:48 +0000",
+      "minecraft:river": "2024-07-19 14:14:34 +0000",
+      "minecraft:stony_shore": "2024-07-19 14:23:25 +0000",
+      "minecraft:old_growth_birch_forest": "2024-07-19 16:50:52 +0000",
       "minecraft:ocean": "2024-07-19 14:43:46 +0000",
       "minecraft:jungle": "2024-07-19 14:08:33 +0000",
       "minecraft:cherry_grove": "2024-07-19 14:18:50 +0000",
       "minecraft:sunflower_plains": "2024-07-19 16:08:22 +0000",
-      "minecraft:river": "2024-07-19 14:14:34 +0000",
-      "minecraft:stony_shore": "2024-07-19 14:23:25 +0000",
+      "minecraft:birch_forest": "2024-07-19 16:51:18 +0000",
       "minecraft:bamboo_jungle": "2024-07-19 14:14:44 +0000",
       "minecraft:plains": "2024-07-19 14:18:03 +0000"
     },
@@ -510,6 +514,8 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-07-19 14:57:18 +0000",
+      "minecraft:witch": "2024-07-19 17:01:23 +0000",
+      "minecraft:spider": "2024-07-19 16:59:12 +0000",
       "minecraft:zombie": "2024-07-19 14:15:03 +0000",
       "minecraft:creeper": "2024-07-19 16:02:41 +0000",
       "minecraft:drowned": "2024-07-19 16:07:48 +0000"
@@ -1203,6 +1209,138 @@
   "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2024-07-19 16:20:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2024-07-19 16:46:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2024-07-19 16:46:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-07-19 16:46:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2024-07-19 16:46:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2024-07-19 16:55:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2024-07-19 16:59:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2024-07-19 17:01:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2024-07-19 16:55:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2024-07-19 17:02:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2024-07-19 17:01:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2024-07-19 17:01:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2024-07-19 17:01:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-07-19 16:56:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_dark_oak_wood": {
+    "criteria": {
+      "has_log": "2024-07-19 16:56:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2024-07-19 17:01:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2024-07-19 17:00:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_brown_mushroom": "2024-07-19 17:02:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2024-07-19 17:01:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2024-07-19 17:01:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2024-07-19 17:01:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2024-07-19 17:01:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2024-07-19 17:01:33 +0000"
     },
     "done": true
   },
