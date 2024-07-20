@@ -757,3 +757,5 @@ java.lang.IllegalStateException: not found
 [18:03:09] [Server thread/WARN]: HDung24 moved wrongly!
 [18:07:33] [Server thread/WARN]: HDung24 moved too quickly! 10.774418773542493,0.0,0.0
 [18:14:49] [Server thread/WARN]: HDung24 moved too quickly! 10.501223593049644,0.0,0.7896873108584079
+[18:32:38] [Server thread/INFO]: HDung24 lost connection: Disconnected
+[18:32:38] [Server thread/INFO]: ☁ HDung24 left the game
