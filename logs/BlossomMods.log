@@ -453,3 +453,476 @@
 [2024-07-19 15:06:11] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has ended
 [2024-07-19 15:33:08] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
 [2024-07-19 15:33:11] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 03:54:47] [main/ INFO] (BlossomLib): BlossomLib mixins loading
+[2024-07-20 03:54:55] [main/ INFO] (BlossomLib): BlossomLib has starting
+[2024-07-20 03:54:55] [main/TRACE] (BlossomLib): register config manager BlossomTpa.json
+[2024-07-20 03:54:55] [main/TRACE] (BlossomLib): loading config BlossomTpa.json
+[2024-07-20 03:54:55] [main/TRACE] (BlossomLib): saving config BlossomTpa.json
+[2024-07-20 04:32:18] [Timer-1/ INFO] (BlossomTpa): TpaRequest[teleportWho=1469ede2-708d-3cb1-8ca9-1153a180f46a, teleportTo=4cd5c492-c173-313d-af5b-cab7e80d5719, initiator=1469ede2-708d-3cb1-8ca9-1153a180f46a, receiver=4cd5c492-c173-313d-af5b-cab7e80d5719] timed out
+[2024-07-20 06:37:26] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 (3.0 s)
+[2024-07-20 06:37:29] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has ended
+[2024-07-20 06:46:52] [Timer-3/ INFO] (BlossomTpa): TpaRequest[teleportWho=6192ba37-ab49-384d-b43d-891cc168a019, teleportTo=4cd5c492-c173-313d-af5b-cab7e80d5719, initiator=6192ba37-ab49-384d-b43d-891cc168a019, receiver=4cd5c492-c173-313d-af5b-cab7e80d5719] timed out
+[2024-07-20 06:47:13] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 (3.0 s)
+[2024-07-20 06:47:13] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 06:47:13] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 06:47:13] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 06:47:13] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 06:47:13] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 06:47:13] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 06:47:13] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 06:47:13] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 06:47:13] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 06:47:13] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 06:47:14] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 06:47:14] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 06:47:14] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 06:47:14] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 06:47:14] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 06:47:14] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 06:47:14] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 06:47:14] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 06:47:14] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 06:47:14] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 06:47:14] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 06:47:14] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 06:47:14] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 06:47:17] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has ended
+[2024-07-20 07:26:46] [Timer-5/ INFO] (BlossomTpa): TpaRequest[teleportWho=1469ede2-708d-3cb1-8ca9-1153a180f46a, teleportTo=00000000-0000-0000-0009-01fb4b494f1f, initiator=1469ede2-708d-3cb1-8ca9-1153a180f46a, receiver=00000000-0000-0000-0009-01fb4b494f1f] timed out
+[2024-07-20 07:27:42] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 (3.0 s)
+[2024-07-20 07:27:42] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 5 ticks
+[2024-07-20 07:27:42] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 07:27:42] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 07:27:42] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 07:27:42] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 07:27:43] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 07:27:46] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has ended
+[2024-07-20 07:28:25] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 07:28:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 07:28:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 07:28:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 07:28:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 14 ticks
+[2024-07-20 07:28:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 07:28:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 07:28:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 07:28:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 07:28:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 07:28:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 07:28:31] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 07:36:13] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 9167a24f-da69-38b3-a896-09694b6626bc (3.0 s)
+[2024-07-20 07:36:16] [Server thread/DEBUG] (BlossomLib): genericCountdown for 9167a24f-da69-38b3-a896-09694b6626bc has ended
+[2024-07-20 07:48:18] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 (3.0 s)
+[2024-07-20 07:48:21] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has ended
+[2024-07-20 08:25:07] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 (3.0 s)
+[2024-07-20 08:25:10] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has ended
+[2024-07-20 08:31:23] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 (3.0 s)
+[2024-07-20 08:31:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has ended
+[2024-07-20 08:35:59] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 (3.0 s)
+[2024-07-20 08:35:59] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:35:59] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 08:35:59] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:35:59] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 08:36:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 08:36:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 08:36:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 08:36:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:01] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 08:36:01] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:01] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:01] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:01] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:01] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:01] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:01] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:01] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:01] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:01] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:01] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 08:36:01] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:01] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 08:36:01] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 08:36:01] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 08:36:05] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has ended
+[2024-07-20 13:00:52] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 00000000-0000-0000-0009-01fe43583a04 (3.0 s)
+[2024-07-20 13:00:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fe43583a04 has ended
+[2024-07-20 13:02:43] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 13:02:46] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 13:17:32] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 (3.0 s)
+[2024-07-20 13:17:34] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 28 ticks
+[2024-07-20 13:17:34] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 13:17:34] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 13:17:34] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 13:17:34] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 13:17:34] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 13:17:34] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 13:17:34] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 13:17:35] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 4 ticks
+[2024-07-20 13:17:35] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 13:17:35] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 5 ticks
+[2024-07-20 13:17:35] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 13:17:35] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 13:17:38] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has ended
+[2024-07-20 13:21:21] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 13:21:21] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:21:21] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:21:21] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:21:21] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:21:21] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:21:21] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:21:21] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:21:21] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:21:21] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:21:21] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:21:21] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:21:22] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:21:22] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:21:22] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:21:22] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:21:22] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:21:22] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:21:22] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:21:22] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:21:22] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:21:22] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:21:22] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:21:22] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:21:22] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:21:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 13:24:08] [Timer-20/ INFO] (BlossomTpa): TpaRequest[teleportWho=1469ede2-708d-3cb1-8ca9-1153a180f46a, teleportTo=6192ba37-ab49-384d-b43d-891cc168a019, initiator=1469ede2-708d-3cb1-8ca9-1153a180f46a, receiver=6192ba37-ab49-384d-b43d-891cc168a019] timed out
+[2024-07-20 13:28:28] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 13:28:31] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 13:38:55] [Timer-22/ INFO] (BlossomTpa): TpaRequest[teleportWho=00000000-0000-0000-0009-01f6a63301f8, teleportTo=00000000-0000-0000-0009-01fb4b494f1f, initiator=00000000-0000-0000-0009-01f6a63301f8, receiver=00000000-0000-0000-0009-01fb4b494f1f] timed out
+[2024-07-20 13:39:50] [Timer-23/ INFO] (BlossomTpa): TpaRequest[teleportWho=00000000-0000-0000-0009-01fb4b494f1f, teleportTo=1469ede2-708d-3cb1-8ca9-1153a180f46a, initiator=00000000-0000-0000-0009-01fb4b494f1f, receiver=1469ede2-708d-3cb1-8ca9-1153a180f46a] timed out
+[2024-07-20 13:50:22] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 13:50:24] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 46 ticks
+[2024-07-20 13:50:24] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:50:24] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:50:24] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:50:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 4 ticks
+[2024-07-20 13:50:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:50:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:50:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:50:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:50:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:50:25] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:50:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:50:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:50:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 3 ticks
+[2024-07-20 13:50:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:50:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 19 ticks
+[2024-07-20 13:50:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:50:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:50:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:50:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:29] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 2 ticks
+[2024-07-20 13:50:29] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:50:29] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:50:29] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:30] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 17 ticks
+[2024-07-20 13:50:30] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:30] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:30] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:30] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:30] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:30] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:30] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:30] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:30] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:30] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:30] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:50:33] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 13:52:13] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 00000000-0000-0000-0009-01fc96032a7e (3.0 s)
+[2024-07-20 13:52:16] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fc96032a7e has ended
+[2024-07-20 13:52:29] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 (3.0 s)
+[2024-07-20 13:52:32] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 13:52:32] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:52:32] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has ended
+[2024-07-20 13:52:32] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:52:32] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:52:32] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:52:32] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:52:32] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:52:32] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:52:32] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:52:32] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:52:32] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:52:32] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:52:33] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:52:33] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:52:33] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:52:33] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:52:33] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:52:33] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:52:33] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:52:33] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:52:33] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:52:33] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:52:33] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:52:33] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:52:33] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:52:33] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:52:34] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:52:34] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:52:34] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:52:34] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:52:34] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:52:34] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 1 ticks
+[2024-07-20 13:52:34] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 13:52:37] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 13:55:49] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 (3.0 s)
+[2024-07-20 13:55:52] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has ended
+[2024-07-20 13:58:23] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 (3.0 s)
+[2024-07-20 13:58:23] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 13:58:23] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 13:58:24] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 13:58:24] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 13:58:24] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 13:58:24] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 13:58:24] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 13:58:24] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 13:58:24] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 13:58:24] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 13:58:24] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 13:58:24] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 13:58:24] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 13:58:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has ended
+[2024-07-20 13:59:48] [Timer-31/ INFO] (BlossomTpa): TpaRequest[teleportWho=00000000-0000-0000-0009-01fb4b494f1f, teleportTo=1469ede2-708d-3cb1-8ca9-1153a180f46a, initiator=00000000-0000-0000-0009-01fb4b494f1f, receiver=1469ede2-708d-3cb1-8ca9-1153a180f46a] timed out
+[2024-07-20 13:59:58] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f (3.0 s)
+[2024-07-20 14:00:01] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has ended
+[2024-07-20 14:02:15] [Timer-33/ INFO] (BlossomTpa): TpaRequest[teleportWho=1469ede2-708d-3cb1-8ca9-1153a180f46a, teleportTo=00000000-0000-0000-0009-01fc96032a7e, initiator=1469ede2-708d-3cb1-8ca9-1153a180f46a, receiver=00000000-0000-0000-0009-01fc96032a7e] timed out
+[2024-07-20 14:02:27] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f (3.0 s)
+[2024-07-20 14:02:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 1 ticks
+[2024-07-20 14:02:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:27] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 1 ticks
+[2024-07-20 14:02:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 3 ticks
+[2024-07-20 14:02:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:29] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 1 ticks
+[2024-07-20 14:02:29] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:29] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:29] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:29] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:29] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:29] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:29] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:29] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:29] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:29] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has been reset after 0 ticks
+[2024-07-20 14:02:32] [Server thread/DEBUG] (BlossomLib): genericCountdown for 00000000-0000-0000-0009-01fb4b494f1f has ended
+[2024-07-20 14:03:03] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 14:03:04] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 15 ticks
+[2024-07-20 14:03:04] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:04] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:04] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:04] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:04] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:04] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:04] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:04] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:04] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:04] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:05] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:05] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 8 ticks
+[2024-07-20 14:03:05] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:05] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:05] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:05] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:05] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:05] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:05] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:05] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:05] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:05] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:06] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:06] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 0 ticks
+[2024-07-20 14:03:06] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has been reset after 13 ticks
+[2024-07-20 14:03:09] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 14:07:31] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 14:07:34] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 14:16:59] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 14:17:02] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 14:19:46] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 14:19:49] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 14:30:02] [Timer-39/ INFO] (BlossomTpa): TpaRequest[teleportWho=1469ede2-708d-3cb1-8ca9-1153a180f46a, teleportTo=00000000-0000-0000-0009-01fb4b494f1f, initiator=1469ede2-708d-3cb1-8ca9-1153a180f46a, receiver=00000000-0000-0000-0009-01fb4b494f1f] timed out
+[2024-07-20 14:32:42] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 (3.0 s)
+[2024-07-20 14:32:45] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has ended
+[2024-07-20 14:32:57] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 14:33:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 14:34:55] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 (3.0 s)
+[2024-07-20 14:34:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 14:34:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 14:34:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 14:34:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:57] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:57] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:57] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:57] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 14:34:58] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 15 ticks
+[2024-07-20 14:34:58] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:58] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 14:34:59] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 27 ticks
+[2024-07-20 14:34:59] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:59] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:59] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:59] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:59] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:59] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:59] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:34:59] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:35:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:35:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:35:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 1 ticks
+[2024-07-20 14:35:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has been reset after 0 ticks
+[2024-07-20 14:35:03] [Server thread/DEBUG] (BlossomLib): genericCountdown for 6192ba37-ab49-384d-b43d-891cc168a019 has ended
+[2024-07-20 14:38:07] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 14:38:10] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 14:52:48] [Timer-45/ INFO] (BlossomTpa): TpaRequest[teleportWho=1469ede2-708d-3cb1-8ca9-1153a180f46a, teleportTo=00000000-0000-0000-0009-01fb4b494f1f, initiator=1469ede2-708d-3cb1-8ca9-1153a180f46a, receiver=00000000-0000-0000-0009-01fb4b494f1f] timed out
+[2024-07-20 14:54:10] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 14:54:13] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 14:57:01] [Timer-48/ INFO] (BlossomTpa): TpaRequest[teleportWho=1469ede2-708d-3cb1-8ca9-1153a180f46a, teleportTo=00000000-0000-0000-0009-01fb4b494f1f, initiator=1469ede2-708d-3cb1-8ca9-1153a180f46a, receiver=00000000-0000-0000-0009-01fb4b494f1f] timed out
+[2024-07-20 14:57:08] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 14:57:11] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 14:59:29] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 14:59:32] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 15:00:32] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 15:00:35] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 15:56:56] [main/ INFO] (BlossomLib): BlossomLib mixins loading
+[2024-07-20 15:57:03] [main/ INFO] (BlossomLib): BlossomLib has starting
+[2024-07-20 15:57:03] [main/TRACE] (BlossomLib): register config manager BlossomTpa.json
+[2024-07-20 15:57:03] [main/TRACE] (BlossomLib): loading config BlossomTpa.json
+[2024-07-20 15:57:03] [main/TRACE] (BlossomLib): saving config BlossomTpa.json
+[2024-07-20 16:37:10] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 16:37:13] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 16:46:31] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 16:46:34] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 16:54:35] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 16:54:38] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 17:00:37] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 17:00:40] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 17:08:37] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 17:08:40] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 17:09:20] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 17:09:23] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-20 17:14:45] [Timer-8/ INFO] (BlossomTpa): TpaRequest[teleportWho=1469ede2-708d-3cb1-8ca9-1153a180f46a, teleportTo=00000000-0000-0000-0009-01fb4b494f1f, initiator=1469ede2-708d-3cb1-8ca9-1153a180f46a, receiver=00000000-0000-0000-0009-01fb4b494f1f] timed out
+[2024-07-20 17:38:43] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
+[2024-07-20 17:38:46] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended

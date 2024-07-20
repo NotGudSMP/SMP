@@ -1,5 +1,5 @@
-[14:03:57] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.15.11
-[14:03:57] [main/INFO]: Loading 142 mods:
+[15:56:54] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.15.11
+[15:56:55] [main/INFO]: Loading 142 mods:
 	- alternate-current 1.8.0
 	- blossom-lib 2.5.8+1.21
 	   \-- server_translations_api 2.3.1+1.21-pre2
@@ -159,112 +159,107 @@
 	   |-- placeholder-api 2.4.0-pre.2+1.21
 	   |-- player-data-api 0.6.0+1.21
 	   \-- predicate-api 0.5.1+1.21
-[14:03:57] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/NotGudSMP/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[14:03:57] [main/INFO]: Compatibility level set to JAVA_16
-[14:03:57] [main/INFO]: Compatibility level set to JAVA_17
-[14:03:57] [main/INFO]: Compatibility level set to JAVA_21
-[14:03:58] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[14:03:58] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
-[14:03:58] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[14:03:58] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[14:03:58] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[14:03:58] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[14:03:58] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[14:03:58] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[14:03:58] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[14:03:58] [main/INFO]: Disabling com.ishland.c2me.opts.chunk_access.mixin
-[14:03:58] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[14:03:58] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[14:03:58] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[14:03:58] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[14:03:58] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[14:03:58] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[14:03:58] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[14:03:58] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[14:03:58] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
-[14:03:58] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[14:03:58] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[14:03:58] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[14:03:58] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[14:03:58] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
-[14:03:58] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
-[14:03:58] [main/INFO]: Loaded configuration file for Lithium: 138 options available, 1 override(s) found
-[14:03:58] [main/INFO]: Loaded configuration file for ModernFix 5.18.8+mc1.21: 53 options available, 4 override(s) found
-[14:03:58] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
-[14:03:58] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
-[14:03:58] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
-[14:03:58] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
-[14:03:58] [main/INFO]: Applying Nashorn fix
-[14:03:58] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[14:03:58] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[14:03:59] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[14:04:01] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[14:04:01] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[14:04:01] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[14:04:01] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[14:04:05] [main/INFO]: Vanilla bootstrap took 5326 milliseconds
-[14:04:05] [main/WARN]: en_ is not a supported Floodgate language.
-[14:04:05] [main/WARN]: Missing locale: en_
-[14:04:06] [main/INFO]: Loading extensions...
-[14:04:06] [main/INFO]: Loaded 0 extension(s)
-[14:04:06] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:04:06] [main/INFO]: Found new data pack blossom-lib, loading it automatically
-[14:04:06] [main/INFO]: Found new data pack blossom-tpa, loading it automatically
-[14:04:06] [main/INFO]: Found new data pack loyal_items, loading it automatically
-[14:04:06] [main/INFO]: Found new data pack server_translations_api, loading it automatically
-[14:04:06] [main/INFO]: Found new data pack serversleep_mr, loading it automatically
-[14:04:08] [main/INFO]: Loaded 1290 recipes
-[14:04:08] [main/INFO]: Loaded 1400 advancements
-[14:04:08] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 53 translation keys
-[14:04:08] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.391 ms
-[14:04:08] [Server thread/INFO]: Starting minecraft server version 1.21
-[14:04:08] [Server thread/INFO]: Loading properties
-[14:04:08] [Server thread/INFO]: Default game type: SURVIVAL
-[14:04:08] [Server thread/INFO]: Generating keypair
-[14:04:08] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:04:09] [Server thread/INFO]: Using epoll channel type
-[14:04:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:04:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:04:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:04:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:04:09] [Server thread/INFO]: Preparing level "world"
-[14:04:09] [Server thread/INFO]: Enforcing safe world random access
-[14:04:09] [Server thread/INFO]: skipping unknown option 'enabledtrueupdate-order' in Alternate Current config
-[14:04:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:04:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[14:04:12] [Worker-Main-2/INFO]: Preparing spawn area: 44%
-[14:04:12] [Server thread/INFO]: Time elapsed: 659 ms
-[14:04:12] [Server thread/INFO]: Done (3.105s)! For help, type "help"
-[14:04:12] [Server thread/WARN]: Dedicated server took 15.937 seconds to load
-[14:04:12] [Server thread/INFO]: Took 34ms to boot Floodgate
-[14:04:12] [Server thread/INFO]: ******************************************
-[14:04:12] [Server thread/INFO]: 
-[14:04:12] [Server thread/INFO]: Loading Geyser version 2.4.0-b609 (git-master-669a76c)
-[14:04:12] [Server thread/INFO]: 
-[14:04:12] [Server thread/INFO]: ******************************************
-[14:04:14] [epollEventLoopGroup-3-1/INFO]: Started Geyser on 0.0.0.0:19132
-[14:04:14] [Server thread/INFO]: Done (2.302s)! Run /geyser help for help!
-[14:04:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2393ms or 47 ticks behind
-[14:04:21] [Server thread/INFO]: Incorrect argument for command
-[14:04:21] [Server thread/INFO]: gamerule keepinventory true<--[HERE]
-[14:04:34] [Server thread/INFO]: Incorrect argument for command
-[14:04:34] [Server thread/INFO]: gamerule keepinventory true<--[HERE]
-[14:04:41] [Server thread/INFO]: hy_GXix4_0704[/127.250.110.223:58077] logged in with entity id 110 at (-2627.53044892321, 68.0, 635.7949717069739)
-[14:04:42] [Server thread/INFO]: ✚ [Admin] hy_GXix4_0704 joined the game
-[14:04:42] [Server thread/INFO]: [Admin] hy_GXix4_0704 has completed the challenge [Cover Me in Debris]
-[14:04:42] [Server thread/INFO]: [Admin] hy_GXix4_0704 has made the advancement [Into Fire]
-[14:04:42] [Server thread/INFO]: [Admin] hy_GXix4_0704 has reached the goal [Sky's the Limit]
-[14:04:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4496ms or 89 ticks behind
-[14:05:04] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Gamerule keepInventory is now set to: true]
-[14:05:12] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Killed [Admin] hy_GXix4_0704]
-[14:05:37] [ForkJoinPool.commonPool-worker-3/WARN]: failed to fetch skin on first join
+[15:56:55] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/NotGudSMP/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[15:56:55] [main/INFO]: Compatibility level set to JAVA_16
+[15:56:55] [main/INFO]: Compatibility level set to JAVA_17
+[15:56:55] [main/INFO]: Compatibility level set to JAVA_21
+[15:56:56] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[15:56:56] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[15:56:56] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[15:56:56] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[15:56:56] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[15:56:56] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[15:56:56] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[15:56:56] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[15:56:56] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[15:56:56] [main/INFO]: Disabling com.ishland.c2me.opts.chunk_access.mixin
+[15:56:56] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[15:56:56] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[15:56:56] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[15:56:56] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[15:56:56] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[15:56:56] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[15:56:56] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[15:56:56] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[15:56:56] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[15:56:56] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[15:56:56] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[15:56:56] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[15:56:56] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[15:56:56] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[15:56:56] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
+[15:56:56] [main/INFO]: Loaded configuration file for Lithium: 138 options available, 1 override(s) found
+[15:56:56] [main/INFO]: Loaded configuration file for ModernFix 5.18.8+mc1.21: 53 options available, 4 override(s) found
+[15:56:56] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[15:56:56] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[15:56:56] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[15:56:56] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[15:56:56] [main/INFO]: Applying Nashorn fix
+[15:56:57] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[15:56:57] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[15:56:57] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[15:56:59] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[15:56:59] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[15:56:59] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[15:57:00] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[15:57:03] [main/INFO]: Vanilla bootstrap took 4538 milliseconds
+[15:57:03] [main/WARN]: en_ is not a supported Floodgate language.
+[15:57:03] [main/WARN]: Missing locale: en_
+[15:57:04] [main/INFO]: Loading extensions...
+[15:57:04] [main/INFO]: Loaded 0 extension(s)
+[15:57:04] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:57:07] [main/INFO]: Loaded 1290 recipes
+[15:57:07] [main/INFO]: Loaded 1400 advancements
+[15:57:07] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 53 translation keys
+[15:57:07] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.519 ms
+[15:57:07] [Server thread/INFO]: Starting minecraft server version 1.21
+[15:57:07] [Server thread/INFO]: Loading properties
+[15:57:07] [Server thread/INFO]: Default game type: SURVIVAL
+[15:57:07] [Server thread/INFO]: Generating keypair
+[15:57:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:57:07] [Server thread/INFO]: Using epoll channel type
+[15:57:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:57:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:57:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:57:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:57:07] [Server thread/INFO]: Preparing level "world"
+[15:57:08] [Server thread/INFO]: Enforcing safe world random access
+[15:57:08] [Server thread/INFO]: skipping unknown option 'enabledtrueupdate-order' in Alternate Current config
+[15:57:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:57:10] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:57:10] [Worker-Main-3/INFO]: Preparing spawn area: 36%
+[15:57:10] [Server thread/INFO]: Time elapsed: 704 ms
+[15:57:10] [Server thread/INFO]: Done (3.023s)! For help, type "help"
+[15:57:11] [Server thread/WARN]: Dedicated server took 19.138 seconds to load
+[15:57:11] [Server thread/INFO]: Took 33ms to boot Floodgate
+[15:57:11] [Server thread/INFO]: ******************************************
+[15:57:11] [Server thread/INFO]: 
+[15:57:11] [Server thread/INFO]: Loading Geyser version 2.4.0-b609 (git-master-669a76c)
+[15:57:11] [Server thread/INFO]: 
+[15:57:11] [Server thread/INFO]: ******************************************
+[15:57:13] [epollEventLoopGroup-3-1/INFO]: Started Geyser on 0.0.0.0:19132
+[15:57:13] [Server thread/INFO]: Done (2.573s)! Run /geyser help for help!
+[15:57:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2660ms or 53 ticks behind
+[15:57:35] [Server thread/INFO]: TuiLadre[/127.249.144.71:41209] logged in with entity id 18 at (307.8294475182243, 71.5, 1313.7842385244055)
+[15:57:36] [Server thread/INFO]: ✚ [Admin] TuiLadre joined the game
+[15:57:53] [Server thread/INFO]: [[Admin] TuiLadre: Gave 64 [Totem of Undying] to [Admin] TuiLadre]
+[15:58:53] [Server thread/INFO]: [[Admin] TuiLadre: Gave 64 [Totem of Undying] to [Admin] TuiLadre]
+[16:00:53] [Server thread/INFO]: [[Admin] TuiLadre: Gave 1 [Netherite Pickaxe] to [Admin] TuiLadre]
+[16:02:54] [Server thread/INFO]: [[Admin] TuiLadre: Gave 1 [Netherite Pickaxe] to [Admin] TuiLadre]
+[16:03:11] [Server thread/INFO]: [[Admin] TuiLadre: Gave 1 [Netherite Axe] to [Admin] TuiLadre]
+[16:03:33] [Server thread/INFO]: TuiLadre lost connection: Disconnected
+[16:03:33] [Server thread/INFO]: ☁ [Admin] TuiLadre left the game
+[16:04:19] [epollEventLoopGroup-4-1/INFO]: Player connected with username Dangdayy
+[16:04:19] [localSession-7-1/INFO]: Dangdayy (logged in as: Dangdayy) has connected to the Java server
+[16:04:20] [pool-5-thread-1/INFO]: Floodgate player who is logged in as .Dangdayy 00000000-0000-0000-0009-01fb4b494f1f joined
+[16:04:21] [ForkJoinPool.commonPool-worker-4/WARN]: failed to fetch skin on first join
 java.lang.IllegalStateException: not found
 	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
 	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
 	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.md350bd6$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
 	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.md350bd6$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
@@ -272,45 +267,53 @@ java.lang.IllegalStateException: not found
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[14:05:39] [Server thread/INFO]: TuiLadre[/127.127.53.134:59461] logged in with entity id 699 at (-2631.5, 67.0, 633.5)
-[14:05:39] [Server thread/INFO]: ✚ [Admin] TuiLadre joined the game
-[14:05:39] [Server thread/INFO]: [Admin] TuiLadre has completed the challenge [Cover Me in Debris]
-[14:05:39] [Server thread/INFO]: [Admin] TuiLadre has reached the goal [Sky's the Limit]
-[14:05:39] [Server thread/INFO]: [Admin] TuiLadre has made the advancement [Stone Age]
-[14:05:40] [Server thread/INFO]: HDung24[/127.85.189.177:41901] logged in with entity id 823 at (-310.7695755402025, 70.0, -192.5297867021847)
-[14:05:40] [Server thread/INFO]: ✚ HDung24 joined the game
-[14:05:40] [Server thread/INFO]: HDung24 has completed the challenge [Cover Me in Debris]
-[14:05:40] [Server thread/INFO]: HDung24 has made the advancement [Stone Age]
-[14:05:40] [Server thread/INFO]: HDung24 has made the advancement [Cover Me with Diamonds]
-[14:05:42] [Server thread/WARN]: HDung24 moved too quickly! 0.0,-10.806526110009003,0.0
-[14:05:53] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Teleported [Admin] TuiLadre to [Admin] hy_GXix4_0704]
-[14:06:28] [Server thread/INFO]: BaoIsHere[/127.136.11.206:50035] logged in with entity id 1225 at (-1589.8511222353266, 158.0, -298.576102813257)
-[14:06:28] [Server thread/INFO]: ✚ [Admin] BaoIsHere joined the game
-[14:06:28] [Server thread/INFO]: [Admin] BaoIsHere has made the advancement [Cover Me with Diamonds]
-[14:06:28] [Server thread/INFO]: [Admin] BaoIsHere has made the advancement [Suit Up]
-[14:06:28] [Server thread/INFO]: [Admin] BaoIsHere has made the advancement [Stone Age]
-[14:06:28] [Server thread/INFO]: [Admin] BaoIsHere has made the advancement [Isn't It Iron Pick]
-[14:06:30] [Server thread/WARN]: BaoIsHere moved too quickly! 0.0,-10.806526110009003,0.0
-[14:06:38] [Server thread/INFO]: [Admin] hy_GXix4_0704 » heh
-[14:06:42] [Server thread/INFO]: HDung24 has made the advancement [A Terrible Fortress]
-[14:06:47] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set the center of the world border to 0.50, 0.50]
-[14:06:52] [Server thread/INFO]: HDung24 has made the advancement [Monster Hunter]
-[14:06:55] [Server thread/INFO]: [Admin] BaoIsHere » gì vậy trời?
-[14:06:56] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set the world border to 5000.0 block(s) wide]
-[14:07:04] [Server thread/INFO]: HDung24 » t ở trong địa ngục
-[14:07:07] [Server thread/INFO]: [Admin] hy_GXix4_0704 » world moi
-[14:07:10] [Server thread/INFO]: HDung24 » ảo vl
-[14:07:11] [Server thread/INFO]: HDung24 » =)))
-[14:07:17] [Server thread/INFO]: HDung24 » thank long
-[14:07:18] [Server thread/INFO]: [Admin] BaoIsHere » spawn đúng trên ko
-[14:07:27] [ForkJoinPool.commonPool-worker-3/WARN]: failed to fetch skin on first join
+[16:04:21] [Server thread/INFO]: .Dangdayy[/127.173.169.146:0] logged in with entity id 896 at (988.49677, 76.0, 1752.3353)
+[16:04:21] [Server thread/INFO]: Floodgate player logged in as .Dangdayy joined (UUID: 00000000-0000-0000-0009-01fb4b494f1f)
+[16:04:21] [Server thread/INFO]: ✚ .Dangdayy joined the game
+[16:06:30] [Server thread/INFO]: .Dangdayy » tối thé
+[16:08:30] [Server thread/INFO]: TuiLadre[/127.249.144.71:40791] logged in with entity id 1612 at (308.73835966713597, 71.0, 1313.5879295275984)
+[16:08:30] [Server thread/INFO]: ✚ [Admin] TuiLadre joined the game
+[16:10:14] [Server thread/INFO]: [[Admin] TuiLadre: Gave 1 [Netherite Helmet] to 2]
+[16:11:04] [Server thread/INFO]: [[Admin] TuiLadre: Gave 1 [Netherite Chestplate] to 2]
+[16:12:04] [Server thread/INFO]: [[Admin] TuiLadre: Gave 1 [Netherite Leggings] to 2]
+[16:13:02] [Server thread/INFO]: [Admin] TuiLadre » give @a netherite_boots[enchantments={levels:{blast_protection:4,depth_strider:3,feather_falling:4,fire_protection:4,mending:1,projectile_protection:4,protection:5,soul_speed:3,thorns:3,unbreaking:3,vanishing_curse:1}},unbreakable={show_in_tooltip:false}]
+[16:13:08] [Server thread/INFO]: TuiLadre lost connection: Disconnected
+[16:13:08] [Server thread/INFO]: ☁ [Admin] TuiLadre left the game
+[16:13:19] [Server thread/INFO]: TuiLadre[/127.249.144.71:41457] logged in with entity id 2798 at (308.73835966713597, 71.0, 1313.5879295275984)
+[16:13:19] [Server thread/INFO]: ✚ [Admin] TuiLadre joined the game
+[16:15:59] [Server thread/INFO]: [[Admin] TuiLadre: Gave 1 [Netherite Boots] to [Admin] TuiLadre]
+[16:16:48] [Server thread/INFO]: [[Admin] TuiLadre: Teleported [Admin] TuiLadre to .Dangdayy]
+[16:17:05] [Server thread/INFO]: .Dangdayy » cmm
+[16:17:07] [Server thread/INFO]: [Admin] TuiLadre » anh đang xây nhà
+[16:17:13] [Server thread/INFO]: [Admin] TuiLadre » hộ
+[16:17:16] [Server thread/INFO]: [Admin] TuiLadre » xây hộ cu Long
+[16:17:22] [Server thread/INFO]: [Admin] TuiLadre » ở trên kia kìa
+[16:17:27] [Server thread/INFO]: [Server] Long lam gi co nha
+[16:17:30] [Server thread/INFO]: .Dangdayy » thấy r
+[16:17:52] [Server thread/INFO]: [[Admin] TuiLadre: Set own game mode to Survival Mode]
+[16:19:39] [Server thread/INFO]: .Dangdayy » bú
+[16:19:43] [Server thread/INFO]: [Admin] TuiLadre » có 4 thỏi vàng ko cu
+[16:20:11] [Server thread/INFO]: [[Admin] TuiLadre: Teleported [Admin] TuiLadre to 257.500000, 81.500000, 1427.500000]
+[16:20:14] [Server thread/INFO]: .Dangdayy » mẹ lấy đâu ra đây
+[16:20:24] [Server thread/INFO]: [Admin] TuiLadre » farm trial
+[16:20:28] [Server thread/INFO]: [Admin] TuiLadre » có mà cu
+[16:20:34] [Server thread/INFO]: [Admin] TuiLadre » hay cu ko gacha ra?
+[16:20:45] [Server thread/INFO]: .Dangdayy » đ thèm farm
+[16:20:49] [Server thread/INFO]: [Admin] TuiLadre » dốt
+[16:23:00] [Server thread/INFO]: [[Admin] TuiLadre: Gave 1 [Elytra] to [Admin] TuiLadre]
+[16:23:14] [Server thread/INFO]: [[Admin] TuiLadre: Set own game mode to Creative Mode]
+[16:23:48] [Server thread/INFO]: [[Admin] TuiLadre: Set own game mode to Survival Mode]
+[16:24:04] [Server thread/INFO]: [Admin] TuiLadre has made the advancement [Crafting a New Look]
+[16:24:30] [Server thread/INFO]: TuiLadre lost connection: Disconnected
+[16:24:30] [Server thread/INFO]: ☁ [Admin] TuiLadre left the game
+[16:33:08] [ForkJoinPool.commonPool-worker-11/WARN]: failed to fetch skin on first join
 java.lang.IllegalStateException: not found
 	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
 	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
 	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.md350bd6$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
 	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.md350bd6$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
@@ -318,17 +321,26 @@ java.lang.IllegalStateException: not found
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[14:07:45] [epollEventLoopGroup-4-1/INFO]: Player connected with username Dangdayy
-[14:07:45] [localSession-7-1/INFO]: Dangdayy (logged in as: Dangdayy) has connected to the Java server
-[14:07:46] [pool-5-thread-1/INFO]: Floodgate player who is logged in as .Dangdayy 00000000-0000-0000-0009-01fb4b494f1f joined
-[14:07:47] [ForkJoinPool.commonPool-worker-3/WARN]: failed to fetch skin on first join
+[16:33:15] [Server thread/INFO]: HDung24[/127.85.189.177:46587] logged in with entity id 6121 at (119.22326269500907, 2.0, -0.09952972782928166)
+[16:33:15] [Server thread/INFO]: ✚ HDung24 joined the game
+[16:33:27] [Server thread/INFO]: HDung24 » ê nhãn
+[16:33:36] [Server thread/INFO]: .Dangdayy » j
+[16:34:30] [Server thread/WARN]: HDung24 moved too quickly! 10.741941919778156,0.0,0.32107678215005286
+[16:35:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=87, z=1732} class_2338{x=989, y=73, z=1743}
+[16:36:49] [Server thread/INFO]: HDung24 » tp
+[16:36:57] [Server thread/INFO]: HDung24 » lẹ
+[16:37:05] [Server thread/INFO]: .Dangdayy » xây
+[16:37:12] [epollEventLoopGroup-4-2/INFO]: Player connected with username Itemisu24
+[16:37:12] [localSession-7-2/INFO]: Itemisu24 (logged in as: Itemisu24) has connected to the Java server
+[16:37:13] [pool-5-thread-2/INFO]: Floodgate player who is logged in as .Itemisu24 00000000-0000-0000-0009-01fe43583a04 joined
+[16:37:14] [ForkJoinPool.commonPool-worker-13/WARN]: failed to fetch skin on first join
 java.lang.IllegalStateException: not found
 	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
 	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
 	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.md350bd6$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
 	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.md350bd6$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
@@ -336,31 +348,67 @@ java.lang.IllegalStateException: not found
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[14:07:47] [Server thread/INFO]: .Dangdayy[/127.173.169.146:0] logged in with entity id 2210 at (-1592.6323, 65.9216, -261.1989)
-[14:07:47] [Server thread/INFO]: Floodgate player logged in as .Dangdayy joined (UUID: 00000000-0000-0000-0009-01fb4b494f1f)
-[14:07:47] [Server thread/INFO]: ✚ .Dangdayy joined the game
-[14:07:47] [Server thread/INFO]: .Dangdayy has made the advancement [Cover Me with Diamonds]
-[14:07:47] [Server thread/INFO]: .Dangdayy has reached the goal [Sky's the Limit]
-[14:07:47] [Server thread/INFO]: .Dangdayy has made the advancement [Stone Age]
-[14:07:49] [Server thread/INFO]: com.mojang.authlib.GameProfile@406c4cd2[id=89f461c1-92d8-3ec2-9ec2-add53de42ed5,name=haomc317,properties={}] lost connection: Timed out
-[14:07:52] [Server thread/INFO]: HDung24 has made the advancement [Into Fire]
-[14:08:01] [Server thread/INFO]: [Admin] BaoIsHere » cho test thử cái này xem còn ko
-[14:08:09] [Server thread/INFO]: [[Admin] BaoIsHere: Set own game mode to Creative Mode]
-[14:08:12] [Server thread/INFO]: [Admin] hy_GXix4_0704 » con
-[14:08:22] [Server thread/INFO]: .Dangdayy » má
-[14:08:24] [Server thread/INFO]: [[Admin] BaoIsHere: Gave 1 [Structure Block] to [Admin] BaoIsHere]
-[14:08:26] [Server thread/INFO]: .Dangdayy » suýet chết ngạt
-[14:08:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1593, y=73, z=-263} class_2338{x=-1609, y=70, z=-270}
-[14:09:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1609, y=69, z=-271} class_2338{x=-1584, y=80, z=-296}
-[14:09:16] [Server thread/INFO]: .Dangdayy » ê hiền
-[14:09:17] [ForkJoinPool.commonPool-worker-1/WARN]: failed to fetch skin on first join
+[16:37:14] [Server thread/INFO]: .Itemisu24[/127.85.189.177:0] logged in with entity id 7480 at (110.80468, 43.0, 3.810619)
+[16:37:14] [Server thread/INFO]: Floodgate player logged in as .Itemisu24 joined (UUID: 00000000-0000-0000-0009-01fe43583a04)
+[16:37:14] [Server thread/INFO]: ✚ .Itemisu24 joined the game
+[16:37:40] [Server thread/INFO]: HDung24 » xin 1 cái giường
+[16:37:53] [Server thread/INFO]: .Dangdayy » ngủ đi
+[16:38:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=76, z=1722} class_2338{x=998, y=77, z=1721}
+[16:38:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=76, z=1722} class_2338{x=998, y=77, z=1721}
+[16:38:46] [Server thread/WARN]: HDung24 moved wrongly!
+[16:38:51] [Server thread/WARN]: HDung24 moved wrongly!
+[16:38:51] [Server thread/WARN]: HDung24 moved wrongly!
+[16:39:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=72, z=1721} class_2338{x=998, y=76, z=1720}
+[16:39:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=72, z=1721} class_2338{x=998, y=76, z=1721}
+[16:39:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=72, z=1721} class_2338{x=998, y=75, z=1721}
+[16:39:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=72, z=1721} class_2338{x=998, y=74, z=1721}
+[16:39:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=72, z=1721} class_2338{x=998, y=73, z=1721}
+[16:39:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=72, z=1721} class_2338{x=998, y=72, z=1721}
+[16:39:55] [Server thread/WARN]: HDung24 moved wrongly!
+[16:39:55] [Server thread/WARN]: HDung24 moved wrongly!
+[16:39:55] [Server thread/WARN]: HDung24 moved wrongly!
+[16:39:55] [Server thread/WARN]: HDung24 moved wrongly!
+[16:40:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=997, y=78, z=1725} class_2338{x=994, y=76, z=1724}
+[16:40:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=997, y=78, z=1725} class_2338{x=994, y=75, z=1724}
+[16:40:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=997, y=78, z=1725} class_2338{x=994, y=74, z=1724}
+[16:40:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=997, y=78, z=1725} class_2338{x=994, y=73, z=1724}
+[16:40:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=997, y=78, z=1725} class_2338{x=994, y=72, z=1724}
+[16:42:46] [Geyser Fabric connection thread-6-3/INFO]: Floodgate player logged in as .Itemisu24 disconnected
+[16:42:46] [localSession-7-2/INFO]: Itemisu24 has disconnected from the Java server because of Bedrock client disconnected
+[16:42:46] [Server thread/INFO]: .Itemisu24 lost connection: Disconnected
+[16:42:46] [Server thread/INFO]: ☁ .Itemisu24 left the game
+[16:46:21] [Server thread/INFO]: HDung24 » cho tp cái
+[16:48:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=77, z=1731} class_2338{x=978, y=76, z=1734}
+[16:48:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=77, z=1731} class_2338{x=978, y=75, z=1734}
+[16:48:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=77, z=1731} class_2338{x=978, y=74, z=1734}
+[16:48:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=77, z=1731} class_2338{x=978, y=73, z=1734}
+[16:48:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=77, z=1731} class_2338{x=979, y=72, z=1735}
+[16:48:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=77, z=1731} class_2338{x=978, y=72, z=1734}
+[16:48:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=77, z=1731} class_2338{x=977, y=72, z=1731}
+[16:48:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=77, z=1731} class_2338{x=984, y=72, z=1729}
+[16:49:54] [Server thread/WARN]: HDung24 moved too quickly! -10.294309667356401,-1.5926045976350593,2.2649696225312255
+[16:50:21] [Server thread/INFO]: HDung24 » ê
+[16:50:28] [Server thread/INFO]: .Dangdayy » n
+[16:50:28] [Server thread/INFO]: HDung24 » bao nhiêu kệ sách là đủ nhỉ
+[16:50:34] [Server thread/INFO]: .Dangdayy » 16
+[16:51:50] [Server thread/INFO]: .Dangdayy » quá đẹp
+[16:54:27] [Server thread/INFO]: HDung24 » tp
+[16:55:01] [Server thread/INFO]: HDung24 » xong chưa
+[16:55:14] [Server thread/INFO]: .Dangdayy » nội thất nữa
+[16:59:36] [Server thread/WARN]: HDung24 moved wrongly!
+[16:59:37] [Server thread/WARN]: HDung24 moved wrongly!
+[16:59:38] [Server thread/WARN]: HDung24 moved wrongly!
+[16:59:54] [epollEventLoopGroup-4-3/INFO]: Player connected with username Itemisu24
+[16:59:54] [localSession-7-3/INFO]: Itemisu24 (logged in as: Itemisu24) has connected to the Java server
+[16:59:54] [pool-5-thread-3/INFO]: Floodgate player who is logged in as .Itemisu24 00000000-0000-0000-0009-01fe43583a04 joined
+[16:59:54] [ForkJoinPool.commonPool-worker-17/WARN]: failed to fetch skin on first join
 java.lang.IllegalStateException: not found
 	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
 	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
 	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.md350bd6$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
 	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.md350bd6$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
@@ -368,31 +416,34 @@ java.lang.IllegalStateException: not found
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[14:09:18] [Server thread/INFO]: HDung24 » tp t Nhanx oiw
-[14:09:19] [Server thread/WARN]: BaoIsHere moved too quickly! -9.588149748839328,0.0,-5.0811663169335475
-[14:09:22] [Server thread/INFO]: .Dangdayy » m ở fortress à
-[14:09:23] [Server thread/INFO]: haomc317[/127.34.151.82:42341] logged in with entity id 5494 at (-1523.7214171468552, 70.0, -342.93623020805313)
-[14:09:23] [Server thread/INFO]: ✚ haomc317 joined the game
-[14:09:23] [Server thread/INFO]: haomc317 has made the advancement [Cover Me with Diamonds]
-[14:09:23] [Server thread/INFO]: haomc317 has made the advancement [Suit Up]
-[14:09:23] [Server thread/INFO]: haomc317 has made the advancement [Diamonds!]
-[14:09:23] [Server thread/INFO]: haomc317 has made the advancement [Isn't It Iron Pick]
-[14:09:23] [Server thread/INFO]: haomc317 has made the advancement [Stone Age]
-[14:09:23] [Server thread/INFO]: haomc317 has made the advancement [Acquire Hardware]
-[14:09:24] [Server thread/INFO]: HDung24 » dr
-[14:09:32] [Server thread/WARN]: BaoIsHere moved too quickly! 8.913785710400873,0.0,4.627397210791429
-[14:09:33] [Server thread/INFO]: .Dangdayy » lấy que đi
-[14:09:35] [Server thread/INFO]: .Dangdayy » t ít
-[14:09:35] [Server thread/INFO]: HDung24 » rồi
-[14:09:38] [Server thread/INFO]: ☠ haomc317 suffocated in a wall
-[14:09:39] [ForkJoinPool.commonPool-worker-1/WARN]: failed to fetch skin on first join
+[16:59:54] [Server thread/INFO]: .Itemisu24[/127.85.189.177:0] logged in with entity id 16326 at (110.73267, 43.0, 3.4366183)
+[16:59:54] [Server thread/INFO]: Floodgate player logged in as .Itemisu24 joined (UUID: 00000000-0000-0000-0009-01fe43583a04)
+[16:59:54] [Server thread/INFO]: ✚ .Itemisu24 joined the game
+[17:00:53] [localSession-7-3/INFO]: Itemisu24 has disconnected from the Java server because of Bedrock client disconnected
+[17:00:53] [Geyser Fabric connection thread-6-4/INFO]: Floodgate player logged in as .Itemisu24 disconnected
+[17:00:53] [Server thread/INFO]: .Itemisu24 lost connection: Disconnected
+[17:00:53] [Server thread/INFO]: ☁ .Itemisu24 left the game
+[17:01:04] [Server thread/INFO]: .Dangdayy » đi ngủ đi
+[17:01:09] [Server thread/INFO]: .Dangdayy » tạnh mưa
+[17:01:14] [Server thread/INFO]: HDung24 » t ở the end
+[17:01:17] [Server thread/INFO]: HDung24 » m ngủ đi
+[17:07:37] [Server thread/INFO]: HDung24 » ê
+[17:07:44] [Server thread/INFO]: .Dangdayy » j
+[17:07:45] [Server thread/INFO]: HDung24 » có lưu ly k
+[17:07:53] [Server thread/INFO]: .Dangdayy » có
+[17:08:01] [Server thread/INFO]: HDung24 » tp anh
+[17:08:19] [Server thread/INFO]: .Dangdayy » tìm đã
+[17:08:26] [epollEventLoopGroup-4-4/INFO]: Player connected with username Itemisu24
+[17:08:26] [localSession-7-4/INFO]: Itemisu24 (logged in as: Itemisu24) has connected to the Java server
+[17:08:26] [pool-5-thread-4/INFO]: Floodgate player who is logged in as .Itemisu24 00000000-0000-0000-0009-01fe43583a04 joined
+[17:08:27] [ForkJoinPool.commonPool-worker-19/WARN]: failed to fetch skin on first join
 java.lang.IllegalStateException: not found
 	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
 	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
 	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.md350bd6$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
 	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.md350bd6$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
@@ -400,1362 +451,171 @@ java.lang.IllegalStateException: not found
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[14:09:40] [Server thread/INFO]: Quyen27[/127.50.241.14:56697] logged in with entity id 6231 at (-1588.2348161626414, 158.0, -299.4037848320894)
-[14:09:40] [Server thread/INFO]: ✚ Quyen27 joined the game
-[14:09:40] [Server thread/INFO]: Quyen27 has made the advancement [Cover Me with Diamonds]
-[14:09:40] [Server thread/INFO]: Quyen27 has made the advancement [Acquire Hardware]
-[14:09:40] [Server thread/INFO]: Quyen27 has made the advancement [Ice Bucket Challenge]
-[14:09:40] [Server thread/INFO]: Quyen27 has made the advancement [Diamonds!]
-[14:09:40] [Server thread/INFO]: Quyen27 has made the advancement [Stone Age]
-[14:09:42] [Server thread/INFO]: .Dangdayy » nhiều vào
-[14:09:42] [Server thread/INFO]: ☠ Quyen27 fell from a high place
-[14:09:44] [Server thread/WARN]: BaoIsHere moved too quickly! 7.653859385257846,0.0,-7.404320620129312
-[14:09:56] [Server thread/INFO]: HDung24 » nhiều mà
-[14:10:02] [Server thread/INFO]: .Dangdayy » bn
-[14:10:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1584, y=80, z=-297} class_2338{x=-1595, y=75, z=-340}
-[14:10:09] [Server thread/INFO]: HDung24 » 14
-[14:10:09] [Server thread/INFO]: [[Admin] BaoIsHere: Teleported [Admin] BaoIsHere to 0.500000, 91.421091, 0.500000]
-[14:10:14] [Server thread/INFO]: .Dangdayy » lk
-[14:10:18] [Server thread/INFO]: .Dangdayy » ok
-[14:10:18] [Server thread/INFO]: HDung24 » tpa t dcu m
-[14:10:25] [Server thread/INFO]: .Dangdayy » lại đi
-[14:10:39] [Server thread/INFO]: HDung24 has made the advancement [Not Today, Thank You]
-[14:10:46] [Server thread/INFO]: HDung24 » lên đây
-[14:10:47] [Server thread/INFO]: .Dangdayy » cmmmm
-[14:10:49] [Server thread/INFO]: .Dangdayy » m bay
-[14:10:50] [Server thread/INFO]: Quyen27 » tim cho de tap trung xay nha da
-[14:10:57] [Server thread/INFO]: .Dangdayy » ê
-[14:10:58] [Server thread/INFO]: HDung24 » lag đấy
-[14:11:04] [Server thread/INFO]: .Dangdayy » tìm thêm tre đi
-[14:11:07] [Server thread/INFO]: Locating element minecraft:cherry_grove took 280 ms
-[14:11:09] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Teleported [Admin] hy_GXix4_0704 to 828.500000, 71.000000, 888.500000]
-[14:11:10] [Server thread/INFO]: .Dangdayy » tí xây super farm
-[14:11:38] [Server thread/INFO]: Quyen27 » tim cho tap chung da ko lag
-[14:11:41] [Server thread/INFO]: .Dangdayy » có j mà đánh
-[14:11:44] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Teleported [Admin] hy_GXix4_0704 to -909.500000, 74.500000, -443.500000]
-[14:11:47] [Server thread/INFO]: HDung24 » quay lại
-[14:11:57] [Server thread/INFO]: .Dangdayy » th đ đi đâu
-[14:11:59] [Server thread/INFO]: [Admin] hy_GXix4_0704 » server co border day
-[14:12:01] [Server thread/INFO]: HDung24 » cmm
-[14:12:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1595, y=74, z=-340} class_2338{x=-1591, y=87, z=-403}
-[14:12:05] [Server thread/INFO]: HDung24 » border laf j
-[14:12:11] [Server thread/INFO]: [Admin] hy_GXix4_0704 » khong biet thi chiu roi
-[14:12:17] [Server thread/INFO]: Locating element minecraft:cherry_grove took 375 ms
-[14:12:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1591, y=86, z=-404} class_2338{x=-1618, y=88, z=-383}
-[14:12:20] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Teleported [Admin] hy_GXix4_0704 to -2128.500000, 224.000000, -1408.500000]
-[14:12:21] [Server thread/WARN]: hy_GXix4_0704 moved too quickly! 0.0,-10.806526110009003,0.0
-[14:12:29] [Server thread/INFO]: [Admin] BaoIsHere » học tiếng anh thế này là dở rồi :)))
-[14:12:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1618, y=87, z=-383} class_2338{x=-1604, y=87, z=-420}
-[14:12:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1618, y=87, z=-383} class_2338{x=-1605, y=87, z=-420}
-[14:12:41] [Server thread/INFO]: HDung24 » có nghe bao h đâu
-[14:12:52] [Server thread/INFO]: Quyen27 » dit me khac bao
-[14:12:52] [Server thread/WARN]: .Dangdayy moved wrongly!
-[14:12:52] [Server thread/INFO]: [Admin] BaoIsHere » rào
-[14:13:01] [Server thread/INFO]: Quyen27 » thek keu ko mang nah di dc
-[14:13:04] [Server thread/INFO]: [Admin] hy_GXix4_0704 » tat keep nha
-[14:13:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1618, y=87, z=-383} class_2338{x=-1609, y=63, z=-502}
-[14:13:18] [Server thread/INFO]: [Admin] BaoIsHere » tắt đê
-[14:13:27] [Server thread/WARN]: HDung24 moved too quickly! 1.249331997830268,-9.818364372404858,-1.9310297286866671
-[14:13:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1609, y=62, z=-502} class_2338{x=-1612, y=63, z=-532}
-[14:13:41] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Gamerule keepInventory is now set to: false]
-[14:13:44] [Server thread/INFO]: [Admin] hy_GXix4_0704 » tat keep roi day
-[14:13:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1612, y=62, z=-532} class_2338{x=-1586, y=67, z=-525}
-[14:13:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1585, y=69, z=-523} class_2338{x=-1583, y=71, z=-516}
-[14:14:01] [Server thread/INFO]: .Dangdayy » ê long
-[14:14:04] [Server thread/INFO]: [Admin] hy_GXix4_0704 » HA
-[14:14:12] [Server thread/INFO]: .Dangdayy » xây farm totem đi
-[14:14:15] [Server thread/INFO]: .Dangdayy » m bt xây k
-[14:14:18] [Server thread/INFO]: [Admin] BaoIsHere » tp ra chỗ mình đi :))))
-[14:14:33] [Server thread/INFO]: [Admin] hy_GXix4_0704 » farm totem 1.21 khong xay duoc
-[14:14:35] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Teleported [Admin] hy_GXix4_0704 to [Admin] BaoIsHere]
-[14:14:39] [Server thread/INFO]: haomc317 lost connection: Timed out
-[14:14:39] [Server thread/INFO]: ☁ haomc317 left the game
-[14:14:40] [Server thread/INFO]: [Admin] hy_GXix4_0704 » :)
-[14:15:00] [ForkJoinPool.commonPool-worker-4/WARN]: failed to fetch skin on first join
-java.lang.IllegalStateException: not found
-	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[14:15:03] [Server thread/INFO]: .Dangdayy has made the advancement [Monster Hunter]
-[14:15:03] [Server thread/INFO]: haomc317[/127.34.151.82:48215] logged in with entity id 19340 at (-23.248588488852455, 69.0, 33.34329474354997)
-[14:15:03] [Server thread/INFO]: ✚ haomc317 joined the game
-[14:15:07] [Server thread/INFO]: [[Admin] BaoIsHere: Set own game mode to Survival Mode]
-[14:15:27] [Server thread/INFO]: [Admin] TuiLadre has made the advancement [Monster Hunter]
-[14:15:29] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Teleported [Admin] hy_GXix4_0704 to -724.500000, 200.500000, 419.500000]
-[14:15:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1769, y=69, z=-537} class_2338{x=-1761, y=63, z=-562}
-[14:15:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1764, y=64, z=-563} class_2338{x=-1763, y=64, z=-563}
-[14:15:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1764, y=63, z=-563} class_2338{x=-1763, y=63, z=-563}
-[14:15:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1763, y=63, z=-565} class_2338{x=-1763, y=64, z=-564}
-[14:15:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1764, y=63, z=-568} class_2338{x=-1764, y=63, z=-569}
-[14:15:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1764, y=63, z=-569} class_2338{x=-1763, y=65, z=-565}
-[14:15:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1764, y=63, z=-569} class_2338{x=-1763, y=64, z=-567}
-[14:15:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1763, y=64, z=-570} class_2338{x=-1764, y=64, z=-571}
-[14:15:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1765, y=65, z=-570} class_2338{x=-1765, y=65, z=-569}
-[14:15:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1765, y=65, z=-570} class_2338{x=-1764, y=65, z=-573}
-[14:15:50] [Server thread/INFO]: Locating element minecraft:cherry_grove took 461 ms
-[14:15:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1763, y=65, z=-570} class_2338{x=-1767, y=65, z=-566}
-[14:15:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1763, y=65, z=-570} class_2338{x=-1767, y=66, z=-566}
-[14:15:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1763, y=65, z=-570} class_2338{x=-1768, y=65, z=-568}
-[14:15:55] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Teleported [Admin] hy_GXix4_0704 to 713.500000, 69.000000, 1357.500000]
-[14:15:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1763, y=65, z=-570} class_2338{x=-1766, y=65, z=-571}
-[14:15:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1767, y=65, z=-571} class_2338{x=-1767, y=65, z=-570}
-[14:15:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1767, y=65, z=-571} class_2338{x=-1766, y=66, z=-567}
-[14:15:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1767, y=65, z=-571} class_2338{x=-1766, y=65, z=-567}
-[14:16:08] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Teleported [Admin] hy_GXix4_0704 to 713.503509, 100.000000, 1357.500963]
-[14:16:20] [Server thread/INFO]: haomc317 » baor ơi
-[14:16:29] [Server thread/INFO]: [Admin] BaoIsHere » sao thế?
-[14:16:33] [Server thread/INFO]: [Admin] hy_GXix4_0704 » bao
-[14:16:39] [Server thread/INFO]: [Admin] hy_GXix4_0704 » co cai cherry grove dep lam
-[14:16:43] [Server thread/INFO]: haomc317 » bt chỗ nào có lang ko
-[14:16:46] [Server thread/INFO]: .Dangdayy » quyền alo
-[14:16:51] [Server thread/INFO]: Quyen27 » j
-[14:16:53] [Server thread/INFO]: [Admin] BaoIsHere » xin chỗ
-[14:16:59] [Server thread/INFO]: .Dangdayy » cho t qua
-[14:17:12] [Server thread/INFO]: Quyen27 » t dang 1 block m thick chet ak
-[14:17:15] [Server thread/INFO]: ☠ Quyen27 fell from a high place
-[14:17:16] [Server thread/INFO]: HDung24 has made the advancement [Eye Spy]
-[14:17:21] [Server thread/INFO]: haomc317 » có bt chỗ nào có lang ko
-[14:17:26] [Server thread/INFO]: [Admin] hy_GXix4_0704 » ra day xay nha nay cac em
-[14:17:31] [Server thread/INFO]: [[Admin] TuiLadre: Teleported [Admin] TuiLadre to [Admin] hy_GXix4_0704]
-[14:17:33] [Server thread/INFO]: [Admin] hy_GXix4_0704 has made the advancement [Monster Hunter]
-[14:17:56] [Server thread/INFO]: [Admin] hy_GXix4_0704 » no co 2 cai cherry grove gan cho nhau
-[14:18:00] [Server thread/INFO]: [Admin] BaoIsHere » nhà này để nghỉ chân khi lạc nhá :))))))
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/WARN]: .Dangdayy moved too quickly! 2636.238265082292,47.79673560066871,1826.9503205185379
-[14:18:02] [Server thread/INFO]: .Dangdayy » tên khó ghi vl
-[14:18:06] [Server thread/INFO]: [Admin] BaoIsHere » -23 42
-[14:18:16] [Server thread/INFO]: [Admin] hy_GXix4_0704 » ./tpa h roi nhan tab la duoc ma
-[14:18:24] [Server thread/INFO]: ☠ Quyen27 was shot by Skeleton
-[14:18:25] [Server thread/INFO]: [[Admin] BaoIsHere: Teleported [Admin] BaoIsHere to [Admin] hy_GXix4_0704]
-[14:18:26] [Server thread/INFO]: .Dangdayy » đt có tap à m
-[14:18:29] [Server thread/INFO]: [Admin] hy_GXix4_0704 » a
-[14:18:35] [Server thread/INFO]: [Admin] hy_GXix4_0704 » quyen chet gi the
-[14:18:43] [Server thread/INFO]: .Dangdayy » tìm chỗ xây nhà đê
-[14:18:52] [Server thread/INFO]: Quyen27 » clea quai j vs
-[14:18:55] [Server thread/INFO]: [Admin] hy_GXix4_0704 » cho nay dep roi
-[14:18:55] [Server thread/INFO]: ☠ Quyen27 was slain by Zombie
-[14:18:56] [Server thread/INFO]: [Admin] BaoIsHere has made the advancement [Monster Hunter]
-[14:19:08] [Server thread/INFO]: [[Admin] BaoIsHere: Set own game mode to Creative Mode]
-[14:19:16] [Server thread/INFO]: [[Admin] hy_GXix4_0704: The difficulty has been set to Peaceful]
-[14:19:19] [Server thread/INFO]: .Dangdayy » vl bay
-[14:19:21] [Server thread/INFO]: [Admin] hy_GXix4_0704 » quyen kem qua
-[14:19:22] [Server thread/INFO]: .Dangdayy » laim quyền
-[14:19:26] [Server thread/INFO]: [Admin] hy_GXix4_0704 » phai de peaceful
-[14:19:28] [Server thread/INFO]: [Admin] TuiLadre » nó chuyển nhà
-[14:19:41] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Gave 1 [Ender Chest] to [Admin] hy_GXix4_0704]
-[14:19:54] [Server thread/INFO]: haomc317 has made the advancement [Sweet Dreams]
-[14:19:59] [Server thread/INFO]: .Dangdayy » vllll
-[14:20:05] [Server thread/INFO]: [Admin] TuiLadre » m hiểu r chứ
-[14:20:17] [Server thread/INFO]: .Dangdayy has made the advancement [Sweet Dreams]
-[14:20:19] [Server thread/INFO]: [Admin] hy_GXix4_0704 » quyen loot do xong chua
-[14:20:44] [Server thread/INFO]: [[Admin] BaoIsHere: Set own game mode to Survival Mode]
-[14:21:04] [Server thread/INFO]: [Admin] hy_GXix4_0704 » thoi di lam bai phat
-[14:21:11] [Server thread/INFO]: [Admin] hy_GXix4_0704 » chuc cac em may man
-[14:21:24] [Server thread/INFO]: hy_GXix4_0704 lost connection: Disconnected
-[14:21:24] [Server thread/INFO]: ☁ [Admin] hy_GXix4_0704 left the game
-[14:22:09] [Server thread/INFO]: [[Admin] TuiLadre: Gave 1 [Ender Chest] to [Admin] TuiLadre]
-[14:22:16] [Server thread/WARN]: BaoIsHere moved too quickly! -2.7792635608562932,-0.623264386218267,9.805909567965728
-[14:23:23] [Server thread/INFO]: HDung24 has made the advancement [The End?]
-[14:23:24] [Server thread/INFO]: Scanning for legacy world dragon fight...
-[14:23:24] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
-[14:23:26] [Server thread/INFO]: [Admin] TuiLadre » ??????
-[14:23:29] [Server thread/INFO]: [Admin] TuiLadre » vãi l
-[14:23:37] [Server thread/INFO]: .Dangdayy » nó đánh nãy h ko bt à
-[14:23:44] [Server thread/INFO]: [Admin] TuiLadre » quên mất
-[14:23:45] [Server thread/INFO]: [Admin] BaoIsHere » đánh rồng rồi còn đâu
-[14:23:49] [Server thread/INFO]: HDung24 » biết lí do kiếm que quỷ lửa chưa
-[14:23:57] [Server thread/INFO]: Quyen27 » rac
-[14:24:02] [Server thread/INFO]: Quyen27 » danh dell ru ae
-[14:24:11] [Server thread/INFO]: HDung24 » rủ rồi nhãn k đi nên a đi 1 mình
-[14:24:13] [Server thread/WARN]: BaoIsHere moved too quickly! -8.71374984497163,2.252203340253729,4.889212575082865
-[14:24:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1120, y=99, z=1638} class_2338{x=1121, y=99, z=1638}
-[14:24:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1095, y=97, z=1645} class_2338{x=1092, y=95, z=1647}
-[14:26:25] [Server thread/INFO]: HDung24 has made the advancement [Free the End]
-[14:26:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=787, y=72, z=1798} class_2338{x=787, y=70, z=1799}
-[14:26:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=789, y=72, z=1801} class_2338{x=789, y=70, z=1801}
-[14:26:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=789, y=72, z=1801} class_2338{x=789, y=70, z=1801}
-[14:26:32] [Server thread/INFO]: [[Admin] TuiLadre: Teleported [Admin] TuiLadre to .Dangdayy]
-[14:26:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=790, y=72, z=1803} class_2338{x=790, y=70, z=1803}
-[14:26:41] [Server thread/INFO]: [Admin] TuiLadre has made the advancement [The End?]
-[14:26:41] [Server thread/INFO]: [[Admin] TuiLadre: Teleported [Admin] TuiLadre to HDung24]
-[14:26:49] [Server thread/INFO]: HDung24 » dcm
-[14:27:13] [Server thread/INFO]: HDung24 has made the advancement [Acquire Hardware]
-[14:27:19] [Server thread/INFO]: [[Admin] TuiLadre: Teleported [Admin] TuiLadre to 811.500000, 126.500000, 1333.500000]
-[14:27:23] [Server thread/INFO]: [Admin] BaoIsHere » về nhà đi dũng
-[14:27:43] [Server thread/INFO]: [Admin] BaoIsHere » có nhà hẳn hoi đấy :)))
-[14:27:49] [Server thread/INFO]: [Server] may em tu xay enderman farm di
-[14:27:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1095, y=96, z=1630} class_2338{x=1095, y=97, z=1630}
-[14:28:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-6, y=75, z=47} class_2338{x=-9, y=69, z=16}
-[14:28:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-6, y=75, z=47} class_2338{x=-7, y=68, z=16}
-[14:28:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-6, y=75, z=47} class_2338{x=-9, y=69, z=16}
-[14:28:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-6, y=75, z=47} class_2338{x=-8, y=69, z=16}
-[14:28:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-6, y=75, z=47} class_2338{x=-10, y=69, z=16}
-[14:28:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-6, y=75, z=47} class_2338{x=-10, y=69, z=15}
-[14:28:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-6, y=75, z=47} class_2338{x=-2, y=66, z=8}
-[14:28:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-6, y=75, z=47} class_2338{x=-3, y=67, z=7}
-[14:28:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-6, y=75, z=47} class_2338{x=-3, y=67, z=7}
-[14:28:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-6, y=75, z=47} class_2338{x=-3, y=67, z=7}
-[14:28:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-6, y=75, z=47} class_2338{x=-2, y=67, z=7}
-[14:29:44] [Server thread/INFO]: Quyen27 » lang nay ae
-[14:29:51] [Server thread/INFO]: haomc317 » đâu
-[14:30:00] [Server thread/INFO]: Quyen27 » tp t
-[14:30:01] [Server thread/INFO]: haomc317 » tp tao đến ik
-[14:30:11] [Server thread/INFO]: Quyen27 » ./tpa
-[14:30:18] [Server thread/INFO]: HDung24 has made the advancement [Remote Getaway]
-[14:30:36] [Server thread/INFO]: HDung24 has made the advancement [The City at the End of the Game]
-[14:30:37] [Server thread/WARN]: BaoIsHere moved too quickly! -2.9387822951929365,-2.1661092609382138,-9.50840358492087
-[14:30:53] [Server thread/INFO]: haomc317 » ko đc
-[14:31:03] [Server thread/INFO]: .Dangdayy » dũng công ơi
-[14:31:04] [Server thread/INFO]: Quyen27 » bpo cai dau . di
-[14:31:11] [Server thread/INFO]: Quyen27 » tp kb ay
-[14:31:13] [Server thread/INFO]: .Dangdayy » lấy anh ít mảnh shulker
-[14:32:06] [Server thread/WARN]: HDung24 moved too quickly! -5.944901451642863,2.519999921321869,8.109714380263249
-[14:32:48] [Server thread/INFO]: [Admin] BaoIsHere » biết nhà mới chx quyền?
-[14:33:02] [Server thread/INFO]: haomc317 » sao về đây
-[14:33:12] [Server thread/INFO]: Quyen27 » nham lenh
-[14:33:21] [Server thread/INFO]: Quyen27 » bao oi
-[14:33:26] [Server thread/INFO]: haomc317 » nhows tọa độ ko
-[14:33:36] [Server thread/INFO]: Quyen27 » 370
-[14:33:39] [Server thread/INFO]: Quyen27 » 64
-[14:33:44] [Server thread/INFO]: [[Admin] BaoIsHere: Teleported [Admin] BaoIsHere to 812.500000, 126.000000, 1332.500000]
-[14:33:44] [Server thread/INFO]: [[Admin] TuiLadre: Teleported haomc317 to [Admin] TuiLadre]
-[14:33:46] [Server thread/INFO]: Quyen27 » 1436
-[14:33:51] [Server thread/WARN]: HDung24 moved too quickly! -1.1260872980149088,2.0999999344348907,-10.211521761175675
-[14:33:52] [Server thread/WARN]: HDung24 moved too quickly! -0.22845099664641566,3.6931998887300495,-10.337976596584383
-[14:34:00] [Server thread/INFO]: [[Admin] TuiLadre: Teleported Quyen27 to [Admin] TuiLadre]
-[14:34:04] [Server thread/INFO]: HDung24 » lag vc
-[14:34:17] [Server thread/INFO]: [[Admin] BaoIsHere: Teleported [Admin] BaoIsHere to -20.500000, 81.000000, 43.500000]
-[14:34:21] [Server thread/INFO]: haomc317 » uar về nhà làm chi
-[14:34:29] [Server thread/WARN]: HDung24 moved too quickly! -4.427275108360618,3.359999895095825,-9.176952626359707
-[14:34:35] [Server thread/INFO]: [Admin] BaoIsHere » lấy thêm giường
-[14:34:58] [Server thread/INFO]: [[Admin] BaoIsHere: Teleported [Admin] BaoIsHere to 331.500000, 73.000000, 1425.500000]
-[14:35:10] [Server thread/INFO]: Quyen27 » cho toi ve lai lanh duma
-[14:35:21] [Server thread/INFO]: [[Admin] BaoIsHere: Teleported [Admin] BaoIsHere to 812.500000, 126.000000, 1332.500000]
-[14:35:25] [Server thread/INFO]: Quyen27 » tap trung xay nha o gan lang de
-[14:35:34] [Server thread/INFO]: Quyen27 » xay tren doi kho v
-[14:35:58] [Server thread/INFO]: Quyen27 has made the advancement [Sweet Dreams]
-[14:36:28] [Server thread/INFO]: [Admin] BaoIsHere » quyền còn bàn enchant ko?
-[14:37:11] [Server thread/INFO]: HDung24 » dcm
-[14:37:13] [Server thread/INFO]: HDung24 » dcmmm
-[14:37:25] [Server thread/INFO]: HDung24 » tìm end boat kiểu đ j đây
-[14:37:36] [Server thread/INFO]: .Dangdayy » chunkbase
-[14:38:26] [Server thread/INFO]: [Admin] BaoIsHere has made the advancement [Acquire Hardware]
-[14:39:13] [Server thread/INFO]: HDung24 » ê kbao
-[14:39:24] [Server thread/INFO]: [Admin] BaoIsHere » gì thế?
-[14:39:24] [Server thread/INFO]: HDung24 » cho xin seed map
-[14:39:38] [Server thread/INFO]: Seed: [8187372405667978486]
-[14:39:44] [Server thread/INFO]: [Server] 8187372405667978486
-[14:39:44] [Server thread/INFO]: [Admin] BaoIsHere » 8187372405667978486
-[14:40:02] [Server thread/INFO]: HDung24 » à thôi
-[14:40:05] [Server thread/INFO]: HDung24 » t tìm đc ròi
-[14:40:21] [Server thread/INFO]: HDung24 has made the advancement [Diamonds!]
-[14:40:24] [Server thread/INFO]: [[Admin] BaoIsHere: Teleported [Admin] BaoIsHere to -20.500000, 81.000000, 43.500000]
-[14:40:31] [Server thread/INFO]: HDung24 has reached the goal [Sky's the Limit]
-[14:40:47] [Server thread/INFO]: [[Admin] BaoIsHere: Teleported [Admin] BaoIsHere to 812.500000, 126.000000, 1332.500000]
-[14:40:47] [Server thread/INFO]: .Dangdayy » lấy thêm mảnh shulker đi
-[14:40:54] [Server thread/INFO]: HDung24 » lười
-[14:41:07] [Server thread/INFO]: .Dangdayy » lấy còn dùng
-[14:41:07] [Server thread/INFO]: HDung24 » dcu ảo vl
-[14:41:15] [Server thread/INFO]: HDung24 » đi nãy h mà t k bị đói
-[14:41:24] [Server thread/INFO]: Quyen27 » t cx thek
-[14:42:15] [Server thread/INFO]: .Dangdayy » peaceful à
-[14:42:25] [Server thread/INFO]: HDung24 » peace thì lmj có quái
-[14:42:32] [Server thread/INFO]: .Dangdayy » t có đâu
-[14:42:34] [Server thread/INFO]: .Dangdayy » nãy h
-[14:42:42] [Server thread/INFO]: The difficulty has been set to Normal
-[14:42:47] [Server thread/INFO]: BaoIsHere lost connection: Timed out
-[14:42:47] [Server thread/INFO]: ☁ [Admin] BaoIsHere left the game
-[14:42:48] [Server thread/INFO]: [Server] normal roi
-[14:42:49] [Server thread/INFO]: HDung24 » có quái
-[14:43:07] [Server thread/INFO]: BaoIsHere[/127.136.11.206:42375] logged in with entity id 35711 at (821.2699888565836, 112.0, 1326.3468887840806)
-[14:43:07] [Server thread/INFO]: ✚ [Admin] BaoIsHere joined the game
-[14:43:09] [Server thread/INFO]: [Server] tai vi quyen van de ki nang qua nen phai tam thoi de peaceful
-[14:43:23] [Server thread/INFO]: Quyen27 » tat di dr
-[14:43:38] [Server thread/INFO]: Quyen27 » nay t rot tu tren nui xuong chet =))
-[14:44:53] [Server thread/WARN]: HDung24 moved wrongly!
-[14:45:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=981, y=72, z=1737} class_2338{x=983, y=72, z=1740}
-[14:46:48] [Server thread/INFO]: HDung24 » ee nhanx
-[14:47:16] [Server thread/INFO]: .Dangdayy » ê
-[14:47:20] [Server thread/INFO]: .Dangdayy » xây nhà
-[14:47:37] [Server thread/INFO]: HDung24 » lười vc
-[14:47:37] [Server thread/INFO]: Quyen27 » xay nha cho kb ay ae
-[14:47:44] [Server thread/INFO]: Quyen27 » cho gan nhau do lag
-[14:48:17] [Server thread/INFO]: HDung24 » đ thiếu
-[14:48:31] [Server thread/INFO]: haomc317 » t
-[14:48:31] [Server thread/INFO]: HDung24 » nhãn
-[14:48:46] [Server thread/INFO]: HDung24 » xây gần strong hold
-[14:48:50] [Server thread/INFO]: .Dangdayy » đ
-[14:49:00] [Server thread/INFO]: HDung24 » đi lại cho dễ
-[14:49:02] [Server thread/INFO]: .Dangdayy » sau này dùng cổng đi cho tiện
-[14:49:06] [Server thread/INFO]: .Dangdayy » ngu
-[14:49:09] [Server thread/INFO]: HDung24 » cổng nào
-[14:49:20] [Server thread/INFO]: .Dangdayy » địa ngục
-[14:49:35] [Server thread/INFO]: HDung24 » vs cả xây gần nhau cho đỡ lag
-[14:51:10] [Server thread/INFO]: [[Admin] TuiLadre: Teleported [Admin] TuiLadre to 811.500000, 126.500000, 1333.500000]
-[14:51:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=77, z=1764} class_2338{x=975, y=72, z=1734}
-[14:51:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=71, z=1733} class_2338{x=976, y=72, z=1734}
-[14:51:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=71, z=1733} class_2338{x=970, y=72, z=1740}
-[14:51:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=71, z=1733} class_2338{x=968, y=72, z=1741}
-[14:52:07] [Server thread/INFO]: HDung24 » loz mẹ m
-[14:52:08] [Server thread/INFO]: [Admin] TuiLadre » đốt đi:))
-[14:52:24] [Server thread/INFO]: HDung24 » xuống trial chamber k
-[14:52:34] [Server thread/INFO]: .Dangdayy » xuống ăn l
-[14:52:38] [Server thread/INFO]: .Dangdayy » xây nhà
-[14:52:40] [Server thread/INFO]: HDung24 » gần đây có
-[14:52:42] [Server thread/INFO]: [Admin] TuiLadre » đốt đi bảo ơi
-[14:53:07] [Server thread/INFO]: HDung24 » xuoonsg k tk l
-[14:53:14] [Server thread/INFO]: .Dangdayy » đ
-[14:53:16] [Server thread/INFO]: HDung24 » xin omen nha
-[14:53:21] [Server thread/INFO]: .Dangdayy » u
-[14:53:30] [Server thread/INFO]: Quyen27 » tp kb di tap chung 1 cho thoi
-[14:53:34] [Server thread/INFO]: HDung24 » vaix l khối cấu trúc
-[14:53:38] [Server thread/INFO]: HDung24 » m ăn cắp hả
-[14:53:42] [Server thread/INFO]: .Dangdayy » bảo cho
-[14:54:26] [Server thread/INFO]: .Dangdayy » ê nhiệm
-[14:54:30] [Server thread/INFO]: .Dangdayy » có tơ nhện k
-[14:54:50] [Server thread/INFO]: [Admin] TuiLadre » đéo có
-[14:54:50] [Server thread/INFO]: .Dangdayy » string
-[14:54:59] [Server thread/INFO]: [Admin] TuiLadre » đánh nhện đi cu
-[14:54:59] [Server thread/INFO]: .Dangdayy » tìm giúp a
-[14:55:07] [Server thread/INFO]: .Dangdayy » đang xây
-[14:55:21] [Server thread/INFO]: HDung24 has made the advancement [Minecraft: Trial(s) Edition]
-[14:55:23] [Server thread/INFO]: [Admin] BaoIsHere » có 5 tơ này
-[14:55:32] [Server thread/INFO]: .Dangdayy » ít quá :)))
-[14:55:35] [Server thread/INFO]: [Admin] BaoIsHere » lấy ko?
-[14:55:40] [Server thread/INFO]: .Dangdayy » làm giàn giáo mà
-[14:55:44] [Server thread/INFO]: .Dangdayy » nhiệm ở đây tí
-[14:56:00] [Server thread/INFO]: Quyen27 has made the advancement [Enchanter]
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:03] [Server thread/WARN]: .Dangdayy moved too quickly! -177.44622438703686,39.0,-429.1457470888158
-[14:56:07] [Server thread/INFO]: haomc317 lost connection: Timed out
-[14:56:07] [Server thread/INFO]: ☁ haomc317 left the game
-[14:56:23] [Server thread/INFO]: [Admin] TuiLadre has made the advancement [Sweet Dreams]
-[14:56:38] [Server thread/INFO]: [[Admin] TuiLadre: Set the time to 1000]
-[14:57:04] [Server thread/INFO]: .Dangdayy » alo tppp
-[14:57:11] [Server thread/INFO]: HDung24 has reached the goal [Revaulting]
-[14:57:13] [ForkJoinPool.commonPool-worker-20/WARN]: failed to fetch skin on first join
-java.lang.IllegalStateException: not found
-	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[14:57:35] [Server thread/INFO]: Quyen27 » ey kb
-[14:57:36] [Server thread/INFO]: haomc317 (/127.34.151.82:51247) lost connection: Disconnected
-[14:57:42] [Server thread/INFO]: Quyen27 » chuyen nha ra cho khac di
-[14:57:48] [Server thread/INFO]: Quyen27 » dat o day xau qua
-[14:57:59] [Server thread/INFO]: [Admin] BaoIsHere » đây là cái nhà thứ 2 rồi
-[14:58:11] [Server thread/INFO]: Quyen27 » chuyen xuong dong bang de
-[14:58:15] [Server thread/INFO]: [Admin] BaoIsHere » không muốn làm cái thứ 3 đâu
-[14:58:25] [Server thread/INFO]: Quyen27 » lm de chon dat xau v
-[14:58:34] [Server thread/INFO]: .Dangdayy » nhiệm ơi
-[14:58:38] [Server thread/INFO]: Quyen27 » xuong dong bang cho dat no rong
-[14:58:39] [Server thread/INFO]: .Dangdayy » m còn chỗ đấy k
-[14:58:41] [Server thread/INFO]: [[Admin] TuiLadre: Teleported .Dangdayy to [Admin] TuiLadre]
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:41] [Server thread/WARN]: .Dangdayy moved too quickly! 323.4539587375166,7.875,355.0606904268959
-[14:58:43] [Server thread/INFO]: .Dangdayy » t quên đường r
-[14:58:50] [Server thread/INFO]: .Dangdayy » ok
-[14:59:00] [Server thread/INFO]: Quyen27 » lm de
-[14:59:14] [Server thread/INFO]: [Admin] BaoIsHere » thôi
-[14:59:22] [Server thread/INFO]: Quyen27 » lm
-[14:59:27] [Server thread/INFO]: [Admin] BaoIsHere » đi mà lấp đất
-[14:59:33] [Server thread/INFO]: Quyen27 » ra chỗ gaannf làng ấy
-[14:59:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=77, z=1759} class_2338{x=951, y=68, z=1754}
-[14:59:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=77, z=1759} class_2338{x=956, y=69, z=1752}
-[14:59:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=77, z=1759} class_2338{x=958, y=70, z=1755}
-[14:59:47] [Server thread/INFO]: Quyen27 » đất ít mn ko xây nhà tập chung đc
-[14:59:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=77, z=1759} class_2338{x=947, y=68, z=1752}
-[14:59:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=77, z=1759} class_2338{x=947, y=68, z=1751}
-[14:59:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=948, y=68, z=1753} class_2338{x=948, y=69, z=1753}
-[14:59:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=948, y=68, z=1753} class_2338{x=948, y=69, z=1754}
-[15:00:04] [Server thread/INFO]: [[Admin] BaoIsHere: Set own game mode to Creative Mode]
-[15:00:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=946, y=69, z=1736} class_2338{x=947, y=69, z=1737}
-[15:00:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=947, y=68, z=1736} class_2338{x=946, y=69, z=1736}
-[15:00:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=945, y=68, z=1736} class_2338{x=945, y=69, z=1736}
-[15:00:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=945, y=68, z=1736} class_2338{x=946, y=69, z=1734}
-[15:00:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=945, y=68, z=1736} class_2338{x=946, y=69, z=1732}
-[15:00:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=946, y=68, z=1732} class_2338{x=946, y=69, z=1733}
-[15:00:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=946, y=68, z=1731} class_2338{x=946, y=69, z=1731}
-[15:00:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=945, y=68, z=1731} class_2338{x=945, y=69, z=1731}
-[15:00:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=945, y=68, z=1731} class_2338{x=945, y=69, z=1732}
-[15:00:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=945, y=68, z=1731} class_2338{x=945, y=69, z=1730}
-[15:00:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=946, y=68, z=1729} class_2338{x=946, y=69, z=1729}
-[15:01:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=946, y=66, z=1738} class_2338{x=946, y=68, z=1738}
-[15:01:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=947, y=67, z=1738} class_2338{x=947, y=68, z=1738}
-[15:01:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=947, y=68, z=1737} class_2338{x=946, y=68, z=1737}
-[15:01:08] [Server thread/INFO]: Quyen27 » cs lm ko
-[15:02:13] [Server thread/INFO]: [[Admin] TuiLadre: Teleported [Admin] TuiLadre to HDung24]
-[15:02:13] [Server thread/INFO]: [Admin] TuiLadre has made the advancement [Minecraft: Trial(s) Edition]
-[15:02:55] [localSession-7-1/INFO]: Dangdayy has disconnected from the Java server because of Bedrock client disconnected
-[15:02:55] [Geyser Fabric connection thread-6-2/INFO]: Floodgate player logged in as .Dangdayy disconnected
-[15:02:55] [Server thread/INFO]: .Dangdayy lost connection: Disconnected
-[15:02:55] [Server thread/INFO]: ☁ .Dangdayy left the game
-[15:02:59] [Server thread/INFO]: [Server] lenh unban la /pardon
-[15:03:02] [Server thread/INFO]: [Admin] TuiLadre » m có lời j trăn trối ko em
-[15:03:12] [Server thread/INFO]: [Server] Bao oi
-[15:03:20] [Server thread/INFO]: [Server] pardon kia
-[15:03:20] [Server thread/INFO]: [Admin] BaoIsHere » gì thế
-[15:03:33] [Server thread/INFO]: [Server] /pardon de unban
-[15:03:40] [Server thread/INFO]: [Server] pardon :))
-[15:03:48] [Server thread/INFO]: [Admin] BaoIsHere » unban ai thế?
-[15:04:00] [Server thread/INFO]: [Server] Phong thay Dung dung kill aura
-[15:04:04] [Server thread/INFO]: [Server] dinh ban Dung
-[15:04:25] [Server thread/INFO]: [Admin] TuiLadre » định giúp m đi trial
-[15:04:33] [Server thread/INFO]: [Admin] TuiLadre » vào đánh 6 phát liên tiếp
-[15:04:39] [Server thread/INFO]: [Admin] TuiLadre » kinh vãi lìn
-[15:04:52] [Server thread/INFO]: [Admin] TuiLadre » 3 phát gần 3 phát qua wall
-[15:05:19] [Server thread/INFO]: [[Admin] BaoIsHere: Teleported [Admin] BaoIsHere to 331.500000, 73.000000, 1425.500000]
-[15:05:34] [Server thread/INFO]: [Admin] TuiLadre » thôi tha em nó:))
-[15:05:37] [Server thread/INFO]: [Admin] TuiLadre » tắt hack đê
-[15:05:53] [Server thread/INFO]: [Admin] BaoIsHere » đéo còn j để nói :)))
-[15:06:16] [Server thread/INFO]: [Admin] TuiLadre » chs bằng thực lực ai chs bằng kill aura
-[15:06:51] [Server thread/INFO]: [Admin] TuiLadre » mà bản hack kill aura của m ko chọn đc mục tiêu nào cần đánh à:)?
-[15:07:18] [Server thread/INFO]: [Server] treo roi
-[15:09:40] [Server thread/INFO]: [Admin] BaoIsHere » quyền ơi
-[15:09:44] [Server thread/INFO]: Quyen27 » j
-[15:10:11] [Server thread/INFO]: [Admin] BaoIsHere » về chỗ cũ dọn hộ đống "rác"
-[15:10:19] [Server thread/INFO]: Quyen27 » rac j
-[15:10:34] [Server thread/INFO]: [Admin] BaoIsHere » về rồi biết
-[15:10:41] [Server thread/INFO]: Quyen27 » t dang lm dat
-[15:11:00] [Server thread/INFO]: [Admin] BaoIsHere » làm xong về dọn hộ
-[15:11:11] [Server thread/INFO]: [[Admin] TuiLadre: Teleported [Admin] TuiLadre to 811.500000, 126.500000, 1333.500000]
-[15:11:16] [Server thread/WARN]: BaoIsHere moved too quickly! -10.110584987943952,-0.6751348970321374,0.10829880793357916
-[15:11:19] [Server thread/INFO]: [Admin] TuiLadre » ????
-[15:11:26] [Server thread/INFO]: [Admin] TuiLadre » nhà đâu r cu
-[15:11:33] [Server thread/INFO]: [Admin] TuiLadre » lắm rác thế
-[15:11:47] [Server thread/INFO]: [Admin] BaoIsHere » chuyển ra chỗ làng gần đấy rồi
-[15:12:06] [Server thread/INFO]: [Admin] BaoIsHere » dọn hộ phát :)))
-[15:12:17] [Server thread/INFO]: Gave 4 [Chest] to [Admin] TuiLadre
-[15:13:10] [Server thread/INFO]: [[Admin] BaoIsHere: Set own game mode to Survival Mode]
-[15:13:45] [Server thread/INFO]: [Admin] TuiLadre has made the advancement [Suit Up]
-[15:14:11] [Server thread/INFO]: Gave 2 [Chest] to [Admin] TuiLadre
-[15:15:13] [Server thread/INFO]: [[Admin] TuiLadre: Set the time to 13000]
-[15:15:20] [Server thread/INFO]: [Admin] BaoIsHere has made the advancement [Sweet Dreams]
-[15:15:27] [Server thread/INFO]: [Admin] TuiLadre » xong r Bảo ạ
-[15:15:41] [Server thread/INFO]: [[Admin] BaoIsHere: Teleported [Admin] TuiLadre to [Admin] BaoIsHere]
-[15:15:51] [Server thread/INFO]: [[Admin] TuiLadre: Teleported [Admin] TuiLadre to 811.500000, 126.500000, 1333.500000]
-[15:16:09] [Server thread/INFO]: [[Admin] TuiLadre: Teleported [Admin] BaoIsHere to [Admin] TuiLadre]
-[15:16:14] [Server thread/INFO]: Quyen27 lost connection: Disconnected
-[15:16:14] [Server thread/INFO]: ☁ Quyen27 left the game
-[15:16:40] [Server thread/INFO]: [Admin] BaoIsHere » huh?
-[15:16:47] [Server thread/INFO]: [Admin] TuiLadre » trong rương đấy:))
-[15:17:33] [ForkJoinPool.commonPool-worker-25/WARN]: failed to fetch skin on first join
-java.lang.IllegalStateException: not found
-	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[15:17:34] [Server thread/INFO]: Quyen27[/127.50.241.14:56123] logged in with entity id 55053 at (291.34448180024845, 77.0, 1420.9589985893986)
-[15:17:34] [Server thread/INFO]: ✚ Quyen27 joined the game
-[15:18:11] [Server thread/INFO]: [Admin] BaoIsHere » đầu đang load :))
-[15:18:13] [Server thread/INFO]: [[Admin] TuiLadre: Teleported [Admin] TuiLadre to 257.500000, 81.500000, 1427.500000]
-[15:18:18] [Server thread/INFO]: [Admin] TuiLadre » :))
-[15:18:27] [Server thread/INFO]: [Admin] TuiLadre » Long bảo là gom đồ hộ Bảo
-[15:18:32] [Server thread/INFO]: [Admin] TuiLadre » Bt đâu
-[15:18:49] [Server thread/INFO]: [Admin] BaoIsHere » nhức nhức cái đầu :))))
-[15:19:13] [Server thread/INFO]: [[Admin] BaoIsHere: Teleported [Admin] BaoIsHere to 331.500000, 73.000000, 1425.500000]
-[15:19:56] [Server thread/INFO]: Villager class_1646['Mason'/55075, l='ServerLevel[New World]', x=250.57, y=71.00, z=1421.95] died, message: 'Mason was slain by [Admin] BaoIsHere'
-[15:26:57] [Server thread/INFO]: Quyen27 lost connection: Disconnected
-[15:26:57] [Server thread/INFO]: ☁ Quyen27 left the game
-[15:29:36] [Server thread/INFO]: HDung24 » địt cụ
-[15:29:44] [Server thread/INFO]: [[Admin] BaoIsHere: Teleported [Admin] BaoIsHere to 812.500000, 126.000000, 1332.500000]
-[15:29:50] [Server thread/INFO]: HDung24 » ko những đ lấy đc cái heavy core
-[15:29:59] [Server thread/INFO]: HDung24 » maf còn nát giáp
-[15:33:16] [Server thread/INFO]: HDung24 » wow
-[15:33:50] [Server thread/INFO]: [Admin] BaoIsHere » bay à dũng :)))
-[15:34:01] [Server thread/INFO]: HDung24 » nah
-[15:34:12] [Server thread/INFO]: [Server] nah cai gi ma nah
-[15:39:18] [ForkJoinPool.commonPool-worker-27/WARN]: failed to fetch skin on first join
-java.lang.IllegalStateException: not found
-	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[15:39:19] [Server thread/INFO]: Quyen27[/127.50.241.14:51903] logged in with entity id 64623 at (291.89734310560556, 77.0, 1416.3967449814988)
-[15:39:19] [Server thread/INFO]: ✚ Quyen27 joined the game
-[15:40:12] [Server thread/INFO]: TuiLadre lost connection: Disconnected
-[15:40:12] [Server thread/INFO]: ☁ [Admin] TuiLadre left the game
-[15:40:26] [Server thread/INFO]: [Admin] BaoIsHere has made the advancement [A Seedy Place]
-[15:42:18] [Server thread/INFO]: HDung24 lost connection: Disconnected
-[15:42:18] [Server thread/INFO]: ☁ HDung24 left the game
-[15:42:23] [ForkJoinPool.commonPool-worker-29/WARN]: failed to fetch skin on first join
-java.lang.IllegalStateException: not found
-	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[15:42:25] [Server thread/INFO]: HDung24[/127.85.189.177:58673] logged in with entity id 65112 at (388.30000001192093, 70.0, 1468.8986435277586)
-[15:42:25] [Server thread/INFO]: ✚ HDung24 joined the game
-[15:42:39] [Server thread/INFO]: HDung24 lost connection: Disconnected
-[15:42:39] [Server thread/INFO]: ☁ HDung24 left the game
-[15:43:00] [Server thread/INFO]: BaoIsHere lost connection: Disconnected
-[15:43:00] [Server thread/INFO]: ☁ [Admin] BaoIsHere left the game
-[15:50:18] [Server thread/INFO]: Quyen27 » :8ball
-[15:57:05] [Server thread/INFO]: Quyen27 lost connection: Disconnected
-[15:57:05] [Server thread/INFO]: ☁ Quyen27 left the game
-[15:59:39] [Server thread/INFO]: [Server] server con ai onl khong
-[15:59:46] [Server thread/INFO]: [Server] khong onl la tat dau
-[15:59:51] [Server thread/INFO]: [Server] day*
-[16:00:16] [epollEventLoopGroup-4-2/INFO]: Player connected with username Dangdayy
-[16:00:16] [localSession-7-2/INFO]: Dangdayy (logged in as: Dangdayy) has connected to the Java server
-[16:00:17] [pool-5-thread-2/INFO]: Floodgate player who is logged in as .Dangdayy 00000000-0000-0000-0009-01fb4b494f1f joined
-[16:00:17] [ForkJoinPool.commonPool-worker-31/WARN]: failed to fetch skin on first join
-java.lang.IllegalStateException: not found
-	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[16:00:17] [Server thread/INFO]: .Dangdayy[/127.173.169.146:0] logged in with entity id 68036 at (991.4568, 77.0, 1759.6382)
-[16:00:17] [Server thread/INFO]: Floodgate player logged in as .Dangdayy joined (UUID: 00000000-0000-0000-0009-01fb4b494f1f)
-[16:00:17] [Server thread/INFO]: ✚ .Dangdayy joined the game
-[16:00:27] [localSession-7-2/INFO]: Dangdayy has disconnected from the Java server because of Bedrock client disconnected
-[16:00:27] [Geyser Fabric connection thread-6-3/INFO]: Floodgate player logged in as .Dangdayy disconnected
-[16:00:27] [Server thread/INFO]: .Dangdayy lost connection: Disconnected
-[16:00:27] [Server thread/INFO]: ☁ .Dangdayy left the game
-[16:01:06] [epollEventLoopGroup-4-3/INFO]: Player connected with username Dangdayy
-[16:01:06] [localSession-7-3/INFO]: Dangdayy (logged in as: Dangdayy) has connected to the Java server
-[16:01:06] [pool-5-thread-2/INFO]: Floodgate player who is logged in as .Dangdayy 00000000-0000-0000-0009-01fb4b494f1f joined
-[16:01:07] [ForkJoinPool.commonPool-worker-32/WARN]: failed to fetch skin on first join
-java.lang.IllegalStateException: not found
-	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[16:01:07] [Server thread/INFO]: .Dangdayy[/127.173.169.146:0] logged in with entity id 68417 at (991.4568, 77.0, 1759.6382)
-[16:01:07] [Server thread/INFO]: Floodgate player logged in as .Dangdayy joined (UUID: 00000000-0000-0000-0009-01fb4b494f1f)
-[16:01:07] [Server thread/INFO]: ✚ .Dangdayy joined the game
-[16:01:28] [ForkJoinPool.commonPool-worker-32/WARN]: failed to fetch skin on first join
-java.lang.IllegalStateException: not found
-	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[16:01:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=994, y=77, z=1761}
-[16:01:29] [Server thread/INFO]: Quyen27[/127.50.241.14:60335] logged in with entity id 68783 at (292.3097075551266, 79.0, 1419.1122502066075)
-[16:01:29] [Server thread/INFO]: ✚ Quyen27 joined the game
-[16:01:52] [Server thread/INFO]: .Dangdayy » đ ai onl ngoài m à q
-[16:01:56] [Server thread/INFO]: .Dangdayy » ê
-[16:02:05] [Server thread/INFO]: .Dangdayy » m biết chỗ nào có gỗ thông kop
-[16:02:09] [Server thread/INFO]: Quyen27 » gio t moi vo
-[16:02:16] [Server thread/INFO]: Quyen27 » t chiu
-[16:02:28] [Server thread/INFO]: .Dangdayy has made the advancement [Take Aim]
-[16:02:44] [Server thread/INFO]: [Server] :v
-[16:02:51] [ForkJoinPool.commonPool-worker-31/WARN]: failed to fetch skin on first join
-java.lang.IllegalStateException: not found
-	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[16:02:56] [Server thread/INFO]: HDung24[/127.85.189.177:38739] logged in with entity id 69690 at (395.39838568402814, 64.5625, 1469.8219609550422)
-[16:02:56] [Server thread/INFO]: ✚ HDung24 joined the game
-[16:03:29] [Server thread/INFO]: HDung24 » ê nhãn
-[16:03:37] [Server thread/INFO]: .Dangdayy » n
-[16:03:37] [Server thread/INFO]: HDung24 » tí m có thức k
-[16:03:43] [Server thread/INFO]: .Dangdayy » ko
-[16:03:47] [Server thread/INFO]: HDung24 » mấy h m off
-[16:03:57] [Server thread/INFO]: .Dangdayy » tí off h
-[16:04:04] [Server thread/INFO]: .Dangdayy » tìm đồ xây nhà th
-[16:04:59] [Server thread/INFO]: hy_GXix4_0704[/127.250.110.223:42083] logged in with entity id 70459 at (779.9467724680384, 115.0, 1320.958454652661)
-[16:04:59] [Server thread/INFO]: ✚ [Admin] hy_GXix4_0704 joined the game
-[16:05:03] [Server thread/INFO]: ☠ Quyen27 was slain by HDung24 using [Con cặc của HDũng]
-[16:05:08] [Server thread/INFO]: Quyen27 » ditmem
-[16:05:15] [Server thread/INFO]: [Admin] hy_GXix4_0704 » :))
-[16:05:21] [Server thread/INFO]: Quyen27 » ditmem
-[16:05:22] [Server thread/INFO]: HDung24 » m buú cu t đến chết à
-[16:05:34] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Creative Mode]
-[16:05:35] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Survival Mode]
-[16:06:01] [Server thread/INFO]: [Admin] hy_GXix4_0704 has reached the goal [The Next Generation]
-[16:06:43] [Server thread/INFO]: ☠ Quyen27 was slain by HDung24 using [Con cặc của HDũng]
-[16:06:57] [Server thread/INFO]: HDung24 » bú sướn k
-[16:07:02] [Server thread/INFO]: HDung24 » ê long
-[16:07:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=77, z=1763} class_2338{x=976, y=71, z=1731}
-[16:07:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=77, z=1763} class_2338{x=976, y=72, z=1728}
-[16:07:20] [Server thread/INFO]: HDung24 » tí 12h t chs đc k
-[16:07:30] [Server thread/INFO]: [Admin] hy_GXix4_0704 » chac duoc
-[16:07:55] [Server thread/INFO]: ☠ Quyen27 was slain by HDung24 using [Con cặc của HDũng]
-[16:08:01] [Server thread/INFO]: Quyen27 » lol mem
-[16:08:09] [Server thread/INFO]: Quyen27 » de im bo xay nha
-[16:08:12] [Server thread/INFO]: HDung24 » ok
-[16:08:16] [Server thread/INFO]: HDung24 » a off
-[16:08:22] [Server thread/INFO]: HDung24 » 12h a ngoi lên
-[16:08:24] [Server thread/INFO]: [Admin] hy_GXix4_0704 » them mod de thuoc stack duoc khong
-[16:08:33] [Server thread/INFO]: .Dangdayy » tuyy
-[16:08:34] [Server thread/INFO]: HDung24 lost connection: Disconnected
-[16:08:34] [Server thread/INFO]: ☁ HDung24 left the game
-[16:09:05] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Creative Mode]
-[16:09:18] [Server thread/INFO]: .Dangdayy » ai bt biome gỗ thông kop
-[16:09:22] [Server thread/INFO]: .Dangdayy » với gỗ đen
-[16:09:26] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Survival Mode]
-[16:09:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=77, z=1763} class_2338{x=676, y=71, z=1892}
-[16:09:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=77, z=1763} class_2338{x=675, y=71, z=1895}
-[16:09:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=676, y=70, z=1898} class_2338{x=676, y=72, z=1896}
-[16:09:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=676, y=70, z=1898} class_2338{x=677, y=71, z=1898}
-[16:09:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=676, y=70, z=1898} class_2338{x=676, y=71, z=1898}
-[16:09:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=676, y=70, z=1898} class_2338{x=677, y=72, z=1899}
-[16:09:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=676, y=70, z=1898} class_2338{x=674, y=71, z=1898}
-[16:09:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=671, y=70, z=1900} class_2338{x=673, y=72, z=1899}
-[16:09:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=674, y=70, z=1895} class_2338{x=674, y=71, z=1896}
-[16:09:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=674, y=70, z=1895} class_2338{x=673, y=71, z=1892}
-[16:09:47] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Creative Mode]
-[16:09:53] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Survival Mode]
-[16:10:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=534, y=63, z=1951} class_2338{x=534, y=65, z=1953}
-[16:10:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=534, y=63, z=1951} class_2338{x=537, y=64, z=1949}
-[16:10:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=534, y=63, z=1951} class_2338{x=540, y=65, z=1949}
-[16:10:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=541, y=63, z=1951} class_2338{x=541, y=64, z=1950}
-[16:10:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=542, y=63, z=1950} class_2338{x=543, y=64, z=1946}
-[16:10:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=542, y=63, z=1950} class_2338{x=544, y=64, z=1946}
-[16:10:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=542, y=63, z=1950} class_2338{x=544, y=65, z=1945}
-[16:11:45] [Server thread/INFO]: .Dangdayy has made the advancement [Ice Bucket Challenge]
-[16:12:11] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Spectator Mode]
-[16:12:13] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Teleported [Admin] hy_GXix4_0704 to Quyen27]
-[16:13:16] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Creative Mode]
-[16:13:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=430, y=62, z=1858} class_2338{x=398, y=63, z=1964}
-[16:13:57] [Server thread/WARN]: .Dangdayy moved wrongly!
-[16:14:42] [Server thread/INFO]: .Dangdayy has made the advancement [Best Friends Forever]
-[16:14:51] [Server thread/WARN]: Horse (vehicle of .Dangdayy) moved too quickly! -7.015045166015625,1.0,7.2537841796875
-[16:15:48] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Survival Mode]
-[16:15:56] [Server thread/WARN]: Horse (vehicle of .Dangdayy) moved wrongly! 0.2823486328125
-[16:15:56] [Server thread/WARN]: Horse (vehicle of .Dangdayy) moved wrongly! 0.6759033203125
-[16:15:56] [Server thread/WARN]: Horse (vehicle of .Dangdayy) moved wrongly! 1.072265625
-[16:15:56] [Server thread/WARN]: Horse (vehicle of .Dangdayy) moved wrongly! 1.47369384765625
-[16:15:56] [Server thread/WARN]: Horse (vehicle of .Dangdayy) moved wrongly! 1.881591796875
-[16:16:13] [Server thread/WARN]: Horse (vehicle of .Dangdayy) moved wrongly! 0.254638671875
-[16:16:13] [Server thread/WARN]: Horse (vehicle of .Dangdayy) moved wrongly! 0.65283203125
-[16:16:13] [Server thread/WARN]: Horse (vehicle of .Dangdayy) moved wrongly! 1.126708984375
-[16:18:10] [Server thread/INFO]: [Admin] hy_GXix4_0704 has made the advancement [Who Needs Rockets?]
-[16:18:19] [Server thread/INFO]: .Dangdayy » long ơip
-[16:18:22] [Server thread/INFO]: [Admin] hy_GXix4_0704 » HA
-[16:18:30] [Server thread/INFO]: .Dangdayy » gửi cho tôi seee map vào mess đc k
-[16:18:37] [Server thread/INFO]: [Admin] hy_GXix4_0704 » khong
-[16:18:45] [Server thread/INFO]: .Dangdayy » điii
-[16:18:50] [Server thread/INFO]: .Dangdayy » pe sao cheack
-[16:19:00] [Server thread/INFO]: [Admin] hy_GXix4_0704 » :)
-[16:19:18] [Server thread/INFO]: [Admin] hy_GXix4_0704 has made the advancement [Acquire Hardware]
-[16:19:38] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Summoned new Iron Golem]
-[16:19:45] [Server thread/INFO]: [Admin] hy_GXix4_0704 has completed the challenge [Over-Overkill]
-[16:25:52] [Server thread/INFO]: Villager class_1646['Nitwit'/68836, l='ServerLevel[New World]', x=297.58, y=75.00, z=1391.42] died, message: 'Nitwit was burned to a crisp while fighting [Admin] hy_GXix4_0704'
-[16:26:09] [Server thread/INFO]: Villager class_1646['Leatherworker'/68843, l='ServerLevel[New World]', x=298.30, y=79.00, z=1417.88] died, message: 'Leatherworker was slain by [Admin] hy_GXix4_0704 using [Stardust Breaker]'
-[16:26:25] [localSession-7-3/INFO]: Dangdayy has disconnected from the Java server because of Bedrock client disconnected
-[16:26:25] [Geyser Fabric connection thread-6-4/INFO]: Floodgate player logged in as .Dangdayy disconnected
-[16:26:25] [Server thread/INFO]: .Dangdayy lost connection: Disconnected
-[16:26:25] [Server thread/INFO]: ☁ .Dangdayy left the game
-[16:29:50] [Server thread/INFO]: Villager class_1646['Nitwit'/68794, l='ServerLevel[New World]', x=298.51, y=83.00, z=1451.54] died, message: 'Nitwit was slain by [Admin] hy_GXix4_0704 using [Stardust Breaker]'
-[16:32:54] [epollEventLoopGroup-4-4/INFO]: Player connected with username Dangdayy
-[16:32:54] [localSession-7-4/INFO]: Dangdayy (logged in as: Dangdayy) has connected to the Java server
-[16:32:54] [pool-5-thread-3/INFO]: Floodgate player who is logged in as .Dangdayy 00000000-0000-0000-0009-01fb4b494f1f joined
-[16:32:55] [ForkJoinPool.commonPool-worker-42/WARN]: failed to fetch skin on first join
-java.lang.IllegalStateException: not found
-	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[16:32:55] [Server thread/INFO]: .Dangdayy[/127.173.169.146:0] logged in with entity id 86379 at (931.56055, 61.13983, 1727.7)
-[16:32:55] [Server thread/INFO]: Floodgate player logged in as .Dangdayy joined (UUID: 00000000-0000-0000-0009-01fb4b494f1f)
-[16:32:55] [Server thread/INFO]: ✚ .Dangdayy joined the game
-[16:33:08] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Spectator Mode]
-[16:33:10] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Teleported [Admin] hy_GXix4_0704 to .Dangdayy]
-[16:33:14] [Server thread/INFO]: TuiLadre[/127.127.53.134:49843] logged in with entity id 86809 at (343.0903522391449, 80.0, 1501.2342192702758)
-[16:33:14] [Server thread/INFO]: ✚ [Admin] TuiLadre joined the game
-[16:34:17] [localSession-7-4/INFO]: Dangdayy has disconnected from the Java server because of Bedrock client disconnected
-[16:34:17] [Geyser Fabric connection thread-6-5/INFO]: Floodgate player logged in as .Dangdayy disconnected
-[16:34:17] [Server thread/INFO]: .Dangdayy lost connection: Disconnected
-[16:34:17] [Server thread/INFO]: ☁ .Dangdayy left the game
-[16:34:23] [Server thread/INFO]: TuiLadre lost connection: Disconnected
-[16:34:23] [Server thread/INFO]: ☁ [Admin] TuiLadre left the game
-[16:34:43] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Survival Mode]
-[16:35:15] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Spectator Mode]
-[16:35:17] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Survival Mode]
-[16:35:19] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Creative Mode]
-[16:35:23] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Survival Mode]
-[16:37:32] [Server thread/INFO]: [Server] hmm
-[16:37:35] [Server thread/INFO]: [Server] chan the
-[16:37:48] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[16:37:48] [Server thread/INFO]: chac mai tim cai gi day de xay thoi<--[HERE]
-[16:37:55] [Server thread/INFO]: [Server] chac mai tim cai gi day de xay thoi
-[16:38:04] [Server thread/INFO]: hy_GXix4_0704 lost connection: Disconnected
-[16:38:04] [Server thread/INFO]: ☁ [Admin] hy_GXix4_0704 left the game
-[16:40:17] [epollEventLoopGroup-4-5/INFO]: Player connected with username Dangdayy
-[16:40:17] [localSession-7-5/INFO]: Dangdayy (logged in as: Dangdayy) has connected to the Java server
-[16:40:17] [pool-5-thread-4/INFO]: Floodgate player who is logged in as .Dangdayy 00000000-0000-0000-0009-01fb4b494f1f joined
-[16:40:17] [ForkJoinPool.commonPool-worker-46/WARN]: failed to fetch skin on first join
-java.lang.IllegalStateException: not found
-	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[16:40:17] [Server thread/INFO]: .Dangdayy[/127.173.169.146:0] logged in with entity id 90495 at (995.54913, 77.0, 1760.2369)
-[16:40:17] [Server thread/INFO]: Floodgate player logged in as .Dangdayy joined (UUID: 00000000-0000-0000-0009-01fb4b494f1f)
-[16:40:17] [Server thread/INFO]: ✚ .Dangdayy joined the game
-[16:43:28] [Server thread/INFO]: .Dangdayy » s cứ sáng thế
-[16:44:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=77, z=1762} class_2338{x=728, y=70, z=1453}
-[16:47:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=300, y=78, z=1019} class_2338{x=299, y=72, z=1018}
-[16:51:42] [Server thread/INFO]: Quyen27 lost connection: Disconnected
-[16:51:42] [Server thread/INFO]: ☁ Quyen27 left the game
-[16:53:15] [localSession-7-5/INFO]: Dangdayy has disconnected from the Java server because of Bedrock client disconnected
-[16:53:15] [Geyser Fabric connection thread-6-6/INFO]: Floodgate player logged in as .Dangdayy disconnected
-[16:53:15] [Server thread/INFO]: .Dangdayy lost connection: Disconnected
-[16:53:15] [Server thread/INFO]: ☁ .Dangdayy left the game
-[16:53:59] [epollEventLoopGroup-4-6/INFO]: Player connected with username Dangdayy
-[16:53:59] [localSession-7-6/INFO]: Dangdayy (logged in as: Dangdayy) has connected to the Java server
-[16:53:59] [pool-5-thread-5/INFO]: Floodgate player who is logged in as .Dangdayy 00000000-0000-0000-0009-01fb4b494f1f joined
-[16:54:00] [ForkJoinPool.commonPool-worker-48/WARN]: failed to fetch skin on first join
-java.lang.IllegalStateException: not found
-	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.md3e5ffd$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[16:54:00] [Server thread/INFO]: .Dangdayy[/127.173.169.146:0] logged in with entity id 96146 at (395.44574, 65.0, 1025.7633)
-[16:54:00] [Server thread/INFO]: Floodgate player logged in as .Dangdayy joined (UUID: 00000000-0000-0000-0009-01fb4b494f1f)
-[16:54:00] [Server thread/INFO]: ✚ .Dangdayy joined the game
-[17:01:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=418, y=69, z=785} class_2338{x=417, y=68, z=785}
-[17:02:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=428, y=78, z=775} class_2338{x=427, y=78, z=775}
-[17:02:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=427, y=78, z=779} class_2338{x=495, y=72, z=711}
-[17:02:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=427, y=78, z=779} class_2338{x=495, y=73, z=711}
-[17:02:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=427, y=78, z=779} class_2338{x=496, y=75, z=709}
-[17:02:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=427, y=78, z=779} class_2338{x=495, y=74, z=711}
-[17:02:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=427, y=78, z=779} class_2338{x=495, y=75, z=710}
-[17:02:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=427, y=78, z=779} class_2338{x=495, y=75, z=709}
-[17:02:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=495, y=75, z=711} class_2338{x=496, y=75, z=711}
-[17:02:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=495, y=75, z=711} class_2338{x=495, y=75, z=712}
-[17:02:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=495, y=75, z=711} class_2338{x=496, y=75, z=712}
-[17:02:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=495, y=75, z=711} class_2338{x=496, y=75, z=713}
-[17:02:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=495, y=75, z=711} class_2338{x=495, y=75, z=713}
-[17:02:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=495, y=75, z=711} class_2338{x=494, y=75, z=713}
-[17:02:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=495, y=75, z=711} class_2338{x=494, y=75, z=714}
-[17:02:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=495, y=75, z=711} class_2338{x=495, y=75, z=714}
-[17:02:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=495, y=75, z=711} class_2338{x=496, y=75, z=714}
-[17:02:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=495, y=75, z=711} class_2338{x=497, y=75, z=714}
-[17:02:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=499, y=75, z=714} class_2338{x=498, y=75, z=713}
-[17:02:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=499, y=75, z=714} class_2338{x=498, y=75, z=712}
-[17:02:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=499, y=75, z=714} class_2338{x=498, y=75, z=711}
-[17:03:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=75, z=712} class_2338{x=494, y=75, z=711}
-[17:03:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=75, z=712} class_2338{x=494, y=75, z=710}
-[17:03:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=75, z=712} class_2338{x=493, y=75, z=710}
-[17:03:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=75, z=712} class_2338{x=493, y=75, z=711}
-[17:03:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=75, z=710} class_2338{x=492, y=75, z=711}
-[17:03:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=75, z=710} class_2338{x=492, y=75, z=710}
-[17:03:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=75, z=710} class_2338{x=492, y=75, z=709}
-[17:03:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=75, z=710} class_2338{x=494, y=75, z=709}
-[17:03:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=75, z=710} class_2338{x=495, y=75, z=708}
-[17:03:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=75, z=710} class_2338{x=495, y=74, z=708}
-[17:03:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=75, z=710} class_2338{x=495, y=71, z=711}
-[17:03:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=70, z=711} class_2338{x=496, y=71, z=712}
-[17:03:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=70, z=711} class_2338{x=493, y=75, z=709}
-[17:03:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=70, z=711} class_2338{x=493, y=75, z=708}
-[17:03:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=70, z=711} class_2338{x=495, y=75, z=708}
-[17:03:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=70, z=711} class_2338{x=495, y=76, z=708}
-[17:03:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=70, z=711} class_2338{x=496, y=75, z=708}
-[17:03:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=70, z=711} class_2338{x=496, y=75, z=710}
-[17:03:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=70, z=711} class_2338{x=497, y=75, z=709}
-[17:03:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=70, z=711} class_2338{x=497, y=75, z=710}
-[17:03:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=75, z=709} class_2338{x=497, y=75, z=711}
-[17:03:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=75, z=709} class_2338{x=498, y=75, z=710}
-[17:03:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=75, z=709} class_2338{x=498, y=75, z=709}
-[17:03:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=75, z=709} class_2338{x=496, y=75, z=707}
-[17:03:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=75, z=709} class_2338{x=496, y=75, z=706}
-[17:03:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=75, z=709} class_2338{x=496, y=74, z=707}
-[17:03:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=496, y=75, z=705}
-[17:03:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=496, y=74, z=706}
-[17:03:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=496, y=75, z=705}
-[17:03:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=496, y=76, z=705}
-[17:03:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=496, y=76, z=706}
-[17:03:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=497, y=75, z=708}
-[17:03:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=496, y=76, z=707}
-[17:03:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=495, y=77, z=707}
-[17:03:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=494, y=77, z=707}
-[17:03:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=493, y=77, z=707}
-[17:03:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=494, y=75, z=708}
-[17:03:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=494, y=74, z=708}
-[17:03:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=494, y=76, z=708}
-[17:03:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=493, y=76, z=708}
-[17:03:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=493, y=74, z=708}
-[17:03:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=492, y=75, z=707}
-[17:03:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=492, y=76, z=707}
-[17:03:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=492, y=76, z=706}
-[17:03:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=493, y=77, z=706}
-[17:03:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=494, y=77, z=706}
-[17:03:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=494, y=74, z=706}
-[17:03:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=494, y=73, z=706}
-[17:03:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=494, y=74, z=704}
-[17:03:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=494, y=72, z=706}
-[17:03:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=706} class_2338{x=494, y=71, z=706}
-[17:03:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=495, y=70, z=703} class_2338{x=494, y=75, z=706}
-[17:03:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=495, y=70, z=703} class_2338{x=495, y=77, z=705}
-[17:03:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=495, y=70, z=703} class_2338{x=495, y=77, z=706}
-[17:03:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=495, y=70, z=703} class_2338{x=496, y=74, z=705}
-[17:03:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=704} class_2338{x=495, y=74, z=704}
-[17:03:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=704} class_2338{x=495, y=75, z=704}
-[17:03:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=704} class_2338{x=495, y=76, z=704}
-[17:03:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=704} class_2338{x=494, y=75, z=704}
-[17:03:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=704} class_2338{x=494, y=76, z=704}
-[17:03:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=704} class_2338{x=494, y=77, z=705}
-[17:03:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=704} class_2338{x=493, y=77, z=705}
-[17:03:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=704} class_2338{x=494, y=76, z=706}
-[17:03:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=704} class_2338{x=493, y=74, z=704}
-[17:03:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=491, y=76, z=703} class_2338{x=491, y=76, z=702}
-[17:03:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=491, y=76, z=703} class_2338{x=493, y=75, z=704}
-[17:03:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=491, y=76, z=703} class_2338{x=492, y=75, z=705}
-[17:03:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=491, y=76, z=703} class_2338{x=492, y=74, z=705}
-[17:03:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=491, y=76, z=703} class_2338{x=492, y=74, z=706}
-[17:03:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=492, y=74, z=705} class_2338{x=492, y=76, z=705}
-[17:03:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=491, y=75, z=705} class_2338{x=492, y=75, z=706}
-[17:03:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=491, y=75, z=706} class_2338{x=492, y=74, z=707}
-[17:03:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=491, y=76, z=705} class_2338{x=493, y=76, z=704}
-[17:03:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=491, y=76, z=705} class_2338{x=495, y=73, z=701}
-[17:03:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=491, y=76, z=705} class_2338{x=494, y=72, z=699}
-[17:03:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=491, y=76, z=705} class_2338{x=494, y=71, z=699}
-[17:03:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=491, y=76, z=705} class_2338{x=494, y=73, z=701}
-[17:03:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=491, y=76, z=705} class_2338{x=494, y=73, z=699}
-[17:03:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=491, y=76, z=705} class_2338{x=494, y=74, z=701}
-[17:03:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=491, y=76, z=705} class_2338{x=494, y=75, z=699}
-[17:03:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=491, y=76, z=705} class_2338{x=494, y=76, z=700}
-[17:03:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=491, y=76, z=705} class_2338{x=494, y=75, z=701}
-[17:03:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=491, y=76, z=705} class_2338{x=494, y=76, z=699}
-[17:03:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=74, z=701} class_2338{x=493, y=73, z=701}
-[17:03:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=74, z=701} class_2338{x=493, y=75, z=701}
-[17:03:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=74, z=701} class_2338{x=493, y=76, z=700}
-[17:03:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=74, z=701} class_2338{x=493, y=76, z=699}
-[17:03:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=74, z=701} class_2338{x=493, y=76, z=698}
-[17:03:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=74, z=701} class_2338{x=492, y=73, z=700}
-[17:03:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=74, z=701} class_2338{x=492, y=74, z=700}
-[17:03:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=74, z=701} class_2338{x=492, y=75, z=700}
-[17:03:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=74, z=701} class_2338{x=492, y=73, z=699}
-[17:03:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=74, z=701} class_2338{x=492, y=73, z=698}
-[17:03:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=74, z=701} class_2338{x=492, y=74, z=698}
-[17:03:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=74, z=701} class_2338{x=492, y=75, z=698}
-[17:03:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=74, z=701} class_2338{x=492, y=74, z=699}
-[17:03:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=74, z=701} class_2338{x=492, y=75, z=699}
-[17:03:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=74, z=701} class_2338{x=493, y=73, z=697}
-[17:03:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=74, z=701} class_2338{x=494, y=73, z=697}
-[17:03:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=74, z=701} class_2338{x=495, y=73, z=697}
-[17:03:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=69, z=698} class_2338{x=494, y=70, z=699}
-[17:03:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=498, y=69, z=699} class_2338{x=495, y=76, z=699}
-[17:03:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=498, y=69, z=699} class_2338{x=495, y=76, z=700}
-[17:03:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=498, y=69, z=699} class_2338{x=496, y=75, z=700}
-[17:03:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=76, z=700} class_2338{x=496, y=74, z=700}
-[17:03:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=76, z=699} class_2338{x=494, y=74, z=699}
-[17:03:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=76, z=699} class_2338{x=494, y=74, z=697}
-[17:03:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=76, z=699} class_2338{x=494, y=75, z=697}
-[17:03:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=76, z=699} class_2338{x=493, y=74, z=697}
-[17:03:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=76, z=699} class_2338{x=493, y=75, z=697}
-[17:03:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=494, y=72, z=697} class_2338{x=495, y=74, z=697}
-[17:03:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=72, z=697} class_2338{x=495, y=76, z=698}
-[17:03:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=72, z=697} class_2338{x=496, y=75, z=698}
-[17:03:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=493, y=72, z=697} class_2338{x=496, y=74, z=698}
-[17:03:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=75, z=698} class_2338{x=496, y=73, z=698}
-[17:03:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=75, z=699} class_2338{x=496, y=74, z=699}
-[17:03:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=75, z=699} class_2338{x=496, y=73, z=699}
-[17:03:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=75, z=700} class_2338{x=496, y=73, z=700}
-[17:03:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=701} class_2338{x=495, y=74, z=701}
-[17:03:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=75, z=701} class_2338{x=495, y=75, z=701}
-[17:08:41] [localSession-7-6/INFO]: Dangdayy has disconnected from the Java server because of Bedrock client disconnected
-[17:08:41] [Geyser Fabric connection thread-6-7/INFO]: Floodgate player logged in as .Dangdayy disconnected
-[17:08:41] [Server thread/INFO]: .Dangdayy lost connection: Disconnected
-[17:08:41] [Server thread/INFO]: ☁ .Dangdayy left the game
-[17:15:56] [Server thread/INFO]: hy_GXix4_0704[/127.250.110.223:40767] logged in with entity id 101663 at (559.2904179351608, 69.0, 1589.6139528502056)
-[17:15:56] [Server thread/INFO]: ✚ [Admin] hy_GXix4_0704 joined the game
-[17:19:01] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Creative Mode]
-[17:20:17] [Server thread/INFO]: [[Admin] hy_GXix4_0704: The difficulty has been set to Peaceful]
-[17:20:20] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Survival Mode]
-[17:20:29] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Creative Mode]
-[17:21:29] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Survival Mode]
-[17:21:57] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Creative Mode]
+[17:08:27] [Server thread/INFO]: .Itemisu24[/127.85.189.177:0] logged in with entity id 19029 at (110.73267, 43.0, 3.4366183)
+[17:08:27] [Server thread/INFO]: Floodgate player logged in as .Itemisu24 joined (UUID: 00000000-0000-0000-0009-01fe43583a04)
+[17:08:27] [Server thread/INFO]: ✚ .Itemisu24 joined the game
+[17:09:24] [localSession-7-4/INFO]: Itemisu24 has disconnected from the Java server because of Bedrock client disconnected
+[17:09:24] [Geyser Fabric connection thread-6-5/INFO]: Floodgate player logged in as .Itemisu24 disconnected
+[17:09:24] [Server thread/INFO]: .Itemisu24 lost connection: Disconnected
+[17:09:24] [Server thread/INFO]: ☁ .Itemisu24 left the game
+[17:09:32] [Server thread/WARN]: HDung24 moved wrongly!
+[17:09:34] [Server thread/WARN]: HDung24 moved wrongly!
+[17:09:35] [Server thread/WARN]: HDung24 moved wrongly!
+[17:12:47] [Server thread/INFO]: HDung24 » ê nhãn
+[17:12:51] [Server thread/INFO]: HDung24 » cho a mượn kiếm đc k
+[17:13:00] [Server thread/INFO]: .Dangdayy » lmj
+[17:13:04] [Server thread/INFO]: HDung24 » farm cho lẹ
+[17:13:07] [Server thread/INFO]: HDung24 » hỏng a sửa
+[17:13:07] [Server thread/INFO]: .Dangdayy » đ
+[17:13:12] [Server thread/INFO]: HDung24 » a có netherite
+[17:13:14] [Server thread/INFO]: .Dangdayy » đ có mending
+[17:13:21] [Server thread/INFO]: HDung24 » a sửa
+[17:13:25] [Server thread/INFO]: .Dangdayy » kmm lấy kiếm kc mà chém
+[17:13:30] [Server thread/INFO]: HDung24 » laua
+[17:13:36] [Server thread/INFO]: HDung24 » mãi chưa level 30
+[17:13:42] [Server thread/INFO]: .Dangdayy » m gà đ bt farm
+[17:13:51] [Server thread/INFO]: .Dangdayy » m đợi đủ trên 24 con r chém
+[17:13:57] [Server thread/INFO]: HDung24 » t farm ender mà
+[17:14:01] [Server thread/INFO]: .Dangdayy » khi nào nó tự mất mái thì chém
+[17:14:03] [Server thread/INFO]: .Dangdayy » ừ
+[17:14:12] [Server thread/INFO]: HDung24 » Lâu
+[17:14:16] [Server thread/INFO]: HDung24 » cho mượn lẹ
+[17:14:20] [Server thread/INFO]: HDung24 » tpaacept di
+[17:14:20] [Server thread/INFO]: [Server] nhanh
+[17:14:23] [Server thread/INFO]: .Dangdayy » trên 24 con 1 ô là nó tự mất máu clmm
+[17:14:31] [Server thread/INFO]: .Dangdayy » đ bt farm à
+[17:14:34] [Server thread/INFO]: HDung24 » đợi lâu
+[17:14:39] [Server thread/INFO]: [Server] thang Dung biet gi dau
+[17:14:39] [Server thread/INFO]: .Dangdayy » lâu cl
+[17:14:44] [Server thread/INFO]: HDung24 » cho muonjw tis ddi dcm
+[17:14:45] [Server thread/INFO]: .Dangdayy » nhìn 1 lần là đủ
+[17:14:48] [Server thread/INFO]: .Dangdayy » đ cho
+[17:14:53] [Server thread/INFO]: HDung24 » chó ki bo
+[17:18:01] [Server thread/INFO]: hy_GXix4_0704[/127.250.110.223:42357] logged in with entity id 21146 at (685.5675621755864, 70.0, 2302.63301632127)
+[17:18:01] [Server thread/INFO]: ✚ [Admin] hy_GXix4_0704 joined the game
+[17:18:15] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Creative Mode]
+[17:18:16] [Server thread/INFO]: HDung24 » ê long
+[17:18:20] [Server thread/INFO]: [Admin] hy_GXix4_0704 » ha
+[17:18:20] [Server thread/INFO]: HDung24 » m biết nhà kbao ở đâu k
+[17:18:23] [Server thread/INFO]: [Admin] hy_GXix4_0704 » khong
+[17:18:47] [Server thread/INFO]: HDung24 has made the advancement [Enchanter]
+[17:20:29] [Server thread/INFO]: HDung24 » ê long
+[17:20:35] [Server thread/INFO]: HDung24 » quên
+[17:20:51] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Survival Mode]
+[17:20:52] [Server thread/INFO]: [Admin] hy_GXix4_0704 » ha
+[17:20:53] [Server thread/INFO]: HDung24 » cho t quyển mengding đi
+[17:21:51] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Creative Mode]
+[17:22:19] [Server thread/INFO]: hy_GXix4_0704 lost connection: Disconnected
+[17:22:19] [Server thread/INFO]: ☁ [Admin] hy_GXix4_0704 left the game
+[17:22:23] [Server thread/INFO]: hy_GXix4_0704[/127.250.110.223:33837] logged in with entity id 22986 at (727.76022793761, 85.0, 2387.955448040408)
+[17:22:23] [Server thread/INFO]: ✚ [Admin] hy_GXix4_0704 joined the game
+[17:22:36] [Server thread/INFO]: hy_GXix4_0704 lost connection: Disconnected
+[17:22:36] [Server thread/INFO]: ☁ [Admin] hy_GXix4_0704 left the game
+[17:22:41] [Server thread/INFO]: hy_GXix4_0704[/127.250.110.223:52997] logged in with entity id 23306 at (727.76022793761, 85.0, 2387.955448040408)
+[17:22:41] [Server thread/INFO]: ✚ [Admin] hy_GXix4_0704 joined the game
+[17:22:59] [Server thread/INFO]: hy_GXix4_0704 lost connection: Disconnected
+[17:22:59] [Server thread/INFO]: ☁ [Admin] hy_GXix4_0704 left the game
+[17:23:05] [Server thread/INFO]: hy_GXix4_0704[/127.250.110.223:47693] logged in with entity id 23707 at (727.76022793761, 85.0, 2387.955448040408)
+[17:23:05] [Server thread/INFO]: ✚ [Admin] hy_GXix4_0704 joined the game
+[17:23:15] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Efficiency V to [Admin] hy_GXix4_0704's item]
+[17:23:19] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Unbreaking III to [Admin] hy_GXix4_0704's item]
+[17:23:23] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Mending to [Admin] hy_GXix4_0704's item]
+[17:23:33] [Server thread/INFO]: HDung24 » ê long, m coi sao chỗ farm ender của t ra ít z
+[17:23:41] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Teleported [Admin] hy_GXix4_0704 to HDung24]
+[17:23:50] [Server thread/INFO]: [Admin] hy_GXix4_0704 » lam ngu roi
+[17:23:53] [Server thread/INFO]: HDung24 » sao
+[17:23:56] [Server thread/INFO]: [Admin] hy_GXix4_0704 » de 1 hang block thoi
+[17:24:02] [Server thread/INFO]: HDung24 » vc
+[17:24:12] [Server thread/INFO]: HDung24 » hộ t
+[17:24:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=954, y=70, z=1707} class_2338{x=950, y=68, z=1704}
+[17:25:07] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Efficiency V to [Admin] hy_GXix4_0704's item]
+[17:25:15] [Server thread/INFO]: HDung24 » dc chưa
+[17:25:19] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Silk Touch to [Admin] hy_GXix4_0704's item]
+[17:25:27] [Server thread/INFO]: [Admin] hy_GXix4_0704 » chac la roi
+[17:25:32] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Survival Mode]
+[17:26:01] [Server thread/INFO]: HDung24 » ê có phải là mỗi 1 món là có 1 lần sài anvil, 2 món chưa sài anvil thì sài chung sẽ đc 1 món 2 lần anvil hả
+[17:26:12] [Server thread/INFO]: [Admin] hy_GXix4_0704 » khong
+[17:26:18] [Server thread/INFO]: [Admin] hy_GXix4_0704 » no lay so lan cao hon cua 2 mon roi +1
+[17:26:38] [Server thread/INFO]: HDung24 » số lần cao hơn là như nào
+[17:26:48] [Server thread/INFO]: [Admin] hy_GXix4_0704 » 2 cai cai nao cao hon thi lay
+[17:27:09] [Server thread/INFO]: HDung24 » cao hơn về cái gì mới đc
+[17:27:12] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Creative Mode]
+[17:27:15] [Server thread/INFO]: [Admin] hy_GXix4_0704 » so lan su dung
+[17:27:17] [Server thread/INFO]: [Admin] hy_GXix4_0704 » djtme
+[17:27:23] [Server thread/INFO]: [Admin] hy_GXix4_0704 » co the cung hoi
+[17:27:35] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Efficiency I to [Admin] hy_GXix4_0704's item]
+[17:27:36] [Server thread/INFO]: HDung24 » thế là món t2 sài 2 lần
+[17:27:44] [Server thread/INFO]: HDung24 » Món t1 sài 1 lần
+[17:27:44] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Efficiency V to [Admin] hy_GXix4_0704's item]
+[17:27:53] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Fortune III to [Admin] hy_GXix4_0704's item]
+[17:27:55] [Server thread/INFO]: HDung24 » thì gộp lại đc 1 món 4 lần à
+[17:27:57] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Mending to [Admin] hy_GXix4_0704's item]
+[17:28:09] [Server thread/INFO]: [Admin] hy_GXix4_0704 » NO LAY SO LAN CAO HON CUA 2 MON ROI +1
+[17:28:14] [Server thread/INFO]: .Dangdayy » m ngu à
+[17:28:18] [Server thread/INFO]: [Admin] hy_GXix4_0704 » LA DJTME NO LAY CAI CAO HON ROI +1
+[17:28:21] [Server thread/INFO]: HDung24 » là 3 lần
+[17:28:26] [Server thread/INFO]: [Admin] hy_GXix4_0704 » DUNG ROI
+[17:28:31] [Server thread/INFO]: HDung24 » wow, ngon z
+[17:28:44] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Unbreaking III to [Admin] hy_GXix4_0704's item]
+[17:29:05] [Server thread/INFO]: HDung24 » cho xin cái mending coi
+[17:29:23] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Survival Mode]
+[17:29:55] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Creative Mode]
+[17:30:19] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Unbreaking III to [Admin] hy_GXix4_0704's item]
+[17:30:23] [Server thread/INFO]: HDung24 » sao spawn vẫn ít thế nhỉ
+[17:30:40] [Server thread/INFO]: HDung24 » nó k spawn luôn ròi dcm
+[17:30:50] [Server thread/INFO]: [Admin] hy_GXix4_0704 » hmm
+[17:30:52] [Server thread/INFO]: [Admin] hy_GXix4_0704 » mob cap
+[17:31:04] [Server thread/INFO]: HDung24 » là ccjz
+[17:31:10] [Server thread/INFO]: [Admin] hy_GXix4_0704 » thoi ke me di
+[17:31:21] [Server thread/INFO]: [Admin] hy_GXix4_0704 » noi chung la quai khac khong despawn thi con nay khong spawn them duoc
+[17:31:22] [Server thread/INFO]: HDung24 » rồi sao farm
+[17:31:28] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Teleported [Admin] hy_GXix4_0704 to .Dangdayy]
+[17:32:00] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Efficiency V to [Admin] hy_GXix4_0704's item]
+[17:32:04] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Unbreaking III to [Admin] hy_GXix4_0704's item]
+[17:32:08] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Mending to [Admin] hy_GXix4_0704's item]
+[17:32:17] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Silk Touch to [Admin] hy_GXix4_0704's item]
+[17:32:55] [Server thread/WARN]: HDung24 moved wrongly!
+[17:32:57] [Server thread/WARN]: HDung24 moved wrongly!
+[17:32:58] [Server thread/WARN]: HDung24 moved wrongly!
+[17:32:59] [Server thread/WARN]: HDung24 moved wrongly!
+[17:33:17] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Unbreaking III to [Admin] hy_GXix4_0704's item]
+[17:33:22] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Mending to [Admin] hy_GXix4_0704's item]
+[17:33:25] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Efficiency V to [Admin] hy_GXix4_0704's item]
+[17:33:36] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Sharpness V to [Admin] hy_GXix4_0704's item]
+[17:33:50] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Silk Touch to [Admin] hy_GXix4_0704's item]
+[17:33:51] [Server thread/INFO]: HDung24 » dcm
+[17:34:20] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Unbreaking I to [Admin] hy_GXix4_0704's item]
+[17:34:40] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Unbreaking I to [Admin] hy_GXix4_0704's item]
+[17:35:20] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Unbreaking III to [Admin] hy_GXix4_0704's item]
+[17:35:24] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Applied enchantment Mending to [Admin] hy_GXix4_0704's item]
+[17:35:48] [Server thread/INFO]: [Admin] hy_GXix4_0704 » di ngu thoi
+[17:35:51] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Teleported [Admin] hy_GXix4_0704 to HDung24]
+[17:36:06] [Server thread/INFO]: .Dangdayy » xây nốt cái tầng 1 céi
+[17:36:10] [Server thread/INFO]: [Admin] hy_GXix4_0704 » :v
+[17:36:11] [Server thread/INFO]: HDung24 » cho t sach mending
+[17:36:12] [Server thread/INFO]: [Admin] hy_GXix4_0704 » cu xay di
+[17:36:23] [Server thread/INFO]: [Admin] hy_GXix4_0704 » tu tu
+[17:36:59] [Server thread/INFO]: HDung24 » ê nếu mà sách ép có số lần, nhma hình như ghép giáp vs vũ khí k tính số làn đúng k
+[17:37:08] [Server thread/INFO]: [Admin] hy_GXix4_0704 » cai nao cung tinh het
+[17:37:37] [Server thread/INFO]: HDung24 » thế giờ t có nên ép mending vô luôn k nhỉ
+[17:37:48] [Server thread/INFO]: [Admin] hy_GXix4_0704 » ep lam sao de no toi uu nhat di
+[17:37:55] [Server thread/INFO]: [Admin] hy_GXix4_0704 » con lam sao cho no toi uu thi tu di ma lam
+[17:37:56] [Server thread/INFO]: [[Admin] hy_GXix4_0704: Set own game mode to Survival Mode]
+[17:37:57] [Server thread/INFO]: [Admin] hy_GXix4_0704 » di ngu
+[17:38:00] [Server thread/INFO]: hy_GXix4_0704 lost connection: Disconnected
+[17:38:00] [Server thread/INFO]: ☁ [Admin] hy_GXix4_0704 left the game
+[17:38:04] [Server thread/INFO]: HDung24 » nhanx
+[17:38:05] [Server thread/INFO]: .Dangdayy » ngu vl
+[17:38:13] [Server thread/INFO]: HDung24 » cho a mượn kép
+[17:38:15] [Server thread/INFO]: HDung24 » kieesm
+[17:38:20] [Server thread/INFO]: HDung24 » a ép mending cho
+[17:38:28] [Server thread/INFO]: .Dangdayy » tp ra đây
+[17:38:51] [Server thread/INFO]: .Dangdayy » ép full bộ cho a
+[17:38:55] [Server thread/INFO]: HDung24 » full cl
+[17:39:08] [Server thread/INFO]: HDung24 » ép full cho m lấy j a ép
+[17:39:11] [Server thread/INFO]: .Dangdayy » 4 quyển
+[17:39:15] [Server thread/INFO]: HDung24 » nah
+[17:39:21] [Server thread/INFO]: HDung24 » a có 5 quyển thôi
+[17:39:21] [Server thread/INFO]: .Dangdayy » đưa kiếm m đây
+[17:39:32] [Server thread/INFO]: HDung24 » a bỏ mending kiếm của a cho m đấy
+[17:39:38] [Server thread/INFO]: .Dangdayy » t còn giết zom
