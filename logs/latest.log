@@ -747,3 +747,13 @@ java.lang.IllegalStateException: not found
 [17:58:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-579, y=69, z=1802} class_2338{x=-578, y=66, z=1802}
 [17:58:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-579, y=69, z=1802} class_2338{x=-578, y=66, z=1802}
 [17:58:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-576, y=67, z=1802} class_2338{x=-577, y=66, z=1802}
+[18:01:44] [Server thread/WARN]: HDung24 moved wrongly!
+[18:03:05] [Server thread/WARN]: HDung24 moved wrongly!
+[18:03:07] [Server thread/WARN]: HDung24 moved wrongly!
+[18:03:07] [Server thread/WARN]: HDung24 moved wrongly!
+[18:03:08] [Server thread/WARN]: HDung24 moved wrongly!
+[18:03:08] [Server thread/WARN]: HDung24 moved wrongly!
+[18:03:08] [Server thread/WARN]: HDung24 moved wrongly!
+[18:03:09] [Server thread/WARN]: HDung24 moved wrongly!
+[18:07:33] [Server thread/WARN]: HDung24 moved too quickly! 10.774418773542493,0.0,0.0
+[18:14:49] [Server thread/WARN]: HDung24 moved too quickly! 10.501223593049644,0.0,0.7896873108584079
