@@ -1,5 +1,5 @@
-[03:56:59] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.15.11
-[03:56:59] [main/INFO]: Loading 156 mods:
+[05:30:12] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.15.11
+[05:30:13] [main/INFO]: Loading 156 mods:
 	- alternate-current 1.8.0
 	- better-fabric-console 1.1.10
 	   |-- adventure-platform-fabric 5.14.0
@@ -176,100 +176,102 @@
 	   |-- placeholder-api 2.4.0-pre.2+1.21
 	   |-- player-data-api 0.6.0+1.21
 	   \-- predicate-api 0.5.1+1.21
-[03:56:59] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/NotGudSMP/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[03:56:59] [main/INFO]: Compatibility level set to JAVA_17
-[03:56:59] [main/INFO]: Compatibility level set to JAVA_21
-[03:56:59] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[03:57:00] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
-[03:57:00] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[03:57:00] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[03:57:00] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[03:57:00] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[03:57:00] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[03:57:00] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[03:57:00] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[03:57:00] [main/INFO]: Disabling com.ishland.c2me.opts.chunk_access.mixin
-[03:57:00] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[03:57:00] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[03:57:00] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[03:57:00] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[03:57:00] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[03:57:00] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[03:57:00] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[03:57:00] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[03:57:00] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
-[03:57:00] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[03:57:00] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[03:57:00] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[03:57:00] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[03:57:00] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
-[03:57:00] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
-[03:57:00] [main/INFO]: Loaded configuration file for Lithium: 138 options available, 1 override(s) found
-[03:57:00] [main/INFO]: Loaded configuration file for ModernFix 5.18.8+mc1.21: 53 options available, 4 override(s) found
-[03:57:00] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
-[03:57:00] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
-[03:57:00] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
-[03:57:00] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
-[03:57:00] [main/INFO]: Applying Nashorn fix
-[03:57:00] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[03:57:00] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[03:57:01] [main/INFO]: Initializing Better Fabric Console...
-[03:57:01] [main/INFO]: Initializing Better Fabric Console mappings...
-[03:57:01] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[03:57:01] [main/INFO]: Reading mappings...
-[03:57:03] [main/INFO]: Done in 1.8560 seconds.
-[03:57:05] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[03:57:05] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[03:57:05] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[03:57:06] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[03:57:09] [main/INFO]: Vanilla bootstrap took 5115 milliseconds
-[03:57:09] [main/WARN]: en_ is not a supported Floodgate language.
-[03:57:10] [main/WARN]: Missing locale: en_
-[03:57:10] [main/INFO]: Loading extensions...
-[03:57:10] [main/INFO]: Loaded 0 extension(s)
-[03:57:10] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:57:12] [main/INFO]: Loaded 1290 recipes
-[03:57:12] [main/INFO]: Loaded 1400 advancements
-[03:57:12] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 53 translation keys
-[03:57:13] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.389 ms
-[03:57:13] [Console thread/INFO]: Initialized Better Fabric Console console thread.
-[03:57:13] [Server thread/INFO]: Starting minecraft server version 1.21
-[03:57:13] [Server thread/INFO]: Loading properties
-[03:57:13] [Server thread/INFO]: Default game type: SURVIVAL
-[03:57:13] [Server thread/INFO]: Generating keypair
-[03:57:13] [Server console handler/INFO]: Shutting down vanilla console thread...
-[03:57:13] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:57:13] [Server thread/INFO]: Using epoll channel type
-[03:57:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:57:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:57:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:57:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:57:13] [Server thread/INFO]: Preparing level "world"
-[03:57:13] [Server thread/INFO]: Enforcing safe world random access
-[03:57:13] [Server thread/INFO]: skipping unknown option 'enabledtrueupdate-order' in Alternate Current config
-[03:57:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:57:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:57:16] [Worker-Main-2/INFO]: Preparing spawn area: 38%
-[03:57:16] [Server thread/INFO]: Time elapsed: 633 ms
-[03:57:16] [Server thread/INFO]: Done (3.011s)! For help, type "help"
-[03:57:16] [Server thread/WARN]: Dedicated server took 19.806 seconds to load
-[03:57:16] [Server thread/INFO]: Took 39ms to boot Floodgate
-[03:57:16] [Server thread/INFO]: ******************************************
-[03:57:16] [Server thread/INFO]: 
-[03:57:16] [Server thread/INFO]: Loading Geyser version 2.4.0-b609 (git-master-669a76c)
-[03:57:16] [Server thread/INFO]: 
-[03:57:16] [Server thread/INFO]: ******************************************
-[03:57:19] [epollEventLoopGroup-3-2/INFO]: Started Geyser on 0.0.0.0:19132
-[03:57:19] [Server thread/INFO]: Done (2.74s)! Run /geyser help for help!
-[03:57:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2838ms or 56 ticks behind
-[03:59:43] [ForkJoinPool.commonPool-worker-3/WARN]: failed to fetch skin on first join
+[05:30:13] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/SMP/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[05:30:13] [main/INFO]: Compatibility level set to JAVA_17
+[05:30:13] [main/INFO]: Compatibility level set to JAVA_21
+[05:30:13] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[05:30:14] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[05:30:14] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[05:30:14] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[05:30:14] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[05:30:14] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[05:30:14] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[05:30:14] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[05:30:14] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[05:30:14] [main/INFO]: Disabling com.ishland.c2me.opts.chunk_access.mixin
+[05:30:14] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[05:30:14] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[05:30:14] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[05:30:14] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[05:30:14] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[05:30:14] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[05:30:14] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[05:30:14] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[05:30:14] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[05:30:14] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[05:30:14] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[05:30:14] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[05:30:14] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[05:30:14] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[05:30:14] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
+[05:30:14] [main/INFO]: Loaded configuration file for Lithium: 138 options available, 1 override(s) found
+[05:30:14] [main/INFO]: Loaded configuration file for ModernFix 5.18.8+mc1.21: 53 options available, 4 override(s) found
+[05:30:14] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[05:30:14] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[05:30:14] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[05:30:14] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[05:30:14] [main/INFO]: Applying Nashorn fix
+[05:30:14] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[05:30:15] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[05:30:15] [main/INFO]: Initializing Better Fabric Console...
+[05:30:15] [main/INFO]: Initializing Better Fabric Console mappings...
+[05:30:15] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[05:30:15] [main/INFO]: Reading mappings...
+[05:30:17] [main/INFO]: Done in 1.8710 seconds.
+[05:30:19] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[05:30:19] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[05:30:19] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[05:30:20] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[05:30:22] [main/INFO]: Vanilla bootstrap took 4352 milliseconds
+[05:30:23] [main/WARN]: en_ is not a supported Floodgate language.
+[05:30:23] [main/WARN]: Missing locale: en_
+[05:30:24] [main/INFO]: Loading extensions...
+[05:30:24] [main/INFO]: Loaded 0 extension(s)
+[05:30:24] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:30:26] [main/INFO]: Loaded 1290 recipes
+[05:30:26] [main/INFO]: Loaded 1400 advancements
+[05:30:26] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 53 translation keys
+[05:30:26] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.347 ms
+[05:30:26] [Console thread/INFO]: Initialized Better Fabric Console console thread.
+[05:30:26] [Server thread/INFO]: Starting minecraft server version 1.21
+[05:30:26] [Server console handler/INFO]: Shutting down vanilla console thread...
+[05:30:26] [Server thread/INFO]: Loading properties
+[05:30:26] [Server thread/INFO]: Default game type: SURVIVAL
+[05:30:26] [Server thread/INFO]: Generating keypair
+[05:30:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:30:26] [Server thread/INFO]: Using epoll channel type
+[05:30:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:30:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:30:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:30:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:30:26] [Server thread/INFO]: Preparing level "world"
+[05:30:26] [Server thread/INFO]: Enforcing safe world random access
+[05:30:27] [Server thread/INFO]: skipping unknown option 'enabledtrueupdate-order' in Alternate Current config
+[05:30:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:30:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[05:30:29] [Worker-Main-3/INFO]: Preparing spawn area: 20%
+[05:30:29] [Server thread/INFO]: Time elapsed: 678 ms
+[05:30:29] [Server thread/INFO]: Done (3.013s)! For help, type "help"
+[05:30:29] [Server thread/WARN]: Dedicated server took 19.898 seconds to load
+[05:30:29] [Server thread/INFO]: Took 43ms to boot Floodgate
+[05:30:29] [Server thread/INFO]: ******************************************
+[05:30:29] [Server thread/INFO]: 
+[05:30:29] [Server thread/INFO]: Loading Geyser version 2.4.0-b609 (git-master-669a76c)
+[05:30:29] [Server thread/INFO]: 
+[05:30:29] [Server thread/INFO]: ******************************************
+[05:30:32] [epollEventLoopGroup-3-2/INFO]: Started Geyser on 0.0.0.0:19132
+[05:30:32] [Server thread/INFO]: Done (2.261s)! Run /geyser help for help!
+[05:30:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2357ms or 47 ticks behind
+[05:30:48] [Server thread/INFO]: TuiLadre[/127.96.167.138:50785] logged in with entity id 19 at (616.679068329096, 71.0, 1437.9916852970996)
+[05:30:49] [Server thread/INFO]: [38;2;170;170;170m✚[0m [38;2;133;255;143m[38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;133;255;143m [38;2;0;170;0mTuiLadre[38;2;133;255;143m joined the game[0m
+[05:31:08] [ForkJoinPool.commonPool-worker-3/WARN]: failed to fetch skin on first join
 java.lang.IllegalStateException: not found
 	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
 	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
 	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.mda37d3c$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.mda131c5$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
 	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.mda37d3c$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.mda131c5$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
@@ -277,24 +279,14 @@ java.lang.IllegalStateException: not found
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[03:59:51] [Server thread/INFO]: haomc317[/127.80.201.131:33589] logged in with entity id 19 at (347.5, 71.0, 1466.5)
-[03:59:51] [Server thread/INFO]: [38;2;170;170;170m✚[0m [38;2;133;255;143m[38;2;0;170;0mhaomc317[38;2;133;255;143m joined the game[0m
-[04:00:00] [Server thread/INFO]: [38;2;255;85;85m[Server] on khong[0m
-[04:00:09] [Netty Epoll Server IO #2/INFO]: haomc317 issued server command: /có
-[04:00:16] [Server thread/INFO]: [38;2;0;170;0mhaomc317[0m [38;2;85;85;85m»[0m voo đc rồi
-[04:00:23] [Server thread/INFO]: [38;2;0;170;0mhaomc317[0m [38;2;85;85;85m»[0m ổn
-[04:00:46] [Server thread/INFO]: [38;2;0;170;0mhaomc317[0m has made the advancement [38;2;85;255;85m[A Seedy Place][0m
-[04:00:51] [Server thread/INFO]: haomc317 lost connection: Disconnected
-[04:00:51] [Server thread/INFO]: [38;2;170;170;170m☁[0m [38;2;255;133;133m[38;2;0;170;0mhaomc317[38;2;255;133;133m left the game[0m
-[04:00:51] [Server thread/WARN]: handleDisconnection() called twice
-[04:01:00] [ForkJoinPool.commonPool-worker-4/WARN]: failed to fetch skin on first join
+[05:31:08] [ForkJoinPool.commonPool-worker-1/WARN]: failed to fetch skin on first join
 java.lang.IllegalStateException: not found
 	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
 	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
 	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.mda37d3c$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.mda131c5$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
 	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.mda37d3c$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.mda131c5$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
@@ -302,39 +294,21 @@ java.lang.IllegalStateException: not found
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[04:01:22] [Server thread/INFO]: haomc317[/127.80.201.131:54527] logged in with entity id 394 at (342.69999998807907, 70.41999998688698, 1454.035091426483)
-[04:01:22] [Server thread/INFO]: [38;2;170;170;170m✚[0m [38;2;133;255;143m[38;2;0;170;0mhaomc317[38;2;133;255;143m joined the game[0m
-[04:01:52] [Server thread/INFO]: [38;2;255;85;85m[Server] co that la on khong[0m
-[04:02:10] [Server thread/INFO]: [38;2;0;170;0mhaomc317[0m [38;2;85;85;85m»[0m coos
-[04:02:19] [Server thread/INFO]: [38;2;0;170;0mhaomc317[0m [38;2;85;85;85m»[0m hơi lag tí thôi ko sao
-[04:02:28] [Server thread/INFO]: BaoIsHere[/127.55.5.96:56955] logged in with entity id 721 at (250.35343738621933, 71.0, 1425.326586316958)
-[04:02:28] [Server thread/INFO]: [38;2;170;170;170m✚[0m [38;2;133;255;143m[38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;133;255;143m [38;2;0;170;0mBaoIsHere[38;2;133;255;143m joined the game[0m
-[04:02:30] [Server thread/INFO]: [38;2;0;170;0mhaomc317[0m [38;2;85;85;85m»[0m voo đc là ok rồi
-[04:02:42] [Server thread/INFO]: [38;2;255;85;85m[Server] cai may cai mod toi uu cua toi chua[0m
-[04:03:02] [Server thread/INFO]: [38;2;0;170;0mhaomc317[0m [38;2;85;85;85m»[0m ko bt
-[04:03:23] [Server thread/INFO]: [38;2;255;85;85m[Server] ?[0m
-[04:03:24] [Server thread/INFO]: [38;2;0;170;0mhaomc317[0m [38;2;85;85;85m»[0m cho tôi xin lại mấy cái link'
-[04:03:30] [Server thread/INFO]: [38;2;255;85;85m[Server] cai chua phai biet chu[0m
-[04:03:38] [Server thread/INFO]: [38;2;255;85;85m[Server] vao cai phan link cua group ay[0m
-[04:03:45] [Server thread/INFO]: [38;2;255;85;85m[Server] no co 4 cai[0m
-[04:03:49] [Server thread/INFO]: [38;2;0;170;0mhaomc317[0m [38;2;85;85;85m»[0m cái bảo mới gửias
-[04:03:53] [Server thread/INFO]: [38;2;255;85;85m[Server] 1 cai la optimize only.rar[0m
-[04:04:06] [Server thread/INFO]: [38;2;0;170;0mhaomc317[0m [38;2;85;85;85m»[0m cài xong đáp vô mod à
-[04:04:09] [Server thread/INFO]: [38;2;255;85;85m[Server] cai do la win[0m
-[04:05:25] [Server thread/INFO]: [38;2;255;85;85m[Server] chech mess di[0m
-[04:05:31] [Server thread/INFO]: [38;2;255;85;85m[Server] check*[0m
-[04:05:33] [Server thread/INFO]: [38;2;0;170;0mhaomc317[0m [38;2;85;85;85m»[0m oki
-[04:05:40] [Server thread/INFO]: haomc317 lost connection: Disconnected
-[04:05:40] [Server thread/INFO]: [38;2;170;170;170m☁[0m [38;2;255;133;133m[38;2;0;170;0mhaomc317[38;2;255;133;133m left the game[0m
-[04:05:52] [Netty Epoll Server IO #6/INFO]: BaoIsHere issued server command: /view inv TuiLadre
-[04:11:54] [ForkJoinPool.commonPool-worker-8/WARN]: failed to fetch skin on first join
+[05:31:10] [Server thread/INFO]: HDung24[/127.85.189.177:53257] logged in with entity id 336 at (287.1217400776401, 2.0, 0.4502784056535208)
+[05:31:10] [Server thread/INFO]: [38;2;170;170;170m✚[0m [38;2;133;255;143m[38;2;170;0;170mHDung24[38;2;133;255;143m joined the game[0m
+[05:31:11] [Server thread/INFO]: Quyen27[/127.233.142.68:58391] logged in with entity id 385 at (299.5242888131814, 77.0, 1429.3499457410228)
+[05:31:11] [Server thread/INFO]: [38;2;170;170;170m✚[0m [38;2;133;255;143m[38;2;0;170;0mQuyen27[38;2;133;255;143m joined the game[0m
+[05:31:40] [epollEventLoopGroup-4-1/INFO]: Player connected with username Dangdayy
+[05:31:40] [localSession-7-1/INFO]: Dangdayy (logged in as: Dangdayy) has connected to the Java server
+[05:31:41] [pool-6-thread-1/INFO]: Floodgate player who is logged in as .Dangdayy 00000000-0000-0000-0009-01fb4b494f1f joined
+[05:31:41] [ForkJoinPool.commonPool-worker-1/WARN]: failed to fetch skin on first join
 java.lang.IllegalStateException: not found
 	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
 	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
 	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.mda37d3c$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.mda131c5$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
 	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.mda37d3c$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.mda131c5$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
@@ -342,252 +316,6 @@ java.lang.IllegalStateException: not found
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[04:11:57] [Server thread/INFO]: haomc317[/127.80.201.131:48909] logged in with entity id 2295 at (356.34072575607405, 69.0, 1440.4009635756495)
-[04:11:57] [Server thread/INFO]: [38;2;170;170;170m✚[0m [38;2;133;255;143m[38;2;0;170;0mhaomc317[38;2;133;255;143m joined the game[0m
-[04:12:46] [Server thread/INFO]: [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][0m [38;2;0;170;0mBaoIsHere[0m [38;2;85;85;85m»[0m [38;2;255;170;0mhào ơi[0m
-[04:12:51] [Server thread/INFO]: [38;2;0;170;0mhaomc317[0m [38;2;85;85;85m»[0m oiw
-[04:13:01] [Server thread/INFO]: [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][0m [38;2;0;170;0mBaoIsHere[0m [38;2;85;85;85m»[0m [38;2;255;170;0mlàm hộ cái chuồng heo :)))[0m
-[04:13:02] [Server thread/INFO]: [38;2;0;170;0mhaomc317[0m [38;2;85;85;85m»[0m bonj kia ko choi à
-[04:13:13] [Server thread/INFO]: [38;2;0;170;0mhaomc317[0m [38;2;85;85;85m»[0m oki
-[04:14:10] [Server thread/INFO]: [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][0m [38;2;0;170;0mBaoIsHere[0m [38;2;85;85;85m»[0m [38;2;255;170;0mlàm sau nhà ấy[0m
-[04:17:54] [Server thread/INFO]: TuiLadre[/127.96.167.138:53675] logged in with entity id 4540 at (259.6497598135097, 71.5625, 1429.3272601334538)
-[04:17:54] [Server thread/INFO]: [38;2;170;170;170m✚[0m [38;2;133;255;143m[38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;133;255;143m [38;2;0;170;0mTuiLadre[38;2;133;255;143m joined the game[0m
-[04:18:25] [Netty Epoll Server IO #4/INFO]: TuiLadre issued server command: /view inv HDung24
-[04:18:47] [ForkJoinPool.commonPool-worker-11/WARN]: failed to fetch skin on first join
-java.lang.IllegalStateException: not found
-	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.mda37d3c$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.mda37d3c$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[04:18:49] [Server thread/INFO]: Quyen27[/127.233.142.68:44981] logged in with entity id 4975 at (288.82036988343583, 83.0, 1415.2391630212287)
-[04:18:49] [Server thread/INFO]: [38;2;170;170;170m✚[0m [38;2;133;255;143m[38;2;0;170;0mQuyen27[38;2;133;255;143m joined the game[0m
-[04:21:28] [Server thread/INFO]: [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][0m [38;2;0;170;0mTuiLadre[0m has made the advancement [38;2;85;255;85m[Acquire Hardware][0m
-[04:21:49] [epollEventLoopGroup-4-1/INFO]: Player connected with username Dangdayy
-[04:21:49] [localSession-7-1/INFO]: Dangdayy (logged in as: Dangdayy) has connected to the Java server
-[04:21:50] [pool-6-thread-1/INFO]: Floodgate player who is logged in as .Dangdayy 00000000-0000-0000-0009-01fb4b494f1f joined
-[04:21:50] [ForkJoinPool.commonPool-worker-12/WARN]: failed to fetch skin on first join
-java.lang.IllegalStateException: not found
-	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.mda37d3c$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.mda37d3c$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[04:21:50] [Server thread/INFO]: .Dangdayy[/127.173.169.146:0] logged in with entity id 5745 at (999.69999, 75.0, 1735.324)
-[04:21:50] [Server thread/INFO]: Floodgate player logged in as .Dangdayy joined (UUID: 00000000-0000-0000-0009-01fb4b494f1f)
-[04:21:50] [Server thread/INFO]: [38;2;170;170;170m✚[0m [38;2;133;255;143m[38;2;0;170;0m.Dangdayy[38;2;133;255;143m joined the game[0m
-[04:22:31] [Server thread/INFO]: [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][0m [38;2;0;170;0mBaoIsHere[0m [38;2;85;85;85m»[0m [38;2;255;170;0mđang xem nội thất :)))[0m
-[04:23:09] [Server thread/INFO]: [38;2;0;170;0m.Dangdayy[0m [38;2;85;85;85m»[0m build nốt bên trên cái cho đẹp
-[04:23:37] [ForkJoinPool.commonPool-worker-13/WARN]: failed to fetch skin on first join
-java.lang.IllegalStateException: not found
-	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.mda37d3c$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.mda37d3c$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[04:23:40] [Server thread/INFO]: HDung24[/127.85.189.177:43645] logged in with entity id 6126 at (191.83628965574502, 2.0, -0.40857224485047866)
-[04:23:40] [Server thread/INFO]: [38;2;170;170;170m✚[0m [38;2;133;255;143m[38;2;170;0;170mHDung24[38;2;133;255;143m joined the game[0m
-[04:24:01] [Netty Epoll Server IO #0/INFO]: HDung24 issued server command: /tpa BaoIsHere
-[04:24:05] [Netty Epoll Server IO #6/INFO]: BaoIsHere issued server command: /tpaaccept
-[04:24:15] [Server thread/INFO]: [38;2;0;170;0mHDung24[0m [38;2;85;85;85m»[0m ê kba
-[04:24:18] [Server thread/INFO]: [38;2;0;170;0mHDung24[0m [38;2;85;85;85m»[0m cho t về nhà m
-[04:24:26] [Netty Epoll Server IO #6/INFO]: BaoIsHere issued server command: /tp BaoIsHere 255.5 71 1424.5
-[04:24:26] [Server thread/INFO]: [3m[38;2;170;170;170m[[38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;170;170;170m [38;2;0;170;0mBaoIsHere[38;2;170;170;170m: Teleported [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;170;170;170m [38;2;0;170;0mBaoIsHere[38;2;170;170;170m to 255.500000, 71.000000, 1424.500000][0m
-[04:24:38] [Netty Epoll Server IO #0/INFO]: HDung24 issued server command: /tpa BaoIsHere
-[04:24:41] [Netty Epoll Server IO #6/INFO]: BaoIsHere issued server command: /tpaaccept
-[04:26:02] [Server thread/INFO]: [38;2;0;170;0mQuyen27[0m [38;2;85;85;85m»[0m thang nao mac giap kim cuong bay day
-[04:26:12] [Server thread/INFO]: [38;2;0;170;0mHDung24[0m [38;2;85;85;85m»[0m còn ai nữa
-[04:26:34] [Netty Epoll Server IO #6/INFO]: BaoIsHere issued server command: /kick HDung24 hack ít thôi
-[04:26:34] [Server thread/INFO]: [3m[38;2;170;170;170m[[38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;170;170;170m [38;2;0;170;0mBaoIsHere[38;2;170;170;170m: Kicked [38;2;0;170;0mHDung24[38;2;170;170;170m: hack ít thôi][0m
-[04:26:34] [Server thread/INFO]: HDung24 lost connection: hack ít thôi
-[04:26:34] [Server thread/INFO]: [38;2;170;170;170m☁[0m [38;2;255;133;133m[38;2;0;170;0mHDung24[38;2;255;133;133m left the game[0m
-[04:26:37] [ForkJoinPool.commonPool-worker-15/WARN]: failed to fetch skin on first join
-java.lang.IllegalStateException: not found
-	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.mda37d3c$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.mda37d3c$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[04:26:39] [Server thread/INFO]: HDung24[/127.85.189.177:41155] logged in with entity id 7561 at (400.4418513645315, 17.0, 1473.699999988079)
-[04:26:39] [Server thread/INFO]: [38;2;170;170;170m✚[0m [38;2;133;255;143m[38;2;0;170;0mHDung24[38;2;133;255;143m joined the game[0m
-[04:27:03] [Server thread/INFO]: [38;2;0;170;0mHDung24[0m [38;2;85;85;85m»[0m alo ae, anh cần vàng, ae có dư giả k
-[04:27:20] [Server thread/INFO]: [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][0m [38;2;0;170;0mBaoIsHere[0m [38;2;85;85;85m»[0m [38;2;255;170;0mphong kìa[0m
-[04:27:20] [Server thread/INFO]: [38;2;0;170;0m.Dangdayy[0m [38;2;85;85;85m»[0m kiếm t đâu
-[04:27:30] [Netty Epoll Server IO #4/INFO]: TuiLadre issued server command: /view echest TuiLadre
-[04:27:36] [Server thread/INFO]: [38;2;0;170;0mHDung24[0m [38;2;85;85;85m»[0m t ddang vàng làm netherite
-[04:27:49] [Server thread/INFO]: [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][0m [38;2;0;170;0mBaoIsHere[0m [38;2;85;85;85m»[0m [38;2;255;170;0mcó ko bố thí cho dũng một ít :))))[0m
-[04:28:19] [Server thread/INFO]: [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][0m [38;2;0;170;0mTuiLadre[0m [38;2;85;85;85m»[0m [38;2;255;170;0m4 viên netherite = 1 quả godapple[0m
-[04:28:23] [Server thread/INFO]: [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][0m [38;2;0;170;0mTuiLadre[0m [38;2;85;85;85m»[0m [38;2;255;170;0mokay ko[0m
-[04:28:37] [Server thread/INFO]: [38;2;0;170;0mHDung24[0m [38;2;85;85;85m»[0m rẻ z em
-[04:28:45] [Netty Epoll Server IO #6/INFO]: BaoIsHere issued server command: /tp BaoIsHere 991.5 71 1715.5
-[04:28:45] [Server thread/INFO]: [3m[38;2;170;170;170m[[38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;170;170;170m [38;2;0;170;0mBaoIsHere[38;2;170;170;170m: Teleported [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;170;170;170m [38;2;0;170;0mBaoIsHere[38;2;170;170;170m to 991.500000, 71.000000, 1715.500000][0m
-[04:28:48] [Server thread/INFO]: [38;2;0;170;0mQuyen27[0m [38;2;85;85;85m»[0m ai cs tre ko xin it
-[04:28:56] [Server thread/INFO]: [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][0m [38;2;0;170;0mTuiLadre[0m [38;2;85;85;85m»[0m [38;2;255;170;0menchant apple đấy[0m
-[04:29:08] [Netty Epoll Server IO #6/INFO]: BaoIsHere issued server command: /tp BaoIsHere 1113.5 250 1883.5
-[04:29:08] [Server thread/INFO]: [3m[38;2;170;170;170m[[38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;170;170;170m [38;2;0;170;0mBaoIsHere[38;2;170;170;170m: Teleported [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;170;170;170m [38;2;0;170;0mBaoIsHere[38;2;170;170;170m to 1113.500000, 250.000000, 1883.500000][0m
-[04:29:21] [Netty Epoll Server IO #4/INFO]: TuiLadre issued server command: /view inv HDung24
-[04:29:41] [Netty Epoll Server IO #4/INFO]: TuiLadre issued server command: /view inv HDung24
-[04:29:50] [Netty Epoll Server IO #4/INFO]: TuiLadre issued server command: /view echest HDung24
-[04:29:59] [Server thread/INFO]: [38;2;0;170;0mQuyen27[0m [38;2;85;85;85m»[0m kb oi
-[04:30:01] [Netty Epoll Server IO #6/INFO]: BaoIsHere issued server command: /tp BaoIsHere 255.5 71 1424.5
-[04:30:01] [Server thread/INFO]: [3m[38;2;170;170;170m[[38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;170;170;170m [38;2;0;170;0mBaoIsHere[38;2;170;170;170m: Teleported [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;170;170;170m [38;2;0;170;0mBaoIsHere[38;2;170;170;170m to 255.500000, 71.000000, 1424.500000][0m
-[04:30:14] [Server thread/INFO]: [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][0m [38;2;0;170;0mBaoIsHere[0m [38;2;85;85;85m»[0m [38;2;255;170;0msao thế?[0m
-[04:30:20] [Server thread/INFO]: [38;2;0;170;0mQuyen27[0m [38;2;85;85;85m»[0m ra nho cai nay cai
-[04:30:32] [Server thread/INFO]: [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][0m [38;2;0;170;0mBaoIsHere[0m [38;2;85;85;85m»[0m [38;2;255;170;0mđi ăn trưa đây :))))[0m
-[04:30:33] [Server thread/INFO]: [38;2;0;170;0mHDung24[0m [38;2;85;85;85m»[0m thôi a đủ rồi
-[04:30:36] [Server thread/INFO]: BaoIsHere lost connection: Disconnected
-[04:30:36] [Server thread/INFO]: [38;2;170;170;170m☁[0m [38;2;255;133;133m[38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;255;133;133m [38;2;0;170;0mBaoIsHere[38;2;255;133;133m left the game[0m
-[04:30:37] [Server thread/INFO]: [38;2;0;170;0mHDung24[0m [38;2;85;85;85m»[0m ê
-[04:30:49] [Server thread/INFO]: [38;2;0;170;0mHDung24[0m [38;2;85;85;85m»[0m cos j bảo long xoá item dưới đất đi
-[04:30:58] [Server thread/INFO]: [38;2;0;170;0mHDung24[0m [38;2;85;85;85m»[0m rải rác nhiều lắm vc
-[04:31:02] [Server thread/INFO]: [38;2;0;170;0mHDung24[0m [38;2;85;85;85m»[0m lag là đr
-[04:31:16] [Server thread/INFO]: [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][0m [38;2;0;170;0mTuiLadre[0m [38;2;85;85;85m»[0m [38;2;255;170;0mtự mà dọn cu[0m
-[04:31:27] [Server thread/INFO]: [38;2;0;170;0mHDung24[0m [38;2;85;85;85m»[0m iteam rác dọn chi
-[04:32:26] [Server thread/INFO]: [38;2;0;170;0mHDung24[0m [38;2;85;85;85m»[0m ê nhãn
-[04:32:30] [Server thread/INFO]: [38;2;0;170;0mHDung24[0m [38;2;85;85;85m»[0m t a mượn kiếm tiếp
-[04:32:50] [Server thread/INFO]: [38;2;0;170;0mHDung24[0m [38;2;85;85;85m»[0m mẹ sao ảo thế nhỉ
-[04:32:58] [Server thread/INFO]: [38;2;0;170;0mHDung24[0m [38;2;85;85;85m»[0m trc kiếm của t farm level tăng ùn ùn
-[04:33:09] [Netty Epoll Server IO #4/INFO]: TuiLadre issued server command: /view echest TuiLadre
-[04:33:44] [Server thread/INFO]: [38;2;0;170;0mQuyen27[0m [38;2;85;85;85m»[0m ditme thg nao ban day
-[04:33:55] [Server thread/INFO]: [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][0m [38;2;0;170;0mTuiLadre[0m [38;2;85;85;85m»[0m [38;2;255;170;0manh test máy:)))[0m
-[04:34:02] [Server thread/INFO]: [38;2;0;170;0mQuyen27[0m [38;2;85;85;85m»[0m test cai loz
-[04:35:21] [Server thread/INFO]: [38;2;0;170;0mQuyen27[0m [38;2;85;85;85m»[0m dit me m
-[04:35:25] [Server thread/INFO]: [38;2;0;170;0mQuyen27[0m [38;2;85;85;85m»[0m test cho kahc
-[04:36:08] [Netty Epoll Server IO #4/INFO]: TuiLadre issued server command: /give TuiLadre bow 1
-[04:36:08] [Server thread/INFO]: [3m[38;2;170;170;170m[[38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;170;170;170m [38;2;0;170;0mTuiLadre[38;2;170;170;170m: Gave 1 [38;2;255;255;255m[Bow][38;2;170;170;170m to [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;170;170;170m [38;2;0;170;0mTuiLadre[38;2;170;170;170m][0m
-[04:36:24] [Netty Epoll Server IO #4/INFO]: TuiLadre issued server command: /kick HDung24 Bay bay con cặc
-[04:36:24] [Server thread/INFO]: [3m[38;2;170;170;170m[[38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;170;170;170m [38;2;0;170;0mTuiLadre[38;2;170;170;170m: Kicked [38;2;0;170;0mHDung24[38;2;170;170;170m: Bay bay con cặc][0m
-[04:36:24] [Server thread/INFO]: HDung24 lost connection: Bay bay con cặc
-[04:36:24] [Server thread/INFO]: [38;2;170;170;170m☁[0m [38;2;255;133;133m[38;2;0;170;0mHDung24[38;2;255;133;133m left the game[0m
-[04:36:28] [ForkJoinPool.commonPool-worker-20/WARN]: failed to fetch skin on first join
-java.lang.IllegalStateException: not found
-	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.mda37d3c$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.mda37d3c$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[04:36:29] [Server thread/INFO]: HDung24[/127.85.189.177:36819] logged in with entity id 12342 at (258.30560067049413, 71.0, 1429.769475071972)
-[04:36:29] [Server thread/INFO]: [38;2;170;170;170m✚[0m [38;2;133;255;143m[38;2;0;170;0mHDung24[38;2;133;255;143m joined the game[0m
-[04:36:33] [Server thread/INFO]: [38;2;0;170;0mHDung24[0m [38;2;85;85;85m»[0m địt
-[04:36:45] [Server thread/INFO]: [38;2;0;170;0mHDung24[0m [38;2;85;85;85m»[0m sửa kiếm mất cụ 4 phôi netherite
-[04:36:52] [Server thread/INFO]: [38;2;0;170;0mQuyen27[0m [38;2;85;85;85m»[0m ngu
-[04:38:55] [epollEventLoopGroup-4-2/INFO]: Player connected with username Itemisu24
-[04:38:55] [localSession-7-2/INFO]: Itemisu24 (logged in as: Itemisu24) has connected to the Java server
-[04:38:56] [pool-6-thread-2/INFO]: Floodgate player who is logged in as .Itemisu24 00000000-0000-0000-0009-01fe43583a04 joined
-[04:38:56] [ForkJoinPool.commonPool-worker-22/WARN]: failed to fetch skin on first join
-java.lang.IllegalStateException: not found
-	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.mda37d3c$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.mda37d3c$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[04:38:56] [Server thread/INFO]: .Itemisu24[/127.85.189.177:0] logged in with entity id 13553 at (110.73267, 43.0, 3.4366183)
-[04:38:56] [Server thread/INFO]: Floodgate player logged in as .Itemisu24 joined (UUID: 00000000-0000-0000-0009-01fe43583a04)
-[04:38:56] [Server thread/INFO]: [38;2;170;170;170m✚[0m [38;2;133;255;143m[38;2;170;0;170m.Itemisu24[38;2;133;255;143m joined the game[0m
-[04:39:13] [Netty Epoll Server IO #3/INFO]: HDung24 issued server command: /tpa .Itemisu24
-[04:39:31] [Geyser Fabric connection thread-6-3/INFO]: .Itemisu24 issued server command: /tpaaccepyt
-[04:39:38] [Server thread/INFO]: [38;2;0;170;0mQuyen27[0m [38;2;85;85;85m»[0m ditmem con sv phong nhiem de im bo xay nh
-[04:39:40] [Geyser Fabric connection thread-6-3/INFO]: .Itemisu24 issued server command: /tpaaccept
-[04:39:58] [Server thread/INFO]: [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][0m [38;2;0;170;0mTuiLadre[0m [38;2;85;85;85m»[0m [38;2;255;170;0m:))))))[0m
-[04:40:05] [localSession-7-2/INFO]: Itemisu24 has disconnected from the Java server because of Bedrock client disconnected
-[04:40:05] [Geyser Fabric connection thread-6-3/INFO]: Floodgate player logged in as .Itemisu24 disconnected
-[04:40:05] [Server thread/INFO]: .Itemisu24 lost connection: Disconnected
-[04:40:05] [Server thread/INFO]: [38;2;170;170;170m☁[0m [38;2;255;133;133m[38;2;170;0;170m.Itemisu24[38;2;255;133;133m left the game[0m
-[04:41:31] [Server thread/INFO]: [38;2;0;170;0mQuyen27[0m [38;2;85;85;85m»[0m ditconmem
-[04:41:34] [Server thread/INFO]: [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][0m [38;2;0;170;0mTuiLadre[0m [38;2;85;85;85m»[0m [38;2;255;170;0mlq?[0m
-[04:41:42] [Server thread/INFO]: [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][0m [38;2;0;170;0mTuiLadre[0m [38;2;85;85;85m»[0m [38;2;255;170;0mt lmj đâu?[0m
-[04:42:54] [Netty Epoll Server IO #4/INFO]: TuiLadre issued server command: /view echest TuiLadre1
-[04:47:04] [Netty Epoll Server IO #4/INFO]: TuiLadre issued server command: /tp .Dangdayy
-[04:47:04] [Server thread/INFO]: [3m[38;2;170;170;170m[[38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;170;170;170m [38;2;0;170;0mTuiLadre[38;2;170;170;170m: Teleported [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;170;170;170m [38;2;0;170;0mTuiLadre[38;2;170;170;170m to [38;2;0;170;0m.Dangdayy[38;2;170;170;170m][0m
-[04:48:00] [Server thread/INFO]: haomc317 lost connection: Disconnected
-[04:48:00] [Server thread/INFO]: [38;2;170;170;170m☁[0m [38;2;255;133;133m[38;2;0;170;0mhaomc317[38;2;255;133;133m left the game[0m
-[04:52:29] [Server thread/INFO]: [38;2;0;170;0m.Dangdayy[0m [38;2;85;85;85m»[0m ê nhiệm
-[04:52:33] [Server thread/INFO]: [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][0m [38;2;0;170;0mTuiLadre[0m [38;2;85;85;85m»[0m [38;2;255;170;0m?[0m
-[04:52:35] [Server thread/INFO]: [38;2;0;170;0m.Dangdayy[0m [38;2;85;85;85m»[0m nung t ít cát đi
-[04:52:56] [Server thread/INFO]: [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][0m [38;2;0;170;0mTuiLadre[0m [38;2;85;85;85m»[0m [38;2;255;170;0mbn[0m
-[04:53:00] [Netty Epoll Server IO #4/INFO]: TuiLadre issued server command: /view echest TuiLadre
-[04:53:10] [Server thread/INFO]: [38;2;0;170;0m.Dangdayy[0m [38;2;85;85;85m»[0m nung xong craft thầnh tấm
-[04:53:14] [Server thread/INFO]: [38;2;0;170;0m.Dangdayy[0m [38;2;85;85;85m»[0m nhiều tí
-[04:53:21] [Server thread/INFO]: [38;2;0;170;0m.Dangdayy[0m [38;2;85;85;85m»[0m gần stack cho thừa
-[04:53:38] [Server thread/INFO]: [38;2;0;170;0mQuyen27[0m [38;2;85;85;85m»[0m ra t cho
-[04:53:45] [Server thread/INFO]: [38;2;0;170;0mQuyen27[0m [38;2;85;85;85m»[0m t thua nhieu
-[04:53:49] [Netty Epoll Server IO #4/INFO]: TuiLadre issued server command: /tp Quyen27
-[04:53:49] [Server thread/INFO]: [3m[38;2;170;170;170m[[38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;170;170;170m [38;2;0;170;0mTuiLadre[38;2;170;170;170m: Teleported [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;170;170;170m [38;2;0;170;0mTuiLadre[38;2;170;170;170m to [38;2;0;170;0mQuyen27[38;2;170;170;170m][0m
-[04:53:56] [Server thread/INFO]: [38;2;0;170;0m.Dangdayy[0m [38;2;85;85;85m»[0m nhiêu
-[04:54:00] [Server thread/INFO]: [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][0m [38;2;0;170;0mTuiLadre[0m [38;2;85;85;85m»[0m [38;2;255;170;0m38[0m
-[04:54:07] [Server thread/INFO]: [38;2;0;170;0m.Dangdayy[0m [38;2;85;85;85m»[0m xin
-[04:54:09] [Netty Epoll Server IO #4/INFO]: TuiLadre issued server command: /tp .Dangdayy
-[04:54:09] [Server thread/INFO]: [3m[38;2;170;170;170m[[38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;170;170;170m [38;2;0;170;0mTuiLadre[38;2;170;170;170m: Teleported [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;170;170;170m [38;2;0;170;0mTuiLadre[38;2;170;170;170m to [38;2;0;170;0m.Dangdayy[38;2;170;170;170m][0m
-[04:54:17] [Server thread/INFO]: [38;2;0;170;0mQuyen27[0m [38;2;85;85;85m»[0m dap cho phong r day
-[04:54:25] [Server thread/INFO]: [38;2;0;170;0m.Dangdayy[0m [38;2;85;85;85m»[0m ê
-[04:54:28] [Server thread/INFO]: [38;2;255;85;85m[Server] hao choi duoc khong[0m
-[04:54:40] [Server thread/INFO]: [38;2;0;170;0m.Dangdayy[0m [38;2;85;85;85m»[0m lấp hộ đi
-[04:55:02] [Netty Epoll Server IO #4/INFO]: TuiLadre issued server command: /gamemode creative
-[04:55:02] [Server thread/INFO]: [3m[38;2;170;170;170m[[38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;170;170;170m [38;2;0;170;0mTuiLadre[38;2;170;170;170m: Set own game mode to Creative Mode][0m
-[04:55:15] [Netty Epoll Server IO #4/INFO]: TuiLadre issued server command: /gamemode survival
-[04:55:15] [Server thread/INFO]: [3m[38;2;170;170;170m[[38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;170;170;170m [38;2;0;170;0mTuiLadre[38;2;170;170;170m: Set own game mode to Survival Mode][0m
-[04:56:39] [Server thread/INFO]: Quyen27 lost connection: Disconnected
-[04:56:39] [Server thread/INFO]: [38;2;170;170;170m☁[0m [38;2;255;133;133m[38;2;0;170;0mQuyen27[38;2;255;133;133m left the game[0m
-[04:57:13] [Server thread/INFO]: [38;2;0;170;0m.Dangdayy[0m [38;2;85;85;85m»[0m ok
-[04:57:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=79, z=1734} class_2338{x=987, y=70, z=1709}
-[04:57:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=79, z=1734} class_2338{x=987, y=68, z=1704}
-[04:58:36] [Netty Epoll Server IO #4/INFO]: TuiLadre issued server command: /tp @s 257 81.5 1427
-[04:58:36] [Server thread/INFO]: [3m[38;2;170;170;170m[[38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;170;170;170m [38;2;0;170;0mTuiLadre[38;2;170;170;170m: Teleported [38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;170;170;170m [38;2;0;170;0mTuiLadre[38;2;170;170;170m to 257.500000, 81.500000, 1427.500000][0m
-[04:59:38] [Server thread/INFO]: [38;2;255;85;85m[Server] tu tu anh em[0m
-[04:59:48] [Server thread/INFO]: [38;2;255;85;85m[Server] tat server di chuyen sang cai organization cho de quan li[0m
-[04:59:51] [Server thread/INFO]: Saving the game (this may take a moment!)
-[04:59:51] [Server thread/INFO]: Saved the game
-[04:59:54] [Server thread/INFO]: Stopping the server
-[04:59:54] [Server thread/INFO]: Shutting down Geyser.
-[04:59:54] [Server thread/INFO]: Kicking 1 player(s)
-[04:59:54] [Server thread/INFO]: Kicked all players!
-[04:59:54] [localSession-7-1/INFO]: Dangdayy has disconnected from the Java server because of Geyser Proxy shutting down.
-[04:59:54] [Geyser Fabric connection thread-6-2/INFO]: Floodgate player logged in as .Dangdayy disconnected
+[05:31:42] [Server thread/INFO]: .Dangdayy[/127.173.169.146:0] logged in with entity id 813 at (996.49207, 72.0, 1737.7606)
+[05:31:42] [Server thread/INFO]: Floodgate player logged in as .Dangdayy joined (UUID: 00000000-0000-0000-0009-01fb4b494f1f)
+[05:31:42] [Server thread/INFO]: [38;2;170;170;170m✚[0m [38;2;133;255;143m[38;2;0;170;0m.Dangdayy[38;2;133;255;143m joined the game[0m

@@ -944,3 +944,8 @@
 [2024-07-21 04:24:44] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
 [2024-07-21 04:39:40] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a (3.0 s)
 [2024-07-21 04:39:43] [Server thread/DEBUG] (BlossomLib): genericCountdown for 1469ede2-708d-3cb1-8ca9-1153a180f46a has ended
+[2024-07-21 05:30:13] [main/ INFO] (BlossomLib): BlossomLib mixins loading
+[2024-07-21 05:30:22] [main/ INFO] (BlossomLib): BlossomLib has starting
+[2024-07-21 05:30:22] [main/TRACE] (BlossomLib): register config manager BlossomTpa.json
+[2024-07-21 05:30:22] [main/TRACE] (BlossomLib): loading config BlossomTpa.json
+[2024-07-21 05:30:22] [main/TRACE] (BlossomLib): saving config BlossomTpa.json
