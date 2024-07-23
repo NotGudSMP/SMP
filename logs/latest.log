@@ -1,277 +1,66 @@
-[05:30:12] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.15.11
-[05:30:13] [main/INFO]: Loading 156 mods:
-	- alternate-current 1.8.0
-	- better-fabric-console 1.1.10
-	   |-- adventure-platform-fabric 5.14.0
-	   |    |-- net_kyori_adventure-api 4.17.0
-	   |    |-- net_kyori_adventure-key 4.17.0
-	   |    |-- net_kyori_adventure-platform-api 4.3.3
-	   |    |-- net_kyori_adventure-text-logger-slf4j 4.17.0
-	   |    |-- net_kyori_adventure-text-minimessage 4.17.0
-	   |    |-- net_kyori_adventure-text-serializer-ansi 4.17.0
-	   |    |-- net_kyori_adventure-text-serializer-gson 4.17.0
-	   |    |-- net_kyori_adventure-text-serializer-json 4.17.0
-	   |    |-- net_kyori_adventure-text-serializer-plain 4.17.0
-	   |    |-- net_kyori_ansi 1.0.3
-	   |    |-- net_kyori_examination-api 1.3.0
-	   |    |-- net_kyori_examination-string 1.3.0
-	   |    \-- net_kyori_option 1.0.0
-	   |-- com_typesafe_config 1.4.1
-	   |-- net_fabricmc_mapping-io 0.6.1
-	   |-- org_fusesource_jansi_jansi 2.4.1
-	   |-- org_jline_jline 3.26.2
-	   |-- org_jline_jline-terminal-jansi 3.26.2
-	   |-- org_spongepowered_configurate-core 4.1.2
-	   \-- org_spongepowered_configurate-hocon 4.1.2
-	- blossom-lib 2.5.8+1.21
-	   \-- server_translations_api 2.3.1+1.21-pre2
-	        \-- packet_tweaker 0.5.1+24w03b
-	- blossom-tpa 2.2.4+1.21
-	- c2me 0.2.0+alpha.11.107+1.21
-	   |-- c2me-base 0.2.0+alpha.11.107+1.21
-	   |-- c2me-client-uncapvd 0.2.0+alpha.11.107+1.21
-	   |-- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.11.107+1.21
-	   |-- c2me-fixes-general-threading-issues 0.2.0+alpha.11.107+1.21
-	   |-- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.11.107+1.21
-	   |-- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.11.107+1.21
-	   |-- c2me-notickvd 0.2.0+alpha.11.107+1.21
-	   |-- c2me-opts-allocs 0.2.0+alpha.11.107+1.21
-	   |-- c2me-opts-chunk-access 0.2.0+alpha.11.107+1.21
-	   |-- c2me-opts-chunkio 0.2.0+alpha.11.107+1.21
-	   |-- c2me-opts-math 0.2.0+alpha.11.107+1.21
-	   |-- c2me-opts-scheduling 0.2.0+alpha.11.107+1.21
-	   |-- c2me-opts-worldgen-general 0.2.0+alpha.11.107+1.21
-	   |-- c2me-opts-worldgen-vanilla 0.2.0+alpha.11.107+1.21
-	   |-- c2me-rewrites-chunk-serializer 0.2.0+alpha.11.107+1.21
-	   |-- c2me-rewrites-chunkio 0.2.0+alpha.11.107+1.21
-	   |-- c2me-server-utils 0.2.0+alpha.11.107+1.21
-	   |-- c2me-threading-chunkio 0.2.0+alpha.11.107+1.21
-	   |-- c2me-threading-lighting 0.2.0+alpha.11.107+1.21
-	   |-- c2me-threading-worldgen 0.2.0+alpha.11.107+1.21
-	   |-- com_electronwill_night-config_core 3.6.5
-	   |-- com_electronwill_night-config_toml 3.6.5
-	   |-- com_ibm_async_asyncutil 0.1.0
-	   |-- net_objecthunter_exp4j 0.4.8
-	   \-- org_threadly_threadly 7.0
-	- chunky 1.4.16
-	- dimensional-tracker 1.3.0
-	- fabric-api 0.100.7+1.21
-	   |-- fabric-api-base 0.4.42+6573ed8cd1
-	   |-- fabric-api-lookup-api-v1 1.6.67+b5597344d1
-	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bcd1
-	   |-- fabric-block-api-v1 1.0.22+0af3f5a7d1
-	   |-- fabric-block-view-api-v2 1.0.10+6573ed8cd1
-	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a7d1
-	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8cd1
-	   |-- fabric-command-api-v1 1.2.49+f71b366fd1
-	   |-- fabric-command-api-v2 2.2.28+6ced4dd9d1
-	   |-- fabric-commands-v0 0.2.66+df3654b3d1
-	   |-- fabric-content-registries-v0 8.0.15+b5597344d1
-	   |-- fabric-convention-tags-v1 2.0.18+7f945d5bd1
-	   |-- fabric-convention-tags-v2 2.4.2+c111832ad1
-	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a7d1
-	   |-- fabric-data-attachment-api-v1 1.1.25+6a6dfa19d1
-	   |-- fabric-data-generation-api-v1 20.2.12+16c4ae25d1
-	   |-- fabric-dimensions-v1 4.0.0+6fc22b99d1
-	   |-- fabric-entity-events-v1 1.6.12+6fc22b99d1
-	   |-- fabric-events-interaction-v0 0.7.10+e633f883d1
-	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd9d1
-	   |-- fabric-item-api-v1 11.0.0+afdfc921d1
-	   |-- fabric-item-group-api-v1 4.1.3+78017270d1
-	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a7d1
-	   |-- fabric-keybindings-v0 0.2.45+df3654b3d1
-	   |-- fabric-lifecycle-events-v1 2.3.11+8f3583aed1
-	   |-- fabric-loot-api-v2 3.0.13+3f89f5a5d1
-	   |-- fabric-loot-api-v3 1.0.1+3f89f5a5d1
-	   |-- fabric-message-api-v1 6.0.13+6573ed8cd1
-	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6bd1
-	   |-- fabric-networking-api-v1 4.2.0+ab7edbacd1
-	   |-- fabric-object-builder-api-v1 15.1.13+d1321076d1
-	   |-- fabric-particles-v1 4.0.2+6573ed8cd1
-	   |-- fabric-recipe-api-v1 5.0.10+65089712d1
-	   |-- fabric-registry-sync-v0 5.0.25+5bd9f1bcd1
-	   |-- fabric-renderer-api-v1 3.3.0+0ae0b97dd1
-	   |-- fabric-renderer-indigo 1.6.5+48fb1586d1
-	   |-- fabric-renderer-registries-v1 3.2.68+df3654b3d1
-	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2ed1
-	   |-- fabric-rendering-fluids-v1 3.1.6+b5597344d1
-	   |-- fabric-rendering-v0 1.1.71+df3654b3d1
-	   |-- fabric-rendering-v1 5.0.5+df16efd0d1
-	   |-- fabric-resource-conditions-api-v1 4.2.1+d153f344d1
-	   |-- fabric-resource-loader-v0 1.2.0+7e687b32d1
-	   |-- fabric-screen-api-v1 2.0.24+b5597344d1
-	   |-- fabric-screen-handler-api-v1 1.3.82+b5597344d1
-	   |-- fabric-sound-api-v1 1.0.23+6573ed8cd1
-	   |-- fabric-transfer-api-v1 5.1.15+3dccd343d1
-	   \-- fabric-transitive-access-wideners-v1 6.0.12+6573ed8cd1
-	- fabric-language-kotlin 1.11.0+kotlin.2.0.0
-	   |-- org_jetbrains_kotlin_kotlin-reflect 2.0.0
-	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.0.0
-	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.0.0
-	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.0.0
-	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.24.0
-	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.8.1
-	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.8.1
-	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.0
-	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.6.3
-	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.6.3
-	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.6.3
-	- fabricloader 0.15.11
-	   \-- mixinextras 0.3.5
-	- ferritecore 7.0.0
-	- floodgate 2.2.3-SNAPSHOT
-	   |-- aopalliance_aopalliance 1.0
-	   |-- cloud 2.0.0-SNAPSHOT
-	   |    |-- fabric-permissions-api-v0 0.3.1
-	   |    |-- io_leangen_geantyref_geantyref 1.3.15
-	   |    |-- org_incendo_cloud-brigadier 2.0.0-beta.8
-	   |    |-- org_incendo_cloud-core 2.0.0-rc.2
-	   |    |-- org_incendo_cloud-minecraft-modded-common-fabric-repack_ 2.0.0-SNAPSHOT
-	   |    \-- org_incendo_cloud-services 2.0.0-rc.2
-	   |-- jakarta_inject_jakarta_inject-api 2.0.1
-	   |-- javax_inject_javax_inject 1
-	   |-- org_geysermc_cumulus_cumulus 1.1.2
-	   |-- org_geysermc_event_events 1.1-SNAPSHOT
-	   |-- org_geysermc_geyser_common 2.2.3-SNAPSHOT
-	   |-- org_java-websocket_java-websocket 1.5.2
-	   \-- org_lanternpowered_lmbda 2.0.0
-	- geyser-fabric 2.4.0-SNAPSHOT
-	   |-- com_fasterxml_jackson_core_jackson-annotations 2.17.0
-	   |-- com_fasterxml_jackson_core_jackson-core 2.17.0
-	   |-- com_fasterxml_jackson_core_jackson-databind 2.17.0
-	   |-- com_fasterxml_jackson_dataformat_jackson-dataformat-yaml 2.17.0
-	   |-- com_nukkitx_natives 1.0.3
-	   |-- io_airlift_aircompressor 0.25
-	   |-- io_netty_netty-codec-dns 4.1.107
-	   |-- io_netty_netty-codec-haproxy 4.1.107
-	   |-- io_netty_netty-resolver-dns-classes-macos 4.1.107
-	   |-- net_bytebuddy_byte-buddy 1.14.9
-	   |-- net_jodah_expiringmap 0.5.10
-	   |-- net_kyori_adventure-nbt 4.15.0
-	   |-- net_kyori_adventure-text-serializer-json-legacy-impl 4.15.0
-	   |-- net_kyori_adventure-text-serializer-legacy 4.15.0
-	   |-- net_kyori_examination-api 1.3.0
-	   |-- net_kyori_examination-string 1.3.0
-	   |-- net_kyori_option 1.0.0
-	   |-- org_bitbucket_b_c_jose4j 0.9.3
-	   |-- org_cloudburstmc_math_api 2.0
-	   |-- org_cloudburstmc_math_immutable 2.0
-	   |-- org_cloudburstmc_nbt 3.0.3
-	   |-- org_geysermc_api_base-api 1.0.0-SNAPSHOT
-	   |-- org_geysermc_cumulus_cumulus 1.1.2
-	   |-- org_geysermc_event_events 1.1-SNAPSHOT
-	   |-- org_lanternpowered_lmbda 2.0.0
-	   \-- org_yaml_snakeyaml 2.2
-	- invview 1.4.15-1.20.5+
-	   \-- sgui 1.5.0+1.20.5
-	- java 21
-	- lithium 0.12.7
-	- loyal_items 1.0.2
-	- minecraft 1.21
-	- modernfix 5.18.8+mc1.21
-	- serversleep_mr 1-datapack
-	- skinrestorer 2.0.1+1.21
-	- styledchat 2.6.0+1.21
-	   |-- fabric-permissions-api-v0 0.3.1
-	   |-- placeholder-api 2.4.0-pre.2+1.21
-	   |-- player-data-api 0.6.0+1.21
-	   \-- predicate-api 0.5.1+1.21
-[05:30:13] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/SMP/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[05:30:13] [main/INFO]: Compatibility level set to JAVA_17
-[05:30:13] [main/INFO]: Compatibility level set to JAVA_21
-[05:30:13] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[05:30:14] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
-[05:30:14] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[05:30:14] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[05:30:14] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[05:30:14] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[05:30:14] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[05:30:14] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[05:30:14] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[05:30:14] [main/INFO]: Disabling com.ishland.c2me.opts.chunk_access.mixin
-[05:30:14] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[05:30:14] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[05:30:14] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[05:30:14] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[05:30:14] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[05:30:14] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[05:30:14] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[05:30:14] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[05:30:14] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
-[05:30:14] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[05:30:14] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[05:30:14] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[05:30:14] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[05:30:14] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
-[05:30:14] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
-[05:30:14] [main/INFO]: Loaded configuration file for Lithium: 138 options available, 1 override(s) found
-[05:30:14] [main/INFO]: Loaded configuration file for ModernFix 5.18.8+mc1.21: 53 options available, 4 override(s) found
-[05:30:14] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
-[05:30:14] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
-[05:30:14] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
-[05:30:14] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
-[05:30:14] [main/INFO]: Applying Nashorn fix
-[05:30:14] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[05:30:15] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[05:30:15] [main/INFO]: Initializing Better Fabric Console...
-[05:30:15] [main/INFO]: Initializing Better Fabric Console mappings...
-[05:30:15] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[05:30:15] [main/INFO]: Reading mappings...
-[05:30:17] [main/INFO]: Done in 1.8710 seconds.
-[05:30:19] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[05:30:19] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[05:30:19] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[05:30:20] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[05:30:22] [main/INFO]: Vanilla bootstrap took 4352 milliseconds
-[05:30:23] [main/WARN]: en_ is not a supported Floodgate language.
-[05:30:23] [main/WARN]: Missing locale: en_
-[05:30:24] [main/INFO]: Loading extensions...
-[05:30:24] [main/INFO]: Loaded 0 extension(s)
-[05:30:24] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[05:30:26] [main/INFO]: Loaded 1290 recipes
-[05:30:26] [main/INFO]: Loaded 1400 advancements
-[05:30:26] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 53 translation keys
-[05:30:26] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.347 ms
-[05:30:26] [Console thread/INFO]: Initialized Better Fabric Console console thread.
-[05:30:26] [Server thread/INFO]: Starting minecraft server version 1.21
-[05:30:26] [Server console handler/INFO]: Shutting down vanilla console thread...
-[05:30:26] [Server thread/INFO]: Loading properties
-[05:30:26] [Server thread/INFO]: Default game type: SURVIVAL
-[05:30:26] [Server thread/INFO]: Generating keypair
-[05:30:26] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:30:26] [Server thread/INFO]: Using epoll channel type
-[05:30:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:30:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:30:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:30:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:30:26] [Server thread/INFO]: Preparing level "world"
-[05:30:26] [Server thread/INFO]: Enforcing safe world random access
-[05:30:27] [Server thread/INFO]: skipping unknown option 'enabledtrueupdate-order' in Alternate Current config
-[05:30:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:30:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[05:30:29] [Worker-Main-3/INFO]: Preparing spawn area: 20%
-[05:30:29] [Server thread/INFO]: Time elapsed: 678 ms
-[05:30:29] [Server thread/INFO]: Done (3.013s)! For help, type "help"
-[05:30:29] [Server thread/WARN]: Dedicated server took 19.898 seconds to load
-[05:30:29] [Server thread/INFO]: Took 43ms to boot Floodgate
-[05:30:29] [Server thread/INFO]: ******************************************
-[05:30:29] [Server thread/INFO]: 
-[05:30:29] [Server thread/INFO]: Loading Geyser version 2.4.0-b609 (git-master-669a76c)
-[05:30:29] [Server thread/INFO]: 
-[05:30:29] [Server thread/INFO]: ******************************************
-[05:30:32] [epollEventLoopGroup-3-2/INFO]: Started Geyser on 0.0.0.0:19132
-[05:30:32] [Server thread/INFO]: Done (2.261s)! Run /geyser help for help!
-[05:30:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2357ms or 47 ticks behind
-[05:30:48] [Server thread/INFO]: TuiLadre[/127.96.167.138:50785] logged in with entity id 19 at (616.679068329096, 71.0, 1437.9916852970996)
-[05:30:49] [Server thread/INFO]: [38;2;170;170;170m✚[0m [38;2;133;255;143m[38;2;85;85;85m[[38;2;255;85;85mAdmin[38;2;85;85;85m][38;2;133;255;143m [38;2;0;170;0mTuiLadre[38;2;133;255;143m joined the game[0m
-[05:31:08] [ForkJoinPool.commonPool-worker-3/WARN]: failed to fetch skin on first join
+[00:09:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=186, y=205, z=999} class_2338{x=186, y=204, z=998}
+[00:09:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=187, y=205, z=997} class_2338{x=187, y=204, z=998}
+[00:09:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=188, y=205, z=998} class_2338{x=187, y=204, z=999}
+[00:10:29] [Server thread/INFO]: [Not Secure] <HDung24> né
+[00:10:43] [Server thread/INFO]: nhdso1tg was slain by HDung24 using [Xì bo 5 chục]
+[00:10:56] [Server thread/INFO]: [Not Secure] <HDung24> em động vào rương của ai z em
+[00:12:19] [Server thread/INFO]: [Not Secure] <HDung24> cmm
+[00:12:41] [Server thread/INFO]: [Not Secure] <HDung24> next ngay
+[00:12:52] [Server thread/INFO]: [Not Secure] <nhdso1tg> xin it do an
+[00:12:58] [Server thread/INFO]: [Not Secure] <HDung24> t đang đói đây
+[00:13:00] [Server thread/INFO]: [Not Secure] <HDung24> lmj có
+[00:13:07] [Server thread/INFO]: [Not Secure] <nhdso1tg> co than k
+[00:13:14] [Server thread/INFO]: [Not Secure] <HDung24> xin cl
+[00:13:15] [Server thread/INFO]: [Not Secure] <nhdso1tg> t lm it tao be
+[00:13:44] [Server thread/INFO]: [Not Secure] <HDung24> a cho chú 10s
+[00:13:52] [Server thread/INFO]: [Not Secure] <HDung24> cach xa nhà a 500 block
+[00:14:59] [Server thread/INFO]: [Not Secure] <HDung24> đ mù
+[00:15:08] [Server thread/INFO]: [Not Secure] <HDung24> t có mini map đấy tk tật
+[00:15:38] [Server thread/INFO]: nhdso1tg was burned to a crisp while fighting HDung24
+[00:16:09] [Server thread/INFO]: [Not Secure] <nhdso1tg> dm
+[00:17:05] [Server thread/INFO]: [Not Secure] <HDung24> ê
+[00:17:10] [Server thread/INFO]: [Not Secure] <HDung24> m chán sống à
+[00:17:22] [Server thread/INFO]: [Not Secure] <HDung24> mẹ t đang bực vì bị phá nhà đấy
+[00:17:26] [Server thread/INFO]: [Not Secure] <HDung24> cút ngay
+[00:17:35] [Server thread/INFO]: [Not Secure] <HDung24> k anh cho m mất đò
+[00:17:40] [Server thread/INFO]: [Not Secure] <nhdso1tg> nha nay xay may hoi
+[00:17:49] [Server thread/INFO]: [Not Secure] <HDung24> cgi
+[00:18:42] [Server thread/INFO]: BaoIsHere[/127.33.42.97:48733] logged in with entity id 11841 at (257.9341089752147, 71.0, 1427.9933486783589)
+[00:18:42] [Server thread/INFO]: BaoIsHere joined the game
+[00:19:12] [Server thread/INFO]: [Not Secure] <BaoIsHere> hello các chế
+[00:19:40] [Server thread/INFO]: [Not Secure] <HDung24> cho đi mine mẹ m đi
+[00:19:53] [Server thread/INFO]: [Not Secure] <HDung24> né
+[00:19:53] [Server thread/INFO]: [Not Secure] <nhdso1tg> ngu giac
+[00:20:13] [Server thread/INFO]: [Not Secure] <HDung24> đéo
+[00:20:27] [Server thread/INFO]: [Not Secure] <HDung24> bố đốt đồ m
+[00:20:41] [Server thread/INFO]: [Not Secure] <BaoIsHere> đẹp nhể :))
+[00:20:57] [Server thread/INFO]: [Not Secure] <HDung24> chó đ chịu đi mine
+[00:21:14] [Server thread/INFO]: [Not Secure] <HDung24> 3
+[00:21:18] [Server thread/INFO]: [Not Secure] <HDung24> 2
+[00:21:31] [Server thread/INFO]: [Not Secure] <HDung24> 1
+[00:22:29] [Server thread/INFO]: nhdso1tg hit the ground too hard
+[00:22:49] [Server thread/INFO]: [BaoIsHere: Teleported BaoIsHere to nhdso1tg]
+[00:23:25] [Server thread/INFO]: [Not Secure] <nhdso1tg> wao
+[00:23:33] [Server thread/INFO]: [Not Secure] <nhdso1tg> kbao xin
+[00:23:42] [Server thread/INFO]: [Not Secure] <nhdso1tg> t di theo kbao day
+[00:23:47] [Server thread/INFO]: [Not Secure] <nhdso1tg> dm dung nha
+[00:23:47] [Server thread/INFO]: [Not Secure] <HDung24> cút
+[00:23:52] [Server thread/INFO]: [Not Secure] <nhdso1tg> nho mat t
+[00:24:04] [Server thread/INFO]: [Not Secure] <HDung24> m có farm đái ra cx k lại t đâu
+[00:24:06] [Server thread/INFO]: [BaoIsHere: Teleported BaoIsHere to 255.500000, 71.000000, 1424.500000]
+[00:24:23] [Server thread/INFO]: [BaoIsHere: Teleported BaoIsHere to 2207.500000, 64.000000, 2023.500000]
+[00:25:16] [Server thread/INFO]: [Not Secure] <BaoIsHere> má đéo đọc tin nhắn thầy gửi :))))
+[00:26:17] [Server thread/INFO]: [Not Secure] <HDung24> ee duong
+[00:26:57] [Server thread/INFO]: [Not Secure] <BaoIsHere> Dũng có thức đêm ko đấy :)))
+[00:27:11] [Server thread/INFO]: [Not Secure] <HDung24> nah
+[00:27:19] [ForkJoinPool.commonPool-worker-11/WARN]: failed to fetch skin on first join
 java.lang.IllegalStateException: not found
 	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
 	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
 	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.mda131c5$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.md44dfed$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
 	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.mda131c5$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.md44dfed$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
@@ -279,14 +68,146 @@ java.lang.IllegalStateException: not found
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[05:31:08] [ForkJoinPool.commonPool-worker-1/WARN]: failed to fetch skin on first join
+[00:27:20] [Server thread/INFO]: [Not Secure] <HDung24> 12h off server nên t ngủ luôn
+[00:27:21] [Server thread/INFO]: Quyen27[/127.32.150.52:44805] logged in with entity id 15390 at (286.69999998807907, 2.0, 0.5090359375005068)
+[00:27:21] [Server thread/INFO]: Quyen27 joined the game
+[00:27:33] [Server thread/INFO]: [Not Secure] <HDung24> phắn đc rồi đấy e
+[00:27:34] [Server thread/INFO]: [Not Secure] <BaoIsHere> bảo sao trời mưa to thế :))
+[00:27:40] [Server thread/INFO]: [Not Secure] <HDung24> nay bão mà dcm
+[00:27:59] [Server thread/INFO]: [BaoIsHere: Teleported BaoIsHere to 255.500000, 71.000000, 1424.500000]
+[00:28:08] [Server thread/INFO]: [Not Secure] <nhdso1tg> ee
+[00:28:09] [Server thread/INFO]: [Not Secure] <HDung24> k mất máu
+[00:28:12] [Server thread/INFO]: [Not Secure] <HDung24> kiếm đểu vl
+[00:28:17] [Server thread/INFO]: [Not Secure] <nhdso1tg> nha kbao o dau day
+[00:28:23] [Server thread/INFO]: [Not Secure] <HDung24> trc mặt
+[00:28:24] [Server thread/INFO]: [Not Secure] <Quyen27> bao oi cs hac dien thach ko
+[00:28:35] [Server thread/INFO]: [Not Secure] <BaoIsHere> hết rồi
+[00:29:13] [Server thread/INFO]: [Not Secure] <HDung24> ee kbao
+[00:29:15] [Server thread/INFO]: [Not Secure] <Quyen27> cs the cap cuu cho toi 1 it lapit dk =))
+[00:29:17] [Server thread/INFO]: [Not Secure] <HDung24> Mua bản đồ kho báu k
+[00:29:25] [Server thread/INFO]: Quyen27 fell out of the world
+[00:29:30] [Server thread/INFO]: [Not Secure] <HDung24> ngu
+[00:29:33] [Server thread/INFO]: [Not Secure] <BaoIsHere> có
+[00:29:33] [Server thread/INFO]: [Not Secure] <Quyen27> dit
+[00:29:37] [Server thread/INFO]: [Not Secure] <HDung24> Mất đồ đấy e
+[00:29:41] [Server thread/INFO]: [Not Secure] <Quyen27> tat keep e ak
+[00:29:44] [Server thread/INFO]: [Not Secure] <HDung24> dr
+[00:29:51] [Server thread/INFO]: [Not Secure] <Quyen27> laz ma fam lai tu dau
+[00:29:53] [Server thread/INFO]: [Not Secure] <BaoIsHere> toang :))
+[00:29:55] [Server thread/INFO]: [Not Secure] <HDung24> ngu ơi là ngu
+[00:30:17] [Server thread/INFO]: [Not Secure] <Quyen27> bt del dau
+[00:30:33] [Server thread/INFO]: [Not Secure] <BaoIsHere> cần starter pack ko quyền
+[00:30:39] [Server thread/INFO]: [Not Secure] <Quyen27> cs
+[00:30:45] [Server thread/INFO]: [Not Secure] <HDung24> là cgi
+[00:30:56] [Server thread/INFO]: [Not Secure] <BaoIsHere> giá hơi chát ấy
+[00:31:07] [Server thread/INFO]: [Not Secure] <nhdso1tg> NHA quyen o dau day
+[00:31:12] [Server thread/INFO]: [Not Secure] <HDung24> cạnh nhà kbao
+[00:31:25] [Server thread/INFO]: Quyen27 was slain by nhdso1tg using [:))))]
+[00:31:34] [Server thread/INFO]: [Not Secure] <Quyen27> loz me m mat do
+[00:31:46] [Server thread/INFO]: [Not Secure] <HDung24> chứ m còn đồ đâu
+[00:31:55] [Server thread/INFO]: [Not Secure] <Quyen27> t vua lay do
+[00:32:00] [Server thread/INFO]: [Not Secure] <HDung24> how
+[00:32:06] [Server thread/INFO]: [Not Secure] <HDung24> rơi ra khỏi thế giới mà
+[00:32:14] [Server thread/INFO]: [Not Secure] <Quyen27> ko do trong ruong
+[00:32:22] [Server thread/INFO]: [Not Secure] <BaoIsHere> starter pack hôm nay sẽ có: 5 viên kim cương, 1 cái mũ sắt, 3 phôi netherite, 1 mảnh nâng cấp
+[00:32:37] [Server thread/INFO]: [Not Secure] <HDung24> j nghèo z
+[00:32:53] [Server thread/INFO]: [Not Secure] <HDung24> có con chó sủa bậy gàn đây
+[00:32:59] [Server thread/INFO]: [Not Secure] <BaoIsHere> thế mới bảo là starter pack
+[00:33:05] [Server thread/INFO]: Quyen27 burned to death
+[00:33:33] [Server thread/INFO]: [Not Secure] <HDung24> 1
+[00:33:38] [Server thread/INFO]: [Not Secure] <HDung24> 2
+[00:33:45] [Server thread/INFO]: [Not Secure] <HDung24> 3
+[00:34:06] [Server thread/INFO]: [Not Secure] <BaoIsHere> starter pack hôm nay sẽ có giá là 1 cái yên ngựa :))
+[00:34:12] [Server thread/INFO]: [Not Secure] <HDung24> j ít z
+[00:34:26] [Server thread/INFO]: [Not Secure] <HDung24> quyền mua đi, a có 3 cái yên
+[00:34:41] [Server thread/INFO]: [Not Secure] <BaoIsHere> ko tài trợ nha
+[00:34:51] [Server thread/INFO]: [Not Secure] <Quyen27> bo
+[00:34:58] [Server thread/INFO]: [Not Secure] <Quyen27> t nghi game =0
+[00:35:06] [Server thread/INFO]: [Not Secure] <HDung24> ngu
+[00:35:12] [Server thread/INFO]: [Not Secure] <Quyen27> di danh lm
+[00:35:17] [Server thread/INFO]: [Not Secure] <HDung24> loser
+[00:35:24] [Server thread/INFO]: [Not Secure] <BaoIsHere> có một cái thôi mà
+[00:35:27] [Server thread/INFO]: [Not Secure] <Quyen27> nay long notroll t
+[00:35:44] [Server thread/INFO]: [Not Secure] <HDung24> t mất đồ cày lại từ đầu k oan thán
+[00:35:49] [Server thread/INFO]: [Not Secure] <HDung24> chos mấ t đồ nghỉ game
+[00:35:51] [Server thread/INFO]: [Not Secure] <HDung24> loser
+[00:35:52] [Server thread/INFO]: [Not Secure] <Quyen27> no lot ben duoi ban enchant la block xuyen qua
+[00:36:08] [Server thread/INFO]: [Not Secure] <Quyen27> t nhay xuong nen cut
+[00:36:59] [Server thread/INFO]: [Not Secure] <nhdso1tg> nha quyen o dau vay
+[00:37:03] [Server thread/INFO]: [Not Secure] <HDung24> đấy
+[00:37:18] [Server thread/INFO]: [Not Secure] <HDung24> t về nhà t rồi
+[00:37:24] [Server thread/INFO]: [Not Secure] <HDung24> nhaf m vừa vô là nhà quyền
+[00:37:26] [Server thread/INFO]: [BaoIsHere: Teleported nhdso1tg to BaoIsHere]
+[00:37:40] [Server thread/INFO]: [Not Secure] <nhdso1tg> SAO NO KEU NHA NO CO GO
+[00:37:51] [Server thread/INFO]: [Not Secure] <Quyen27> cac thg nao no trom r
+[00:38:00] [Server thread/INFO]: [Not Secure] <HDung24> m k thấy nhà nó làm bằng gỗ à
+[00:38:41] [Server thread/INFO]: [Not Secure] <BaoIsHere> thì gần như tất cả nhà trong cái server này đều làm bằng gỗ
+[00:38:44] [Server thread/INFO]: Quyen27 drowned
+[00:39:08] [Server thread/INFO]: [Not Secure] <BaoIsHere> starter pack ko quyền :)))
+[00:39:14] [Server thread/INFO]: [Not Secure] <Quyen27> dell cs tien
+[00:39:29] [Server thread/INFO]: nhdso1tg lost connection: Disconnected
+[00:39:29] [Server thread/INFO]: nhdso1tg left the game
+[00:39:34] [Server thread/INFO]: [Not Secure] <BaoIsHere> yên ngựa mà :))
+[00:39:54] [Server thread/INFO]: [Not Secure] <BaoIsHere> xuống nether có ấy
+[00:40:10] [Server thread/INFO]: [Not Secure] <BaoIsHere> ở fortress thì phải
+[00:40:33] [Server thread/INFO]: [Not Secure] <BaoIsHere> cho dùng chunk base ấy
+[00:44:48] [Server thread/INFO]: Quyen27 was shot by Skeleton
+[00:48:21] [Server thread/INFO]: [Not Secure] <HDung24> j m
+[00:48:29] [Server thread/INFO]: [Not Secure] <Quyen27> xin it kc
+[00:48:57] [Server thread/INFO]: [Not Secure] <HDung24> cút
+[00:49:00] [Server thread/INFO]: [Not Secure] <Quyen27> thanks|
+[00:52:03] [Server thread/INFO]: [Not Secure] <HDung24> ê
+[00:52:08] [Server thread/INFO]: [Not Secure] <HDung24> quyeenf m có lấy đồ t k
+[00:52:15] [Server thread/INFO]: [Not Secure] <Quyen27> lay j\
+[00:52:18] [Server thread/INFO]: [Not Secure] <HDung24> khối xương
+[00:52:22] [Server thread/INFO]: [Not Secure] <Quyen27> ko
+[00:52:32] [Server thread/INFO]: [Not Secure] <Quyen27> lay lmj
+[00:55:06] [Server thread/INFO]: [Not Secure] <BaoIsHere> kiếm đc yên ngựa chx quyền :))
+[00:55:12] [Server thread/INFO]: [Not Secure] <Quyen27> khoi can
+[00:55:28] [Server thread/INFO]: [Not Secure] <Quyen27> tp toi qua ender di bao =))
+[00:55:56] [Server thread/INFO]: [Not Secure] <BaoIsHere> ko biết cổng the end ở đâu :))
+[00:56:09] [Server thread/INFO]: [Not Secure] <Quyen27> dung ey cho xin cqai toa do cong
+[00:59:44] [Server thread/INFO]: Quyen27 hit the ground too hard
+[00:59:53] [Server thread/INFO]: [Not Secure] <BaoIsHere> thằng nào thịt 3 con lợn của mình rồi :((
+[01:00:11] [Server thread/INFO]: [Not Secure] <Quyen27> me ket block duma
+[01:00:24] [Server thread/INFO]: [Not Secure] <Quyen27> dong y di bao
+[01:04:08] [Server thread/INFO]: [Not Secure] <Quyen27> bao oi
+[01:04:13] [Server thread/INFO]: [Not Secure] <BaoIsHere> huh?
+[01:04:17] [Server thread/INFO]: [Not Secure] <Quyen27> con lv ko
+[01:04:27] [Server thread/INFO]: [Not Secure] <BaoIsHere> 13
+[01:04:41] [Server thread/INFO]: [Not Secure] <Quyen27> ep ho vs
+[01:06:05] [Server thread/INFO]: [Not Secure] <BaoIsHere> dũng
+[01:06:08] [Server thread/INFO]: [Not Secure] <HDung24> oi
+[01:06:14] [Server thread/INFO]: [Not Secure] <Quyen27> xin 3 cuc vang bao
+[01:06:22] [Server thread/INFO]: [Not Secure] <BaoIsHere> còn hộp shulker ko?
+[01:06:25] [Server thread/INFO]: [Not Secure] <HDung24> yes
+[01:06:35] [Server thread/INFO]: [Not Secure] <BaoIsHere> bán cho 1 cái
+[01:06:50] [Server thread/INFO]: [Not Secure] <Quyen27> bao oi dung ngu
+[01:06:56] [Server thread/INFO]: [Not Secure] <HDung24> tp t
+[01:06:59] [Server thread/INFO]: [Not Secure] <HDung24> tp ra t
+[01:07:03] [Server thread/INFO]: [BaoIsHere: Teleported HDung24 to BaoIsHere]
+[01:07:06] [Server thread/INFO]: [Not Secure] <HDung24> clm
+[01:07:44] [Server thread/INFO]: [Not Secure] <HDung24> free
+[01:07:49] [Server thread/INFO]: [Not Secure] <BaoIsHere> ok :)
+[01:08:12] [Server thread/INFO]: [Not Secure] <Quyen27> toa do cong ender la jv
+[01:08:16] [Server thread/INFO]: [Not Secure] <HDung24> nhà t
+[01:08:28] [Server thread/INFO]: [Not Secure] <Quyen27> vl =))
+[01:08:36] [Server thread/INFO]: [Not Secure] <HDung24> -553 42 1802
+[01:08:53] [Server thread/INFO]: [Not Secure] <Quyen27> bao tp toi qua day di bao
+[01:09:08] [Server thread/INFO]: [BaoIsHere: Teleported Quyen27 to -552.500000, 42.000000, 1802.500000]
+[01:09:17] [Server thread/INFO]: [BaoIsHere: Teleported BaoIsHere to -552.500000, 42.000000, 1802.500000]
+[01:09:18] [Server thread/INFO]: BaoIsHere has made the advancement [Eye Spy]
+[01:10:16] [epollEventLoopGroup-4-1/INFO]: Player connected with username TrHong5478
+[01:10:16] [localSession-7-1/INFO]: TrHong5478 (logged in as: TrHong5478) has connected to the Java server
+[01:10:16] [pool-5-thread-1/INFO]: Floodgate player who is logged in as .TrHong5478 00000000-0000-0000-0009-01f5a4347d27 joined
+[01:10:17] [ForkJoinPool.commonPool-worker-13/WARN]: failed to fetch skin on first join
 java.lang.IllegalStateException: not found
 	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
 	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
 	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.mda131c5$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.md44dfed$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
 	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.mda131c5$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.md44dfed$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
@@ -294,21 +215,128 @@ java.lang.IllegalStateException: not found
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[05:31:10] [Server thread/INFO]: HDung24[/127.85.189.177:53257] logged in with entity id 336 at (287.1217400776401, 2.0, 0.4502784056535208)
-[05:31:10] [Server thread/INFO]: [38;2;170;170;170m✚[0m [38;2;133;255;143m[38;2;170;0;170mHDung24[38;2;133;255;143m joined the game[0m
-[05:31:11] [Server thread/INFO]: Quyen27[/127.233.142.68:58391] logged in with entity id 385 at (299.5242888131814, 77.0, 1429.3499457410228)
-[05:31:11] [Server thread/INFO]: [38;2;170;170;170m✚[0m [38;2;133;255;143m[38;2;0;170;0mQuyen27[38;2;133;255;143m joined the game[0m
-[05:31:40] [epollEventLoopGroup-4-1/INFO]: Player connected with username Dangdayy
-[05:31:40] [localSession-7-1/INFO]: Dangdayy (logged in as: Dangdayy) has connected to the Java server
-[05:31:41] [pool-6-thread-1/INFO]: Floodgate player who is logged in as .Dangdayy 00000000-0000-0000-0009-01fb4b494f1f joined
-[05:31:41] [ForkJoinPool.commonPool-worker-1/WARN]: failed to fetch skin on first join
+[01:10:17] [Server thread/INFO]: .TrHong5478[/127.14.85.3:0] logged in with entity id 31203 at (163.94484, 63.0, 1076.8905)
+[01:10:17] [Server thread/INFO]: Floodgate player logged in as .TrHong5478 joined (UUID: 00000000-0000-0000-0009-01f5a4347d27)
+[01:10:17] [Server thread/INFO]: .TrHong5478 joined the game
+[01:11:31] [Server thread/INFO]: [BaoIsHere: Set own game mode to Spectator Mode]
+[01:11:48] [Server thread/INFO]: [BaoIsHere: Set own game mode to Survival Mode]
+[01:11:50] [Server thread/INFO]: BaoIsHere has made the advancement [Remote Getaway]
+[01:12:58] [Server thread/INFO]: BaoIsHere has made the advancement [The City at the End of the Game]
+[01:13:12] [Server thread/INFO]: [Not Secure] <Quyen27> bao tien kiem cho xin cai canh nha =)
+[01:13:25] [Server thread/INFO]: [Not Secure] <HDung24> k kiếm đc đâu
+[01:13:27] [Server thread/INFO]: [Not Secure] <HDung24> :))
+[01:13:34] [Server thread/INFO]: [Not Secure] <BaoIsHere> dũng lấy hết rồi
+[01:13:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=169, y=70, z=1039} class_2338{x=169, y=71, z=1039}
+[01:13:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=169, y=70, z=1039} class_2338{x=169, y=71, z=1039}
+[01:13:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=169, y=70, z=1039} class_2338{x=169, y=71, z=1039}
+[01:13:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=169, y=70, z=1039} class_2338{x=169, y=71, z=1039}
+[01:13:55] [Server thread/INFO]: [Not Secure] <Quyen27> suker cx dc =(
+[01:14:12] [Server thread/INFO]: [Not Secure] <HDung24> -1842 1533
+[01:14:18] [Server thread/INFO]: [Not Secure] <HDung24> -2170 396
+[01:14:25] [Server thread/INFO]: [Not Secure] <HDung24> -1595 70
+[01:14:33] [Server thread/INFO]: [Not Secure] <HDung24> -863 -572
+[01:14:41] [Server thread/INFO]: [Not Secure] <HDung24> toạ độ mấy cái end city đấy
+[01:18:20] [Server thread/INFO]: [Not Secure] <HDung24> cho tp ké
+[01:18:36] [Server thread/INFO]: [Not Secure] <HDung24> ở xung quanh chỗ t k spawn con mob nào
+[01:18:48] [Server thread/INFO]: [Not Secure] <Quyen27> cho t cha thek
+[01:19:00] [Server thread/INFO]: [Not Secure] <Quyen27> qua nha phong nhiem ay nhieu phet
+[01:20:04] [Server thread/WARN]: .TrHong5478 moved wrongly!
+[01:21:44] [localSession-7-1/INFO]: TrHong5478 has disconnected from the Java server because of Bedrock client disconnected
+[01:21:44] [Geyser Fabric connection thread-6-2/INFO]: Floodgate player logged in as .TrHong5478 disconnected
+[01:21:44] [Server thread/INFO]: .TrHong5478 lost connection: Disconnected
+[01:21:44] [Server thread/INFO]: .TrHong5478 left the game
+[01:21:54] [Server thread/INFO]: [BaoIsHere: Gave 128 [Dirt] to BaoIsHere]
+[01:25:09] [Server thread/INFO]: [Not Secure] <HDung24> bịp
+[01:25:12] [Server thread/INFO]: [Not Secure] <HDung24> đ có con nào
+[01:25:19] [Server thread/INFO]: [Not Secure] <Quyen27> =))
+[01:25:28] [Server thread/INFO]: [Not Secure] <Quyen27> ko cs thi cx day cherry day
+[01:25:33] [Server thread/INFO]: [Not Secure] <Quyen27> lum ma an
+[01:25:39] [Server thread/INFO]: [Not Secure] <HDung24> t cần lông cừu
+[01:25:49] [Server thread/INFO]: [Not Secure] <Quyen27> nha dang nhan
+[01:26:06] [Server thread/INFO]: [Not Secure] <HDung24> ê
+[01:26:10] [Server thread/INFO]: [Not Secure] <Quyen27> xung quanh nha m bi t quet sach r
+[01:26:17] [Server thread/INFO]: [Not Secure] <HDung24> giờ kiếm màu hồng ở đâu nhỉ
+[01:26:22] [Server thread/INFO]: [Not Secure] <Quyen27> hoa
+[01:26:30] [Server thread/INFO]: [Not Secure] <BaoIsHere> hoa anh đào
+[01:26:42] [Server thread/INFO]: [Not Secure] <HDung24> dc roi
+[01:26:55] [Server thread/INFO]: [Not Secure] <HDung24> xa tít chân tr, gần ngay t rc mắt
+[01:29:10] [Server thread/INFO]: [BaoIsHere: Gave 128 [Dirt] to BaoIsHere]
+[01:35:23] [Server thread/INFO]: [Not Secure] <Quyen27> bao oi cs cai ban tach enchant ko
+[01:35:36] [Server thread/INFO]: [Not Secure] <HDung24> CO
+[01:35:37] [Server thread/INFO]: [Not Secure] <BaoIsHere> bị lấy mất rồi
+[01:35:52] [Server thread/INFO]: [Not Secure] <Quyen27> che ho vs quen ko mang da
+[01:36:16] [Server thread/INFO]: [Not Secure] <Quyen27> tien ship cho chuc cuon sach nha =)
+[01:36:28] [Server thread/INFO]: [Not Secure] <HDung24> kí sinh trùng
+[01:36:33] [Server thread/INFO]: [Not Secure] <Quyen27> yes
+[01:38:38] [Server thread/INFO]: [BaoIsHere: Gave 1 [Carved Pumpkin] to BaoIsHere]
+[01:41:08] [Server thread/INFO]: [Not Secure] <Quyen27> bao ve bn thi max nhe
+[01:43:42] [Server thread/INFO]: [Not Secure] <HDung24> tạm xong căn nhà
+[01:43:49] [Server thread/INFO]: [Not Secure] <HDung24> quyền béo đâu
+[01:43:54] [Server thread/INFO]: [Not Secure] <Quyen27> dang fam
+[01:44:08] [Server thread/INFO]: TuiLadre[/127.247.119.234:43725] logged in with entity id 54613 at (186.40129980451962, 69.0, 1466.445181673624)
+[01:44:08] [Server thread/INFO]: TuiLadre joined the game
+[01:44:14] [Server thread/INFO]: [Not Secure] <HDung24> farm ké tí
+[01:44:17] [Server thread/INFO]: [Not Secure] <HDung24> sua giáp
+[01:44:25] [Server thread/INFO]: [Not Secure] <Quyen27> ok
+[01:44:55] [Server thread/INFO]: [Not Secure] <Quyen27> mang cai ban tach enchant ko
+[01:45:00] [Server thread/INFO]: [Not Secure] <HDung24> m sửa chỗ này à
+[01:45:12] [Server thread/INFO]: [Not Secure] <Quyen27> yes
+[01:45:16] [Server thread/INFO]: [Not Secure] <HDung24> sửa cmm
+[01:45:24] [Server thread/INFO]: [Not Secure] <Quyen27> qua hao no pha block
+[01:45:26] [Server thread/INFO]: [Not Secure] <HDung24> xây ngu còn sửa
+[01:45:40] [Server thread/INFO]: [Not Secure] <Quyen27> long bao dc ma
+[01:45:50] [Server thread/INFO]: [TuiLadre: Set the weather to rain]
+[01:45:56] [Server thread/INFO]: [Not Secure] <HDung24> ừ cx đc ấy nhể
+[01:45:59] [Server thread/INFO]: [Not Secure] <Quyen27> block trn dau la do t het la
+[01:46:07] [Server thread/INFO]: [Not Secure] <HDung24> dc roi
+[01:46:37] [Server thread/INFO]: [Not Secure] <Quyen27> cs cai bam tach enchan ko
+[01:46:46] [Server thread/INFO]: [Not Secure] <HDung24> dcm
+[01:46:48] [Server thread/WARN]: TuiLadre moved too quickly! -11.656747561328515,4.081669981661406,-21.020944011292613
+[01:46:51] [Server thread/INFO]: [Not Secure] <BaoIsHere> haha
+[01:46:57] [Server thread/INFO]: [Not Secure] <HDung24> xém chết
+[01:47:15] [Server thread/INFO]: [BaoIsHere: Gave 128 [Dirt] to BaoIsHere]
+[01:47:26] [Server thread/INFO]: [TuiLadre: Teleported HDung24 to TuiLadre]
+[01:47:57] [Server thread/INFO]: [Not Secure] <HDung24> đ có 1 con cừu vc
+[01:48:29] [Server thread/INFO]: [Not Secure] <BaoIsHere> dùng summon trong command block đi phong :)))
+[01:48:35] [Server thread/INFO]: [Not Secure] <TuiLadre> ?
+[01:49:00] [Server thread/INFO]: [TuiLadre: Summoned new Sheep]
+[01:49:02] [Server thread/INFO]: [Not Secure] <Quyen27> dung oi cho xin cai ban tach en chan vs
+[01:49:32] [Server thread/INFO]: [Not Secure] <HDung24> t dể ở nhà
+[01:49:39] [Server thread/INFO]: [Not Secure] <Quyen27> =))
+[01:50:48] [Server thread/INFO]: [BaoIsHere: Gave 128 [Dirt] to BaoIsHere]
+[01:51:40] [Server thread/INFO]: TuiLadre lost connection: Disconnected
+[01:51:40] [Server thread/INFO]: TuiLadre left the game
+[01:51:58] [Server thread/INFO]: [Not Secure] <Quyen27> riu do mem mai la ngol dk =))
+[01:52:07] [Server thread/INFO]: [Not Secure] <HDung24> k em
+[01:52:11] [Server thread/INFO]: Quyen27 lost connection: Disconnected
+[01:52:11] [Server thread/INFO]: Quyen27 left the game
+[01:53:43] [Server thread/INFO]: [BaoIsHere: Gave 128 [Dirt] to BaoIsHere]
+[01:54:41] [Server thread/INFO]: TuiLadre[/127.11.46.134:52331] logged in with entity id 61723 at (172.49796003878183, 63.0, 1070.6694674442879)
+[01:54:41] [Server thread/INFO]: TuiLadre joined the game
+[01:55:31] [Server thread/INFO]: [BaoIsHere: Gave 128 [Dirt] to BaoIsHere]
+[01:55:35] [Server thread/INFO]: TuiLadre lost connection: Disconnected
+[01:55:35] [Server thread/INFO]: TuiLadre left the game
+[01:56:13] [Server thread/INFO]: [Not Secure] <HDung24> e kbao
+[01:56:18] [Server thread/INFO]: TuiLadre[/127.247.119.234:57151] logged in with entity id 62624 at (187.29466358774295, 63.0, 1052.8782844727552)
+[01:56:18] [Server thread/INFO]: TuiLadre joined the game
+[01:56:19] [Server thread/INFO]: [Not Secure] <BaoIsHere> huh?
+[01:56:53] [Server thread/INFO]: [Not Secure] <HDung24> chắc cno sắp chán mine rồi
+[01:57:01] [Server thread/INFO]: [Not Secure] <HDung24> nào chỉ t cách mở server nha
+[01:57:40] [Server thread/INFO]: [Not Secure] <BaoIsHere> lúc đấy chắc mình qua chơi hypixel :)))
+[01:57:57] [Server thread/INFO]: [Not Secure] <HDung24> còn t sẽ tiếp quản server này
+[01:58:22] [Server thread/INFO]: [Not Secure] <BaoIsHere> còn cái server này sẽ bị bỏ hoang tầm vài tháng
+[01:58:30] [Server thread/INFO]: [Not Secure] <BaoIsHere> chắc thế
+[01:58:33] [Server thread/INFO]: [Not Secure] <HDung24> t chs
+[02:00:43] [Server thread/INFO]: [Not Secure] <BaoIsHere> thêm mod man from the fog cho zui :)))
+[02:01:26] [Server thread/INFO]: [BaoIsHere: Gave 128 [Dirt] to BaoIsHere]
+[02:02:21] [ForkJoinPool.commonPool-worker-20/WARN]: failed to fetch skin on first join
 java.lang.IllegalStateException: not found
 	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
 	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
 	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
-	at net.minecraft.class_3248.mda131c5$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.md44dfed$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
 	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.mda131c5$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.md44dfed$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
@@ -316,6 +344,1130 @@ java.lang.IllegalStateException: not found
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[05:31:42] [Server thread/INFO]: .Dangdayy[/127.173.169.146:0] logged in with entity id 813 at (996.49207, 72.0, 1737.7606)
-[05:31:42] [Server thread/INFO]: Floodgate player logged in as .Dangdayy joined (UUID: 00000000-0000-0000-0009-01fb4b494f1f)
-[05:31:42] [Server thread/INFO]: [38;2;170;170;170m✚[0m [38;2;133;255;143m[38;2;0;170;0m.Dangdayy[38;2;133;255;143m joined the game[0m
+[02:02:22] [Server thread/INFO]: Quyen27[/127.32.150.52:52639] logged in with entity id 65213 at (286.69999998807907, 2.0, 0.4484402174957373)
+[02:02:22] [Server thread/INFO]: Quyen27 joined the game
+[02:02:38] [Server thread/INFO]: [Not Secure] <HDung24> ê kbao
+[02:02:47] [Server thread/INFO]: [Not Secure] <HDung24> mod đó pe sao chs đc
+[02:02:50] [Server thread/INFO]: [Not Secure] <HDung24> cos lông cừu k
+[02:02:56] [Server thread/INFO]: [Not Secure] <BaoIsHere> thì pc thôi
+[02:04:53] [Server thread/INFO]: [TuiLadre: Set own game mode to Creative Mode]
+[02:05:06] [Server thread/INFO]: [TuiLadre: Set own game mode to Survival Mode]
+[02:05:35] [Server thread/INFO]: TuiLadre lost connection: Disconnected
+[02:05:35] [Server thread/INFO]: TuiLadre left the game
+[02:05:49] [Server thread/INFO]: HDung24 has made the advancement [Best Friends Forever]
+[02:09:17] [Server thread/INFO]: BaoIsHere has completed the challenge [Great View From Up Here]
+[02:09:30] [Server thread/INFO]: [Not Secure] <Quyen27> chill v bao
+[02:13:45] [Server thread/INFO]: [BaoIsHere: Gave 128 [Dirt] to BaoIsHere]
+[02:14:04] [Server thread/INFO]: Quyen27 lost connection: Disconnected
+[02:14:04] [Server thread/INFO]: Quyen27 left the game
+[02:16:10] [Server thread/INFO]: [BaoIsHere: Teleported BaoIsHere to HDung24]
+[02:16:36] [Server thread/INFO]: [Not Secure] <BaoIsHere> bay à :))))))
+[02:16:40] [Server thread/INFO]: [Not Secure] <HDung24> nhayr maf
+[02:16:54] [Server thread/INFO]: [Not Secure] <BaoIsHere> nhảy nó ko như thế :))
+[02:16:59] [Server thread/INFO]: [Not Secure] <HDung24> nè
+[02:17:04] [Server thread/INFO]: [Not Secure] <HDung24> nhìn
+[02:17:15] [Server thread/INFO]: [Not Secure] <HDung24> ddos
+[02:17:26] [Server thread/INFO]: [Not Secure] <BaoIsHere> nhưng lại thấy dũng bay ra :))
+[02:17:30] [Server thread/INFO]: [Not Secure] <HDung24> đi mà
+[02:17:32] [Server thread/INFO]: HDung24 has made the advancement [A Seedy Place]
+[02:17:43] [Server thread/INFO]: [Not Secure] <BaoIsHere> trồng lại đi
+[02:18:25] [Server thread/INFO]: [Not Secure] <BaoIsHere> còn j để nói ko dũng :)))
+[02:18:29] [Server thread/INFO]: [Not Secure] <HDung24> vc
+[02:18:37] [Server thread/INFO]: [Not Secure] <HDung24> mess
+[02:19:19] [ForkJoinPool.commonPool-worker-22/WARN]: failed to fetch skin on first join
+java.lang.IllegalStateException: not found
+	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at net.minecraft.class_3248.md44dfed$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.md44dfed$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[02:19:22] [Server thread/INFO]: Quyen27[/127.32.150.52:39001] logged in with entity id 72682 at (286.6814902796459, 2.0, 0.30000001192092896)
+[02:19:22] [Server thread/INFO]: Quyen27 joined the game
+[02:19:54] [Server thread/INFO]: HDung24 lost connection: :))))
+[02:19:54] [Server thread/INFO]: HDung24 left the game
+[02:19:54] [Server thread/INFO]: [BaoIsHere: Kicked HDung24: :))))]
+[02:19:54] [Server thread/WARN]: handleDisconnection() called twice
+[02:20:00] [ForkJoinPool.commonPool-worker-22/WARN]: failed to fetch skin on first join
+java.lang.IllegalStateException: not found
+	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at net.minecraft.class_3248.md44dfed$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.md44dfed$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[02:20:02] [Server thread/INFO]: HDung24[/127.85.189.177:56673] logged in with entity id 72967 at (109.05138464819613, 64.0, 1429.2554186638988)
+[02:20:02] [Server thread/INFO]: HDung24 joined the game
+[02:20:26] [Server thread/INFO]: HDung24 has made the advancement [The Parrots and the Bats]
+[02:23:12] [Server thread/INFO]: BaoIsHere lost connection: Disconnected
+[02:23:12] [Server thread/INFO]: BaoIsHere left the game
+[02:25:03] [Server thread/INFO]: HDung24 has made the advancement [Voluntary Exile]
+[02:32:57] [Server thread/INFO]: Quyen27 lost connection: Disconnected
+[02:32:57] [Server thread/INFO]: Quyen27 left the game
+[02:42:58] [Server thread/INFO]: HDung24 lost connection: Disconnected
+[02:42:58] [Server thread/INFO]: HDung24 left the game
+[02:56:22] [epollEventLoopGroup-4-2/INFO]: Player connected with username Dangdayy
+[02:56:22] [localSession-7-2/INFO]: Dangdayy (logged in as: Dangdayy) has connected to the Java server
+[02:56:23] [pool-5-thread-2/INFO]: Floodgate player who is logged in as .Dangdayy 00000000-0000-0000-0009-01fb4b494f1f joined
+[02:56:23] [ForkJoinPool.commonPool-worker-24/WARN]: failed to fetch skin on first join
+java.lang.IllegalStateException: not found
+	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at net.minecraft.class_3248.md44dfed$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.md44dfed$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[02:56:23] [Server thread/INFO]: .Dangdayy[/127.173.169.146:0] logged in with entity id 78858 at (205.79388, 64.0, 1431.2124)
+[02:56:23] [Server thread/INFO]: Floodgate player logged in as .Dangdayy joined (UUID: 00000000-0000-0000-0009-01fb4b494f1f)
+[02:56:23] [Server thread/INFO]: .Dangdayy joined the game
+[03:03:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=282, y=73, z=1409} class_2338{x=281, y=74, z=1410}
+[03:06:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=219, y=66, z=1417} class_2338{x=255, y=72, z=1418}
+[03:10:00] [localSession-7-2/INFO]: Dangdayy has disconnected from the Java server because of Bedrock client disconnected
+[03:10:00] [Geyser Fabric connection thread-6-3/INFO]: Floodgate player logged in as .Dangdayy disconnected
+[03:10:00] [Server thread/INFO]: .Dangdayy lost connection: Disconnected
+[03:10:00] [Server thread/INFO]: .Dangdayy left the game
+[03:46:08] [epollEventLoopGroup-4-3/INFO]: Player connected with username TrHong5478
+[03:46:08] [localSession-7-3/INFO]: TrHong5478 (logged in as: TrHong5478) has connected to the Java server
+[03:46:09] [pool-5-thread-3/INFO]: Floodgate player who is logged in as .TrHong5478 00000000-0000-0000-0009-01f5a4347d27 joined
+[03:46:09] [ForkJoinPool.commonPool-worker-26/WARN]: failed to fetch skin on first join
+java.lang.IllegalStateException: not found
+	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at net.minecraft.class_3248.md44dfed$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.md44dfed$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[03:46:09] [Server thread/INFO]: .TrHong5478[/127.14.85.3:0] logged in with entity id 84717 at (169.03659, 63.0, 1071.5134)
+[03:46:09] [Server thread/INFO]: Floodgate player logged in as .TrHong5478 joined (UUID: 00000000-0000-0000-0009-01f5a4347d27)
+[03:46:09] [Server thread/INFO]: .TrHong5478 joined the game
+[03:52:13] [epollEventLoopGroup-4-4/INFO]: Player connected with username Dangdayy
+[03:52:13] [localSession-7-4/INFO]: Dangdayy (logged in as: Dangdayy) has connected to the Java server
+[03:52:14] [pool-5-thread-4/INFO]: Floodgate player who is logged in as .Dangdayy 00000000-0000-0000-0009-01fb4b494f1f joined
+[03:52:14] [ForkJoinPool.commonPool-worker-28/WARN]: failed to fetch skin on first join
+java.lang.IllegalStateException: not found
+	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at net.minecraft.class_3248.md44dfed$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.md44dfed$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[03:52:14] [Server thread/INFO]: .Dangdayy[/127.173.169.146:0] logged in with entity id 85926 at (970.5635, 71.0, 1731.1597)
+[03:52:14] [Server thread/INFO]: Floodgate player logged in as .Dangdayy joined (UUID: 00000000-0000-0000-0009-01fb4b494f1f)
+[03:52:14] [Server thread/INFO]: .Dangdayy joined the game
+[03:53:18] [Geyser Fabric connection thread-6-5/INFO]: Floodgate player logged in as .Dangdayy disconnected
+[03:53:18] [localSession-7-4/INFO]: Dangdayy has disconnected from the Java server because of Bedrock client timed out
+[03:53:18] [Server thread/INFO]: .Dangdayy lost connection: Disconnected
+[03:53:18] [Server thread/INFO]: .Dangdayy left the game
+[03:54:42] [epollEventLoopGroup-4-5/INFO]: Bedrock user with ip: /127.173.169.146 has disconnected for reason Bedrock client timed out
+[03:57:08] [epollEventLoopGroup-4-6/INFO]: Player connected with username Dangdayy
+[03:57:08] [localSession-7-5/INFO]: Dangdayy (logged in as: Dangdayy) has connected to the Java server
+[03:57:09] [pool-5-thread-5/INFO]: Floodgate player who is logged in as .Dangdayy 00000000-0000-0000-0009-01fb4b494f1f joined
+[03:57:09] [ForkJoinPool.commonPool-worker-30/WARN]: failed to fetch skin on first join
+java.lang.IllegalStateException: not found
+	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at net.minecraft.class_3248.md44dfed$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.md44dfed$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[03:57:09] [Server thread/INFO]: .Dangdayy[/127.173.169.146:0] logged in with entity id 86989 at (986.1427, 72.3575, 1725.2688)
+[03:57:09] [Server thread/INFO]: Floodgate player logged in as .Dangdayy joined (UUID: 00000000-0000-0000-0009-01fb4b494f1f)
+[03:57:09] [Server thread/INFO]: .Dangdayy joined the game
+[03:57:20] [Server thread/INFO]: .TrHong5478 fell from a high place
+[03:57:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=984, y=70, z=1709}
+[03:59:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=180, y=62, z=1066} class_2338{x=182, y=63, z=1066}
+[04:00:30] [Geyser Fabric connection thread-6-4/INFO]: Floodgate player logged in as .TrHong5478 disconnected
+[04:00:30] [localSession-7-3/INFO]: TrHong5478 has disconnected from the Java server because of Bedrock client disconnected
+[04:00:30] [Server thread/INFO]: .TrHong5478 lost connection: Disconnected
+[04:00:30] [Server thread/INFO]: .TrHong5478 left the game
+[04:05:29] [Server thread/INFO]: .Dangdayy has made the advancement [Bring Home the Beacon]
+[04:06:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1007, y=75, z=1753} class_2338{x=1005, y=75, z=1751}
+[04:06:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1007, y=75, z=1753} class_2338{x=1003, y=75, z=1751}
+[04:06:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1002, y=74, z=1751} class_2338{x=1003, y=74, z=1750}
+[04:06:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1003, y=74, z=1751} class_2338{x=1003, y=74, z=1749}
+[04:06:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=74, z=1748} class_2338{x=1005, y=74, z=1748}
+[04:06:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=74, z=1748} class_2338{x=1004, y=74, z=1749}
+[04:06:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=74, z=1748} class_2338{x=1004, y=73, z=1749}
+[04:06:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=74, z=1748} class_2338{x=1004, y=74, z=1750}
+[04:06:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=74, z=1748} class_2338{x=1003, y=73, z=1750}
+[04:06:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=74, z=1748} class_2338{x=1002, y=74, z=1749}
+[04:06:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=74, z=1748} class_2338{x=1002, y=74, z=1750}
+[04:06:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=74, z=1748} class_2338{x=1001, y=74, z=1750}
+[04:06:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=74, z=1751} class_2338{x=1004, y=75, z=1751}
+[04:06:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=74, z=1751} class_2338{x=1002, y=73, z=1750}
+[04:06:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=74, z=1751} class_2338{x=1001, y=73, z=1750}
+[04:06:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=74, z=1751} class_2338{x=1002, y=73, z=1749}
+[04:06:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=74, z=1751} class_2338{x=1001, y=73, z=1749}
+[04:06:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=74, z=1751} class_2338{x=1002, y=73, z=1748}
+[04:06:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=74, z=1751} class_2338{x=1003, y=74, z=1748}
+[04:06:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1002, y=73, z=1748} class_2338{x=1003, y=73, z=1748}
+[04:06:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1002, y=73, z=1748} class_2338{x=1003, y=73, z=1747}
+[04:06:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1002, y=73, z=1748} class_2338{x=1002, y=73, z=1747}
+[04:06:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1002, y=73, z=1748} class_2338{x=1002, y=72, z=1747}
+[04:06:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1002, y=73, z=1748} class_2338{x=1003, y=73, z=1746}
+[04:06:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1002, y=73, z=1748} class_2338{x=1003, y=72, z=1746}
+[04:06:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1002, y=73, z=1748} class_2338{x=1004, y=73, z=1746}
+[04:06:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1002, y=73, z=1748} class_2338{x=1002, y=72, z=1746}
+[04:06:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1002, y=73, z=1748} class_2338{x=1003, y=71, z=1746}
+[04:06:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=72, z=1746} class_2338{x=1005, y=73, z=1746}
+[04:06:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=72, z=1746} class_2338{x=1005, y=73, z=1747}
+[04:06:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1006, y=73, z=1747} class_2338{x=1006, y=73, z=1746}
+[04:06:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1006, y=73, z=1747} class_2338{x=1007, y=73, z=1746}
+[04:06:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1006, y=73, z=1747} class_2338{x=1008, y=73, z=1746}
+[04:06:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1006, y=73, z=1747} class_2338{x=1007, y=73, z=1745}
+[04:06:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1008, y=73, z=1746} class_2338{x=1008, y=73, z=1745}
+[04:06:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1008, y=73, z=1746} class_2338{x=1009, y=73, z=1746}
+[04:06:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1008, y=73, z=1746} class_2338{x=1009, y=73, z=1745}
+[04:06:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1008, y=73, z=1746} class_2338{x=1009, y=72, z=1746}
+[04:06:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1008, y=73, z=1746} class_2338{x=1010, y=73, z=1746}
+[04:06:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1008, y=73, z=1746} class_2338{x=1010, y=73, z=1745}
+[04:06:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1008, y=73, z=1746} class_2338{x=1011, y=73, z=1746}
+[04:06:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1008, y=73, z=1746} class_2338{x=1011, y=72, z=1746}
+[04:06:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1008, y=73, z=1746} class_2338{x=1011, y=73, z=1745}
+[04:06:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1008, y=73, z=1746} class_2338{x=1012, y=73, z=1746}
+[04:06:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1008, y=73, z=1746} class_2338{x=1012, y=73, z=1745}
+[04:06:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1008, y=73, z=1746} class_2338{x=1011, y=73, z=1744}
+[04:06:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1013, y=73, z=1745} class_2338{x=1012, y=73, z=1744}
+[04:06:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1013, y=73, z=1745} class_2338{x=1012, y=72, z=1745}
+[04:06:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1012, y=72, z=1746} class_2338{x=1011, y=72, z=1745}
+[04:06:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1012, y=72, z=1746} class_2338{x=1011, y=72, z=1744}
+[04:06:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1011, y=72, z=1745} class_2338{x=1010, y=72, z=1744}
+[04:06:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1011, y=72, z=1745} class_2338{x=1011, y=72, z=1747}
+[04:06:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1013, y=73, z=1745} class_2338{x=1013, y=73, z=1744}
+[04:06:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1012, y=73, z=1747} class_2338{x=1011, y=73, z=1747}
+[04:06:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1012, y=73, z=1747} class_2338{x=1011, y=73, z=1748}
+[04:06:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1010, y=73, z=1748} class_2338{x=1011, y=74, z=1747}
+[04:06:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1010, y=73, z=1748} class_2338{x=1011, y=74, z=1748}
+[04:06:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1011, y=74, z=1749} class_2338{x=1010, y=74, z=1748}
+[04:06:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1011, y=73, z=1749} class_2338{x=1012, y=73, z=1748}
+[04:06:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1009, y=74, z=1748} class_2338{x=1010, y=74, z=1747}
+[04:06:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1009, y=74, z=1748} class_2338{x=1009, y=74, z=1747}
+[04:06:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1009, y=74, z=1748} class_2338{x=1010, y=73, z=1747}
+[04:06:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1012, y=73, z=1749} class_2338{x=1012, y=72, z=1748}
+[04:06:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1012, y=73, z=1749} class_2338{x=1012, y=72, z=1749}
+[04:06:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1012, y=73, z=1749} class_2338{x=1012, y=71, z=1748}
+[04:07:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1012, y=72, z=1747} class_2338{x=1013, y=72, z=1743}
+[04:07:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1012, y=72, z=1747} class_2338{x=1013, y=72, z=1744}
+[04:07:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1012, y=72, z=1747} class_2338{x=1012, y=72, z=1743}
+[04:07:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1012, y=72, z=1747} class_2338{x=1012, y=72, z=1744}
+[04:07:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1014, y=72, z=1744} class_2338{x=1014, y=72, z=1743}
+[04:07:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1012, y=72, z=1746} class_2338{x=1011, y=71, z=1746}
+[04:07:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1012, y=72, z=1746} class_2338{x=1010, y=72, z=1746}
+[04:07:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1012, y=72, z=1746} class_2338{x=1010, y=72, z=1745}
+[04:07:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1012, y=72, z=1746} class_2338{x=1011, y=72, z=1743}
+[04:07:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1010, y=72, z=1745} class_2338{x=1010, y=72, z=1743}
+[04:07:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1010, y=72, z=1745} class_2338{x=1009, y=72, z=1744}
+[04:07:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1010, y=72, z=1745} class_2338{x=1009, y=72, z=1745}
+[04:07:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1010, y=72, z=1745} class_2338{x=1009, y=72, z=1743}
+[04:07:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1010, y=72, z=1745} class_2338{x=1008, y=72, z=1744}
+[04:07:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1010, y=72, z=1745} class_2338{x=1008, y=72, z=1745}
+[04:07:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1010, y=72, z=1745} class_2338{x=1008, y=72, z=1743}
+[04:07:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1010, y=72, z=1745} class_2338{x=1007, y=72, z=1744}
+[04:07:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1010, y=72, z=1745} class_2338{x=1007, y=72, z=1745}
+[04:07:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1010, y=72, z=1745} class_2338{x=1006, y=72, z=1745}
+[04:07:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1010, y=72, z=1745} class_2338{x=1007, y=72, z=1743}
+[04:07:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1010, y=72, z=1745} class_2338{x=1006, y=72, z=1744}
+[04:07:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1010, y=72, z=1745} class_2338{x=1005, y=72, z=1745}
+[04:07:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1010, y=72, z=1745} class_2338{x=1006, y=72, z=1743}
+[04:07:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1010, y=72, z=1745} class_2338{x=1005, y=72, z=1744}
+[04:07:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1005, y=72, z=1744} class_2338{x=1005, y=72, z=1743}
+[04:07:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1005, y=72, z=1744} class_2338{x=1004, y=72, z=1744}
+[04:07:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1005, y=72, z=1744} class_2338{x=1004, y=72, z=1745}
+[04:07:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1005, y=72, z=1744} class_2338{x=1004, y=72, z=1743}
+[04:07:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1005, y=72, z=1744} class_2338{x=1003, y=72, z=1745}
+[04:07:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1005, y=72, z=1744} class_2338{x=1003, y=72, z=1744}
+[04:07:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1003, y=72, z=1745} class_2338{x=1002, y=72, z=1745}
+[04:07:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1003, y=72, z=1745} class_2338{x=1002, y=72, z=1744}
+[04:07:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1003, y=72, z=1745} class_2338{x=1001, y=72, z=1746}
+[04:07:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1003, y=72, z=1745} class_2338{x=1001, y=72, z=1745}
+[04:07:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1001, y=72, z=1746} class_2338{x=1001, y=72, z=1744}
+[04:07:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1001, y=72, z=1746} class_2338{x=1000, y=72, z=1746}
+[04:07:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1001, y=72, z=1746} class_2338{x=1000, y=72, z=1745}
+[04:07:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1000, y=72, z=1746} class_2338{x=1000, y=72, z=1744}
+[04:07:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1000, y=72, z=1746} class_2338{x=1001, y=72, z=1743}
+[04:07:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1000, y=72, z=1746} class_2338{x=1000, y=72, z=1743}
+[04:07:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1000, y=72, z=1746} class_2338{x=999, y=72, z=1744}
+[04:07:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1000, y=72, z=1746} class_2338{x=999, y=72, z=1745}
+[04:07:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1000, y=72, z=1746} class_2338{x=999, y=72, z=1743}
+[04:07:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=999, y=72, z=1745} class_2338{x=998, y=72, z=1744}
+[04:07:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=999, y=72, z=1745} class_2338{x=998, y=72, z=1745}
+[04:07:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=999, y=72, z=1745} class_2338{x=998, y=72, z=1743}
+[04:07:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=999, y=72, z=1745} class_2338{x=997, y=72, z=1744}
+[04:07:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=999, y=72, z=1745} class_2338{x=997, y=72, z=1745}
+[04:07:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=999, y=72, z=1745} class_2338{x=997, y=72, z=1746}
+[04:07:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=999, y=72, z=1745} class_2338{x=996, y=72, z=1745}
+[04:07:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=999, y=72, z=1745} class_2338{x=996, y=72, z=1746}
+[04:07:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=999, y=72, z=1745} class_2338{x=996, y=72, z=1744}
+[04:07:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=72, z=1746} class_2338{x=995, y=72, z=1745}
+[04:07:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=72, z=1746} class_2338{x=995, y=72, z=1746}
+[04:07:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=72, z=1746} class_2338{x=995, y=72, z=1747}
+[04:07:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=72, z=1746} class_2338{x=994, y=72, z=1746}
+[04:07:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=72, z=1746} class_2338{x=994, y=72, z=1747}
+[04:07:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=72, z=1746} class_2338{x=994, y=72, z=1745}
+[04:07:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=994, y=72, z=1747} class_2338{x=994, y=73, z=1745}
+[04:07:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=994, y=72, z=1747} class_2338{x=994, y=71, z=1747}
+[04:07:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=994, y=71, z=1748} class_2338{x=993, y=72, z=1745}
+[04:07:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=72, z=1745} class_2338{x=994, y=73, z=1746}
+[04:07:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=72, z=1745} class_2338{x=995, y=73, z=1746}
+[04:07:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=73, z=1747} class_2338{x=997, y=73, z=1747}
+[04:07:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=73, z=1747} class_2338{x=998, y=73, z=1747}
+[04:07:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=73, z=1747} class_2338{x=998, y=72, z=1746}
+[04:07:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=73, z=1747} class_2338{x=999, y=72, z=1746}
+[04:07:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=73, z=1747} class_2338{x=999, y=72, z=1747}
+[04:07:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=73, z=1747} class_2338{x=998, y=72, z=1747}
+[04:07:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=73, z=1747} class_2338{x=999, y=72, z=1748}
+[04:07:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=73, z=1747} class_2338{x=998, y=72, z=1748}
+[04:07:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=73, z=1747} class_2338{x=997, y=72, z=1747}
+[04:07:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=73, z=1747} class_2338{x=996, y=72, z=1747}
+[04:07:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=72, z=1748} class_2338{x=997, y=72, z=1748}
+[04:07:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=72, z=1748} class_2338{x=998, y=72, z=1749}
+[04:07:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=72, z=1748} class_2338{x=999, y=72, z=1749}
+[04:07:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=72, z=1748} class_2338{x=999, y=71, z=1749}
+[04:07:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=72, z=1748} class_2338{x=999, y=72, z=1750}
+[04:07:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=72, z=1748} class_2338{x=998, y=73, z=1748}
+[04:07:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=998, y=73, z=1749} class_2338{x=999, y=73, z=1747}
+[04:07:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=998, y=73, z=1749} class_2338{x=999, y=73, z=1748}
+[04:07:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=998, y=73, z=1749} class_2338{x=1000, y=72, z=1747}
+[04:07:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=998, y=73, z=1749} class_2338{x=1001, y=72, z=1747}
+[04:07:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=998, y=73, z=1749} class_2338{x=1001, y=72, z=1748}
+[04:07:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=998, y=73, z=1749} class_2338{x=1000, y=72, z=1748}
+[04:07:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=998, y=73, z=1749} class_2338{x=1000, y=72, z=1749}
+[04:07:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=998, y=73, z=1749} class_2338{x=1001, y=72, z=1749}
+[04:07:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=998, y=73, z=1749} class_2338{x=1001, y=73, z=1747}
+[04:07:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=998, y=73, z=1749} class_2338{x=1002, y=72, z=1748}
+[04:07:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=998, y=73, z=1749} class_2338{x=1003, y=72, z=1747}
+[04:07:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=998, y=73, z=1749} class_2338{x=1003, y=72, z=1743}
+[04:07:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=998, y=73, z=1749} class_2338{x=1002, y=72, z=1743}
+[04:07:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1001, y=73, z=1741} class_2338{x=1002, y=71, z=1745}
+[04:07:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1001, y=73, z=1741} class_2338{x=1002, y=71, z=1746}
+[04:07:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1001, y=73, z=1741} class_2338{x=1004, y=72, z=1747}
+[04:07:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1001, y=73, z=1741} class_2338{x=1004, y=73, z=1747}
+[04:07:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1001, y=73, z=1741} class_2338{x=1004, y=72, z=1748}
+[04:07:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1001, y=73, z=1741} class_2338{x=1005, y=72, z=1747}
+[04:07:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1005, y=72, z=1748} class_2338{x=1006, y=72, z=1747}
+[04:07:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1006, y=73, z=1747} class_2338{x=1006, y=72, z=1746}
+[04:07:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1006, y=73, z=1747} class_2338{x=1007, y=72, z=1747}
+[04:07:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1006, y=73, z=1747} class_2338{x=1007, y=72, z=1746}
+[04:07:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1006, y=73, z=1747} class_2338{x=1008, y=72, z=1747}
+[04:07:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1006, y=73, z=1747} class_2338{x=1008, y=72, z=1746}
+[04:07:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1009, y=72, z=1747} class_2338{x=1007, y=72, z=1748}
+[04:07:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1005, y=72, z=1748} class_2338{x=1005, y=72, z=1746}
+[04:07:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1005, y=72, z=1748} class_2338{x=1003, y=72, z=1748}
+[04:07:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1005, y=72, z=1748} class_2338{x=1003, y=72, z=1749}
+[04:07:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1005, y=72, z=1748} class_2338{x=1003, y=73, z=1749}
+[04:07:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1005, y=72, z=1748} class_2338{x=1004, y=73, z=1748}
+[04:07:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=73, z=1750} class_2338{x=1004, y=72, z=1749}
+[04:07:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=72, z=1750} class_2338{x=1003, y=72, z=1750}
+[04:07:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=72, z=1750} class_2338{x=1002, y=72, z=1749}
+[04:07:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=72, z=1750} class_2338{x=1002, y=72, z=1750}
+[04:07:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=72, z=1750} class_2338{x=1001, y=72, z=1750}
+[04:07:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=72, z=1750} class_2338{x=1001, y=73, z=1748}
+[04:07:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=72, z=1750} class_2338{x=1000, y=73, z=1748}
+[04:07:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=72, z=1750} class_2338{x=1000, y=73, z=1749}
+[04:07:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=72, z=1750} class_2338{x=1000, y=73, z=1750}
+[04:07:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=999, y=73, z=1750} class_2338{x=999, y=73, z=1749}
+[04:07:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=999, y=73, z=1750} class_2338{x=999, y=72, z=1751}
+[04:07:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=999, y=73, z=1750} class_2338{x=1000, y=72, z=1750}
+[04:07:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=999, y=73, z=1750} class_2338{x=1000, y=72, z=1751}
+[04:07:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=999, y=73, z=1750} class_2338{x=1001, y=72, z=1751}
+[04:07:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=999, y=73, z=1750} class_2338{x=1001, y=72, z=1752}
+[04:07:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1000, y=72, z=1752} class_2338{x=1000, y=73, z=1751}
+[04:07:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=998, y=72, z=1751} class_2338{x=998, y=72, z=1750}
+[04:07:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=73, z=1747} class_2338{x=994, y=73, z=1747}
+[04:07:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=73, z=1747} class_2338{x=993, y=72, z=1747}
+[04:07:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=73, z=1747} class_2338{x=993, y=73, z=1747}
+[04:07:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=73, z=1747} class_2338{x=993, y=73, z=1746}
+[04:07:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=73, z=1747} class_2338{x=992, y=72, z=1747}
+[04:07:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=73, z=1747} class_2338{x=992, y=73, z=1747}
+[04:07:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=73, z=1747} class_2338{x=992, y=73, z=1746}
+[04:07:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=73, z=1747} class_2338{x=992, y=72, z=1746}
+[04:07:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=73, z=1747} class_2338{x=991, y=72, z=1747}
+[04:07:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=73, z=1747} class_2338{x=992, y=73, z=1745}
+[04:07:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=72, z=1747} class_2338{x=991, y=72, z=1746}
+[04:07:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=72, z=1747} class_2338{x=992, y=72, z=1745}
+[04:07:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=72, z=1747} class_2338{x=991, y=72, z=1745}
+[04:07:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=72, z=1747} class_2338{x=991, y=73, z=1745}
+[04:07:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=72, z=1745} class_2338{x=991, y=72, z=1744}
+[04:07:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=72, z=1745} class_2338{x=990, y=72, z=1745}
+[04:07:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=72, z=1745} class_2338{x=990, y=72, z=1744}
+[04:07:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=72, z=1745} class_2338{x=990, y=72, z=1746}
+[04:07:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=72, z=1745} class_2338{x=989, y=72, z=1745}
+[04:07:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=72, z=1745} class_2338{x=989, y=72, z=1744}
+[04:07:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=72, z=1745} class_2338{x=989, y=73, z=1744}
+[04:07:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=72, z=1745} class_2338{x=989, y=72, z=1743}
+[04:07:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=72, z=1745} class_2338{x=988, y=72, z=1743}
+[04:07:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=72, z=1745} class_2338{x=988, y=72, z=1744}
+[04:07:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=72, z=1745} class_2338{x=987, y=72, z=1744}
+[04:07:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=72, z=1745} class_2338{x=987, y=72, z=1743}
+[04:07:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=987, y=72, z=1744} class_2338{x=987, y=72, z=1745}
+[04:07:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=987, y=72, z=1744} class_2338{x=986, y=72, z=1744}
+[04:07:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=987, y=72, z=1744} class_2338{x=986, y=72, z=1745}
+[04:07:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=987, y=72, z=1744} class_2338{x=986, y=72, z=1746}
+[04:07:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=987, y=72, z=1744} class_2338{x=986, y=71, z=1746}
+[04:07:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=989, y=71, z=1745} class_2338{x=990, y=71, z=1745}
+[04:07:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=71, z=1747} class_2338{x=990, y=72, z=1747}
+[04:07:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=71, z=1747} class_2338{x=990, y=73, z=1745}
+[04:07:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=71, z=1747} class_2338{x=990, y=72, z=1748}
+[04:07:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=71, z=1747} class_2338{x=990, y=73, z=1746}
+[04:07:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=71, z=1747} class_2338{x=990, y=73, z=1747}
+[04:07:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=73, z=1748} class_2338{x=989, y=73, z=1747}
+[04:07:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=73, z=1748} class_2338{x=989, y=73, z=1746}
+[04:07:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=989, y=73, z=1748} class_2338{x=991, y=73, z=1746}
+[04:07:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=989, y=73, z=1748} class_2338{x=991, y=73, z=1747}
+[04:07:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=989, y=73, z=1748} class_2338{x=991, y=73, z=1748}
+[04:07:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=73, z=1748} class_2338{x=992, y=74, z=1747}
+[04:07:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=73, z=1748} class_2338{x=992, y=74, z=1746}
+[04:07:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=993, y=74, z=1747}
+[04:07:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=991, y=74, z=1747}
+[04:07:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=991, y=74, z=1746}
+[04:07:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=990, y=74, z=1747}
+[04:07:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=990, y=74, z=1746}
+[04:07:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=989, y=74, z=1747}
+[04:07:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=989, y=74, z=1746}
+[04:07:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=988, y=74, z=1747}
+[04:07:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=988, y=74, z=1746}
+[04:07:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=989, y=73, z=1745}
+[04:07:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=989, y=74, z=1745}
+[04:07:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=988, y=74, z=1745}
+[04:07:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=988, y=73, z=1745}
+[04:07:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=988, y=73, z=1744}
+[04:07:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=987, y=73, z=1744}
+[04:07:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=987, y=73, z=1745}
+[04:07:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=986, y=73, z=1744}
+[04:07:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=986, y=73, z=1745}
+[04:07:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=985, y=73, z=1744}
+[04:07:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=985, y=73, z=1745}
+[04:07:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=984, y=73, z=1745}
+[04:07:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=984, y=73, z=1746}
+[04:07:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=984, y=72, z=1746}
+[04:07:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=984, y=72, z=1745}
+[04:07:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=985, y=72, z=1745}
+[04:07:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=993, y=72, z=1746}
+[04:07:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=994, y=72, z=1748}
+[04:07:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1748} class_2338{x=991, y=72, z=1748}
+[04:07:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=72, z=1749} class_2338{x=989, y=72, z=1748}
+[04:07:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=72, z=1749} class_2338{x=988, y=72, z=1748}
+[04:07:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=72, z=1749} class_2338{x=989, y=72, z=1747}
+[04:07:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=72, z=1749} class_2338{x=987, y=72, z=1748}
+[04:07:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=72, z=1749} class_2338{x=989, y=72, z=1746}
+[04:07:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=72, z=1749} class_2338{x=988, y=72, z=1746}
+[04:07:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=72, z=1749} class_2338{x=987, y=72, z=1746}
+[04:07:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=72, z=1749} class_2338{x=987, y=72, z=1747}
+[04:07:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=72, z=1749} class_2338{x=988, y=72, z=1745}
+[04:07:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=72, z=1749} class_2338{x=986, y=72, z=1747}
+[04:07:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=72, z=1749} class_2338{x=985, y=72, z=1747}
+[04:07:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=72, z=1749} class_2338{x=985, y=72, z=1746}
+[04:07:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=72, z=1747} class_2338{x=985, y=71, z=1747}
+[04:07:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=72, z=1747} class_2338{x=986, y=71, z=1747}
+[04:07:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=72, z=1747} class_2338{x=986, y=72, z=1748}
+[04:07:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=72, z=1747} class_2338{x=986, y=71, z=1748}
+[04:07:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=72, z=1747} class_2338{x=985, y=72, z=1748}
+[04:07:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=72, z=1747} class_2338{x=984, y=72, z=1748}
+[04:07:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=72, z=1747} class_2338{x=984, y=72, z=1747}
+[04:07:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=72, z=1748} class_2338{x=984, y=71, z=1747}
+[04:07:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=72, z=1748} class_2338{x=985, y=72, z=1744}
+[04:07:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=72, z=1748} class_2338{x=985, y=71, z=1746}
+[04:07:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=72, z=1748} class_2338{x=986, y=72, z=1743}
+[04:07:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=71, z=1746} class_2338{x=984, y=71, z=1746}
+[04:07:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=71, z=1746} class_2338{x=985, y=72, z=1743}
+[04:07:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=71, z=1746} class_2338{x=984, y=72, z=1744}
+[04:07:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=71, z=1746} class_2338{x=984, y=73, z=1744}
+[04:07:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=71, z=1746} class_2338{x=983, y=72, z=1745}
+[04:07:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=71, z=1746} class_2338{x=983, y=72, z=1744}
+[04:07:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=71, z=1746} class_2338{x=983, y=73, z=1744}
+[04:07:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=983, y=72, z=1745} class_2338{x=982, y=72, z=1745}
+[04:07:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=983, y=72, z=1745} class_2338{x=982, y=72, z=1744}
+[04:07:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1745} class_2338{x=982, y=73, z=1744}
+[04:07:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1745} class_2338{x=981, y=72, z=1744}
+[04:07:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1745} class_2338{x=981, y=72, z=1745}
+[04:07:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1745} class_2338{x=980, y=72, z=1745}
+[04:07:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1745} class_2338{x=981, y=72, z=1743}
+[04:07:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1745} class_2338{x=980, y=72, z=1744}
+[04:07:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1745} class_2338{x=980, y=72, z=1743}
+[04:07:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=980, y=72, z=1744} class_2338{x=979, y=72, z=1744}
+[04:07:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=980, y=72, z=1744} class_2338{x=979, y=72, z=1743}
+[04:07:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=979, y=72, z=1744} class_2338{x=978, y=72, z=1744}
+[04:07:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=979, y=72, z=1744} class_2338{x=978, y=72, z=1743}
+[04:07:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=72, z=1744} class_2338{x=977, y=72, z=1744}
+[04:07:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=72, z=1744} class_2338{x=977, y=72, z=1743}
+[04:07:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=977, y=72, z=1744} class_2338{x=976, y=72, z=1744}
+[04:07:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=977, y=72, z=1744} class_2338{x=976, y=72, z=1743}
+[04:07:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1744} class_2338{x=975, y=72, z=1744}
+[04:07:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1744} class_2338{x=975, y=72, z=1743}
+[04:07:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=975, y=72, z=1744} class_2338{x=974, y=72, z=1744}
+[04:07:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=975, y=72, z=1744} class_2338{x=974, y=72, z=1743}
+[04:07:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=974, y=72, z=1744} class_2338{x=973, y=72, z=1744}
+[04:07:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=974, y=72, z=1744} class_2338{x=973, y=72, z=1745}
+[04:07:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=974, y=72, z=1744} class_2338{x=973, y=72, z=1746}
+[04:07:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=974, y=72, z=1744} class_2338{x=973, y=71, z=1746}
+[04:07:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=974, y=72, z=1744} class_2338{x=974, y=72, z=1746}
+[04:07:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=974, y=72, z=1744} class_2338{x=974, y=71, z=1746}
+[04:07:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=974, y=72, z=1744} class_2338{x=973, y=71, z=1747}
+[04:07:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=974, y=71, z=1746} class_2338{x=974, y=72, z=1745}
+[04:07:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=974, y=71, z=1746} class_2338{x=975, y=72, z=1746}
+[04:07:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=974, y=71, z=1746} class_2338{x=975, y=71, z=1746}
+[04:07:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=974, y=71, z=1746} class_2338{x=975, y=72, z=1745}
+[04:07:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=975, y=71, z=1746} class_2338{x=976, y=72, z=1746}
+[04:07:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=975, y=71, z=1746} class_2338{x=976, y=72, z=1745}
+[04:07:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1746} class_2338{x=977, y=72, z=1745}
+[04:07:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1746} class_2338{x=977, y=72, z=1746}
+[04:07:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1746} class_2338{x=978, y=72, z=1745}
+[04:07:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1746} class_2338{x=978, y=72, z=1746}
+[04:07:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1746} class_2338{x=979, y=72, z=1745}
+[04:07:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1746} class_2338{x=979, y=72, z=1746}
+[04:07:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1746} class_2338{x=982, y=72, z=1746}
+[04:07:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1746} class_2338{x=983, y=72, z=1746}
+[04:07:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1746} class_2338{x=983, y=72, z=1743}
+[04:07:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1746} class_2338{x=984, y=72, z=1743}
+[04:07:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1746} class_2338{x=982, y=72, z=1743}
+[04:07:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1746} class_2338{x=980, y=71, z=1745}
+[04:07:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1746} class_2338{x=979, y=71, z=1745}
+[04:07:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1746} class_2338{x=979, y=71, z=1746}
+[04:07:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1746} class_2338{x=982, y=73, z=1745}
+[04:07:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1746} class_2338{x=982, y=73, z=1746}
+[04:07:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1746} class_2338{x=982, y=73, z=1747}
+[04:07:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1746} class_2338{x=983, y=73, z=1746}
+[04:07:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1746} class_2338{x=983, y=73, z=1745}
+[04:07:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=983, y=73, z=1746} class_2338{x=984, y=73, z=1747}
+[04:07:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=983, y=73, z=1746} class_2338{x=985, y=73, z=1747}
+[04:07:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=983, y=73, z=1746} class_2338{x=985, y=73, z=1746}
+[04:07:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=983, y=73, z=1746} class_2338{x=985, y=73, z=1748}
+[04:07:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=983, y=73, z=1746} class_2338{x=986, y=73, z=1747}
+[04:07:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=983, y=73, z=1746} class_2338{x=986, y=73, z=1746}
+[04:07:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=983, y=73, z=1746} class_2338{x=987, y=73, z=1747}
+[04:07:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=983, y=73, z=1746} class_2338{x=987, y=73, z=1746}
+[04:07:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=983, y=73, z=1746} class_2338{x=987, y=73, z=1748}
+[04:07:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=983, y=73, z=1746} class_2338{x=988, y=73, z=1747}
+[04:07:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=983, y=73, z=1746} class_2338{x=988, y=73, z=1746}
+[04:07:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=983, y=73, z=1746} class_2338{x=988, y=73, z=1748}
+[04:07:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=74, z=1748} class_2338{x=991, y=74, z=1748}
+[04:07:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=74, z=1748} class_2338{x=991, y=74, z=1749}
+[04:07:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=74, z=1748} class_2338{x=987, y=74, z=1747}
+[04:07:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=74, z=1748} class_2338{x=987, y=74, z=1746}
+[04:07:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=74, z=1748} class_2338{x=986, y=74, z=1747}
+[04:07:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=74, z=1748} class_2338{x=986, y=74, z=1746}
+[04:07:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=74, z=1748} class_2338{x=985, y=74, z=1747}
+[04:07:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=74, z=1748} class_2338{x=985, y=74, z=1746}
+[04:07:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=74, z=1747} class_2338{x=984, y=74, z=1747}
+[04:07:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=74, z=1747} class_2338{x=984, y=74, z=1746}
+[04:07:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=74, z=1747} class_2338{x=983, y=74, z=1747}
+[04:07:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=74, z=1747} class_2338{x=983, y=74, z=1748}
+[04:07:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=74, z=1747} class_2338{x=982, y=74, z=1748}
+[04:07:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=74, z=1747} class_2338{x=982, y=74, z=1747}
+[04:07:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=74, z=1747} class_2338{x=982, y=74, z=1749}
+[04:07:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=74, z=1747} class_2338{x=981, y=74, z=1748}
+[04:07:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=74, z=1747} class_2338{x=981, y=74, z=1749}
+[04:07:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=74, z=1747} class_2338{x=981, y=73, z=1745}
+[04:07:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=74, z=1747} class_2338{x=981, y=73, z=1746}
+[04:07:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=74, z=1747} class_2338{x=981, y=73, z=1747}
+[04:07:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=74, z=1747} class_2338{x=980, y=73, z=1746}
+[04:07:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=74, z=1747} class_2338{x=980, y=73, z=1745}
+[04:07:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=74, z=1747} class_2338{x=980, y=73, z=1747}
+[04:07:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=74, z=1747} class_2338{x=979, y=73, z=1746}
+[04:07:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=74, z=1747} class_2338{x=979, y=73, z=1747}
+[04:07:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=74, z=1747} class_2338{x=979, y=73, z=1748}
+[04:07:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=74, z=1747} class_2338{x=978, y=73, z=1747}
+[04:07:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=74, z=1747} class_2338{x=978, y=73, z=1746}
+[04:07:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=73, z=1747} class_2338{x=978, y=73, z=1748}
+[04:07:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=73, z=1747} class_2338{x=977, y=73, z=1747}
+[04:07:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=73, z=1747} class_2338{x=977, y=73, z=1746}
+[04:07:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=977, y=73, z=1747} class_2338{x=976, y=73, z=1747}
+[04:07:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=977, y=73, z=1747} class_2338{x=976, y=73, z=1748}
+[04:07:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=977, y=73, z=1747} class_2338{x=975, y=73, z=1747}
+[04:07:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=977, y=73, z=1747} class_2338{x=975, y=73, z=1748}
+[04:07:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=977, y=73, z=1747} class_2338{x=975, y=72, z=1747}
+[04:07:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=977, y=73, z=1747} class_2338{x=974, y=72, z=1747}
+[04:07:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=977, y=73, z=1747} class_2338{x=974, y=72, z=1748}
+[04:07:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=977, y=73, z=1747} class_2338{x=973, y=72, z=1747}
+[04:07:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=977, y=73, z=1747} class_2338{x=973, y=72, z=1748}
+[04:07:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=977, y=73, z=1747} class_2338{x=972, y=72, z=1748}
+[04:07:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=977, y=73, z=1747} class_2338{x=972, y=72, z=1747}
+[04:07:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=972, y=72, z=1748} class_2338{x=972, y=72, z=1749}
+[04:07:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=972, y=72, z=1748} class_2338{x=971, y=72, z=1749}
+[04:07:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=972, y=72, z=1748} class_2338{x=972, y=72, z=1746}
+[04:07:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=972, y=72, z=1748} class_2338{x=971, y=72, z=1748}
+[04:07:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=972, y=72, z=1748} class_2338{x=971, y=72, z=1747}
+[04:07:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=971, y=72, z=1748} class_2338{x=972, y=72, z=1745}
+[04:07:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=971, y=72, z=1748} class_2338{x=971, y=72, z=1746}
+[04:07:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=971, y=72, z=1748} class_2338{x=971, y=72, z=1745}
+[04:07:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=971, y=72, z=1746} class_2338{x=970, y=72, z=1745}
+[04:07:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=971, y=72, z=1746} class_2338{x=970, y=72, z=1746}
+[04:07:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=971, y=72, z=1746} class_2338{x=969, y=72, z=1745}
+[04:07:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=971, y=72, z=1746} class_2338{x=969, y=72, z=1746}
+[04:07:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=971, y=72, z=1746} class_2338{x=969, y=72, z=1747}
+[04:07:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=971, y=72, z=1746} class_2338{x=969, y=72, z=1748}
+[04:07:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=971, y=72, z=1746} class_2338{x=969, y=71, z=1748}
+[04:07:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=971, y=72, z=1746} class_2338{x=968, y=72, z=1748}
+[04:07:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=971, y=72, z=1746} class_2338{x=968, y=72, z=1747}
+[04:07:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=971, y=72, z=1746} class_2338{x=968, y=72, z=1746}
+[04:07:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=971, y=72, z=1746} class_2338{x=968, y=72, z=1745}
+[04:07:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=967, y=72, z=1746}
+[04:07:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=967, y=72, z=1747}
+[04:07:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=967, y=72, z=1748}
+[04:07:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=966, y=72, z=1746}
+[04:07:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=966, y=72, z=1747}
+[04:07:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=966, y=72, z=1748}
+[04:07:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=966, y=72, z=1749}
+[04:07:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=966, y=71, z=1749}
+[04:07:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=966, y=71, z=1750}
+[04:07:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=967, y=72, z=1749}
+[04:07:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=967, y=72, z=1750}
+[04:07:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=967, y=72, z=1751}
+[04:07:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=967, y=72, z=1752}
+[04:07:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=967, y=72, z=1752}
+[04:07:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=967, y=72, z=1753}
+[04:07:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=968, y=72, z=1753}
+[04:07:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=967, y=72, z=1754}
+[04:07:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=968, y=72, z=1754}
+[04:07:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=967, y=72, z=1755}
+[04:07:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=968, y=72, z=1755}
+[04:07:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=967, y=72, z=1756}
+[04:07:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=966, y=72, z=1755}
+[04:07:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=967, y=72, z=1756}
+[04:07:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1746} class_2338{x=967, y=72, z=1757}
+[04:07:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=73, z=1756} class_2338{x=968, y=73, z=1755}
+[04:07:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=969, y=73, z=1755} class_2338{x=968, y=73, z=1754}
+[04:07:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=969, y=73, z=1754} class_2338{x=968, y=73, z=1753}
+[04:07:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=969, y=73, z=1754} class_2338{x=969, y=73, z=1753}
+[04:07:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=969, y=73, z=1754} class_2338{x=969, y=73, z=1752}
+[04:07:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=969, y=73, z=1754} class_2338{x=968, y=73, z=1752}
+[04:07:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=969, y=73, z=1752} class_2338{x=969, y=73, z=1751}
+[04:07:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=969, y=73, z=1752} class_2338{x=968, y=73, z=1751}
+[04:07:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=969, y=73, z=1751} class_2338{x=969, y=73, z=1750}
+[04:07:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=969, y=73, z=1751} class_2338{x=969, y=72, z=1751}
+[04:07:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=969, y=73, z=1751} class_2338{x=968, y=72, z=1751}
+[04:07:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=969, y=72, z=1751} class_2338{x=970, y=72, z=1751}
+[04:07:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=969, y=72, z=1751} class_2338{x=970, y=71, z=1751}
+[04:07:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=969, y=72, z=1751} class_2338{x=969, y=72, z=1750}
+[04:07:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=969, y=72, z=1751} class_2338{x=968, y=72, z=1750}
+[04:07:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1749} class_2338{x=968, y=71, z=1749}
+[04:07:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1749} class_2338{x=970, y=71, z=1748}
+[04:07:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1749} class_2338{x=970, y=72, z=1748}
+[04:07:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1749} class_2338{x=970, y=72, z=1749}
+[04:07:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1749} class_2338{x=973, y=72, z=1749}
+[04:07:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1749} class_2338{x=970, y=72, z=1747}
+[04:07:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1749} class_2338{x=973, y=71, z=1748}
+[04:07:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1749} class_2338{x=971, y=72, z=1750}
+[04:07:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1749} class_2338{x=972, y=72, z=1750}
+[04:07:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1749} class_2338{x=970, y=72, z=1750}
+[04:07:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=968, y=72, z=1749} class_2338{x=969, y=72, z=1749}
+[04:07:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=970, y=72, z=1750} class_2338{x=971, y=72, z=1751}
+[04:07:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=970, y=72, z=1750} class_2338{x=971, y=72, z=1752}
+[04:07:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=970, y=72, z=1750} class_2338{x=971, y=71, z=1752}
+[04:07:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=970, y=72, z=1750} class_2338{x=970, y=72, z=1752}
+[04:07:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=971, y=71, z=1753} class_2338{x=971, y=72, z=1753}
+[04:07:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=971, y=71, z=1753} class_2338{x=969, y=72, z=1752}
+[04:07:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=971, y=71, z=1753} class_2338{x=970, y=72, z=1753}
+[04:07:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=971, y=72, z=1753} class_2338{x=969, y=72, z=1753}
+[04:07:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=971, y=72, z=1753} class_2338{x=968, y=72, z=1752}
+[04:07:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=969, y=72, z=1754} class_2338{x=968, y=72, z=1755}
+[04:07:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=969, y=72, z=1754} class_2338{x=972, y=72, z=1752}
+[04:07:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=969, y=72, z=1754} class_2338{x=972, y=72, z=1751}
+[04:07:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=969, y=72, z=1754} class_2338{x=970, y=73, z=1752}
+[04:07:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=969, y=72, z=1754} class_2338{x=971, y=73, z=1752}
+[04:07:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=969, y=72, z=1754} class_2338{x=972, y=72, z=1752}
+[04:07:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=969, y=72, z=1754} class_2338{x=971, y=73, z=1753}
+[04:07:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=969, y=72, z=1754} class_2338{x=970, y=73, z=1753}
+[04:07:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=970, y=73, z=1754} class_2338{x=972, y=73, z=1753}
+[04:07:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=970, y=73, z=1754} class_2338{x=972, y=73, z=1752}
+[04:07:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=970, y=73, z=1754} class_2338{x=973, y=73, z=1752}
+[04:07:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=970, y=73, z=1754} class_2338{x=972, y=73, z=1751}
+[04:07:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=970, y=73, z=1754} class_2338{x=973, y=73, z=1751}
+[04:07:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=970, y=73, z=1754} class_2338{x=971, y=73, z=1751}
+[04:07:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=970, y=73, z=1754} class_2338{x=970, y=73, z=1751}
+[04:07:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=970, y=73, z=1754} class_2338{x=972, y=73, z=1750}
+[04:07:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=970, y=73, z=1754} class_2338{x=971, y=73, z=1750}
+[04:07:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=970, y=73, z=1754} class_2338{x=973, y=73, z=1750}
+[04:07:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=970, y=73, z=1754} class_2338{x=970, y=73, z=1750}
+[04:07:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=973, y=73, z=1750} class_2338{x=974, y=73, z=1751}
+[04:08:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=973, y=73, z=1750} class_2338{x=971, y=73, z=1749}
+[04:08:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=973, y=73, z=1750} class_2338{x=972, y=73, z=1749}
+[04:08:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=973, y=73, z=1750} class_2338{x=973, y=73, z=1749}
+[04:08:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=973, y=73, z=1750} class_2338{x=974, y=73, z=1749}
+[04:08:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=973, y=73, z=1750} class_2338{x=975, y=73, z=1749}
+[04:08:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=973, y=73, z=1750} class_2338{x=974, y=73, z=1750}
+[04:08:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=973, y=73, z=1750} class_2338{x=975, y=73, z=1750}
+[04:08:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=973, y=73, z=1750} class_2338{x=976, y=73, z=1750}
+[04:08:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=975, y=73, z=1749} class_2338{x=976, y=73, z=1749}
+[04:08:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=975, y=73, z=1749} class_2338{x=977, y=73, z=1749}
+[04:08:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=975, y=73, z=1749} class_2338{x=973, y=73, z=1748}
+[04:08:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=975, y=73, z=1749} class_2338{x=974, y=73, z=1748}
+[04:08:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=975, y=73, z=1749} class_2338{x=978, y=73, z=1749}
+[04:08:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=975, y=73, z=1749} class_2338{x=977, y=73, z=1748}
+[04:08:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=975, y=73, z=1749} class_2338{x=976, y=72, z=1748}
+[04:08:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=975, y=73, z=1749} class_2338{x=975, y=72, z=1748}
+[04:08:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1748} class_2338{x=975, y=72, z=1749}
+[04:08:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1748} class_2338{x=976, y=72, z=1749}
+[04:08:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1748} class_2338{x=974, y=72, z=1749}
+[04:08:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1748} class_2338{x=975, y=72, z=1750}
+[04:08:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1748} class_2338{x=973, y=72, z=1749}
+[04:08:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1748} class_2338{x=973, y=72, z=1750}
+[04:08:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1748} class_2338{x=974, y=72, z=1750}
+[04:08:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1748} class_2338{x=973, y=72, z=1751}
+[04:08:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1748} class_2338{x=974, y=72, z=1751}
+[04:08:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1748} class_2338{x=974, y=72, z=1752}
+[04:08:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1748} class_2338{x=972, y=72, z=1751}
+[04:08:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1748} class_2338{x=972, y=71, z=1750}
+[04:08:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1748} class_2338{x=972, y=71, z=1751}
+[04:08:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=976, y=72, z=1748} class_2338{x=973, y=71, z=1751}
+[04:08:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=973, y=71, z=1752} class_2338{x=973, y=73, z=1752}
+[04:08:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=973, y=71, z=1752} class_2338{x=973, y=73, z=1753}
+[04:08:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=973, y=73, z=1753} class_2338{x=972, y=74, z=1752}
+[04:08:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=973, y=73, z=1753} class_2338{x=973, y=74, z=1752}
+[04:08:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=973, y=73, z=1753} class_2338{x=972, y=74, z=1753}
+[04:08:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=972, y=73, z=1754} class_2338{x=972, y=72, z=1753}
+[04:08:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=974, y=72, z=1753} class_2338{x=973, y=72, z=1752}
+[04:08:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=974, y=73, z=1753} class_2338{x=973, y=74, z=1753}
+[04:08:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=973, y=74, z=1754} class_2338{x=974, y=74, z=1753}
+[04:08:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=974, y=74, z=1754} class_2338{x=975, y=74, z=1753}
+[04:08:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=974, y=74, z=1754} class_2338{x=974, y=73, z=1752}
+[04:08:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=975, y=73, z=1753} class_2338{x=975, y=73, z=1752}
+[04:08:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=975, y=73, z=1753} class_2338{x=975, y=72, z=1752}
+[04:08:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=974, y=72, z=1753} class_2338{x=974, y=72, z=1752}
+[04:08:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=974, y=72, z=1753} class_2338{x=976, y=72, z=1752}
+[04:08:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=974, y=72, z=1753} class_2338{x=976, y=71, z=1752}
+[04:08:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=974, y=72, z=1753} class_2338{x=977, y=71, z=1752}
+[04:08:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=974, y=72, z=1753} class_2338{x=978, y=71, z=1752}
+[04:08:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=977, y=71, z=1753} class_2338{x=977, y=72, z=1752}
+[04:08:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=71, z=1752} class_2338{x=975, y=73, z=1751}
+[04:08:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=71, z=1752} class_2338{x=975, y=72, z=1751}
+[04:08:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=71, z=1752} class_2338{x=976, y=73, z=1751}
+[04:08:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=71, z=1752} class_2338{x=976, y=72, z=1751}
+[04:08:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=71, z=1752} class_2338{x=977, y=72, z=1751}
+[04:08:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=71, z=1752} class_2338{x=978, y=72, z=1752}
+[04:08:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=72, z=1753} class_2338{x=977, y=73, z=1751}
+[04:08:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=72, z=1753} class_2338{x=978, y=72, z=1751}
+[04:08:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=72, z=1753} class_2338{x=979, y=72, z=1752}
+[04:08:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=72, z=1753} class_2338{x=977, y=73, z=1750}
+[04:08:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=72, z=1753} class_2338{x=977, y=72, z=1750}
+[04:08:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=72, z=1753} class_2338{x=979, y=72, z=1751}
+[04:08:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=72, z=1753} class_2338{x=978, y=73, z=1751}
+[04:08:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=72, z=1753} class_2338{x=978, y=73, z=1752}
+[04:08:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=72, z=1753} class_2338{x=977, y=73, z=1752}
+[04:08:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=73, z=1752} class_2338{x=976, y=73, z=1752}
+[04:08:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=73, z=1753} class_2338{x=979, y=73, z=1752}
+[04:08:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=73, z=1753} class_2338{x=980, y=73, z=1752}
+[04:08:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=979, y=73, z=1753} class_2338{x=981, y=73, z=1752}
+[04:08:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=979, y=73, z=1753} class_2338{x=979, y=73, z=1751}
+[04:08:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=979, y=73, z=1753} class_2338{x=980, y=73, z=1751}
+[04:08:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=979, y=73, z=1753} class_2338{x=979, y=73, z=1750}
+[04:08:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=980, y=73, z=1750} class_2338{x=978, y=73, z=1750}
+[04:08:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=980, y=73, z=1750} class_2338{x=979, y=73, z=1749}
+[04:08:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=980, y=73, z=1749} class_2338{x=978, y=73, z=1749}
+[04:08:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=980, y=73, z=1749} class_2338{x=979, y=72, z=1748}
+[04:08:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=980, y=73, z=1749} class_2338{x=978, y=72, z=1749}
+[04:08:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=980, y=73, z=1749} class_2338{x=978, y=72, z=1748}
+[04:08:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=980, y=73, z=1749} class_2338{x=977, y=72, z=1749}
+[04:08:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=980, y=73, z=1749} class_2338{x=976, y=72, z=1750}
+[04:08:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=72, z=1748} class_2338{x=977, y=72, z=1748}
+[04:08:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=72, z=1748} class_2338{x=978, y=72, z=1747}
+[04:08:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=72, z=1748} class_2338{x=977, y=72, z=1747}
+[04:08:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=72, z=1748} class_2338{x=976, y=72, z=1747}
+[04:08:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=72, z=1748} class_2338{x=979, y=72, z=1747}
+[04:08:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=72, z=1748} class_2338{x=980, y=72, z=1747}
+[04:08:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=72, z=1748} class_2338{x=980, y=72, z=1748}
+[04:08:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=72, z=1748} class_2338{x=981, y=72, z=1748}
+[04:08:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=72, z=1748} class_2338{x=980, y=72, z=1749}
+[04:08:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=978, y=72, z=1748} class_2338{x=979, y=72, z=1749}
+[04:08:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=980, y=72, z=1749} class_2338{x=980, y=72, z=1750}
+[04:08:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=980, y=72, z=1749} class_2338{x=979, y=72, z=1750}
+[04:08:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=980, y=72, z=1750} class_2338{x=980, y=72, z=1751}
+[04:08:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=981, y=72, z=1751} class_2338{x=980, y=72, z=1752}
+[04:08:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=981, y=72, z=1751} class_2338{x=979, y=72, z=1752}
+[04:08:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=979, y=72, z=1753} class_2338{x=978, y=72, z=1750}
+[04:08:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=979, y=72, z=1753} class_2338{x=980, y=71, z=1749}
+[04:08:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=979, y=72, z=1753} class_2338{x=980, y=71, z=1748}
+[04:08:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=981, y=72, z=1749} class_2338{x=980, y=72, z=1746}
+[04:08:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=981, y=72, z=1749} class_2338{x=981, y=72, z=1747}
+[04:08:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=981, y=72, z=1749} class_2338{x=982, y=72, z=1748}
+[04:08:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=981, y=72, z=1749} class_2338{x=981, y=72, z=1746}
+[04:08:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=981, y=72, z=1749} class_2338{x=982, y=72, z=1747}
+[04:08:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1748} class_2338{x=983, y=72, z=1748}
+[04:08:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1748} class_2338{x=983, y=72, z=1746}
+[04:08:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1748} class_2338{x=983, y=72, z=1747}
+[04:08:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1748} class_2338{x=983, y=73, z=1747}
+[04:08:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1748} class_2338{x=983, y=73, z=1748}
+[04:08:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1748} class_2338{x=982, y=73, z=1748}
+[04:08:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=73, z=1749} class_2338{x=981, y=73, z=1748}
+[04:08:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=981, y=73, z=1749} class_2338{x=980, y=73, z=1748}
+[04:08:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=980, y=73, z=1749} class_2338{x=979, y=74, z=1748}
+[04:09:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=981, y=74, z=1749} class_2338{x=983, y=72, z=1748}
+[04:09:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1749} class_2338{x=983, y=72, z=1749}
+[04:09:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1749} class_2338{x=984, y=73, z=1748}
+[04:09:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1749} class_2338{x=984, y=73, z=1749}
+[04:09:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1749} class_2338{x=984, y=73, z=1750}
+[04:09:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1749} class_2338{x=985, y=73, z=1749}
+[04:09:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1749} class_2338{x=985, y=73, z=1748}
+[04:09:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1749} class_2338{x=986, y=73, z=1749}
+[04:09:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1749} class_2338{x=986, y=73, z=1750}
+[04:09:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1749} class_2338{x=986, y=73, z=1748}
+[04:09:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1749} class_2338{x=987, y=73, z=1749}
+[04:09:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=982, y=72, z=1749} class_2338{x=987, y=73, z=1750}
+[04:09:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=987, y=74, z=1750} class_2338{x=986, y=74, z=1749}
+[04:09:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=987, y=74, z=1750} class_2338{x=986, y=74, z=1748}
+[04:09:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=74, z=1749} class_2338{x=985, y=74, z=1748}
+[04:09:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=74, z=1749} class_2338{x=985, y=74, z=1749}
+[04:09:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=74, z=1749} class_2338{x=985, y=74, z=1750}
+[04:09:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=74, z=1749} class_2338{x=985, y=74, z=1751}
+[04:09:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=74, z=1750} class_2338{x=987, y=74, z=1748}
+[04:09:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=987, y=74, z=1749} class_2338{x=987, y=73, z=1748}
+[04:09:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=987, y=74, z=1749} class_2338{x=987, y=73, z=1751}
+[04:09:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=987, y=74, z=1749} class_2338{x=986, y=73, z=1751}
+[04:09:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=987, y=74, z=1749} class_2338{x=986, y=72, z=1750}
+[04:09:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=987, y=74, z=1749} class_2338{x=986, y=72, z=1749}
+[04:09:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=72, z=1750} class_2338{x=987, y=72, z=1749}
+[04:09:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=72, z=1750} class_2338{x=987, y=72, z=1750}
+[04:09:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=72, z=1750} class_2338{x=987, y=72, z=1748}
+[04:09:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=72, z=1750} class_2338{x=987, y=72, z=1751}
+[04:09:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=72, z=1750} class_2338{x=986, y=72, z=1751}
+[04:09:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=72, z=1750} class_2338{x=986, y=72, z=1752}
+[04:09:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=72, z=1749} class_2338{x=985, y=72, z=1750}
+[04:09:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=72, z=1749} class_2338{x=984, y=72, z=1750}
+[04:09:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=72, z=1749} class_2338{x=984, y=72, z=1749}
+[04:09:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=72, z=1750} class_2338{x=984, y=72, z=1751}
+[04:09:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=72, z=1750} class_2338{x=983, y=72, z=1751}
+[04:09:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=72, z=1750} class_2338{x=983, y=72, z=1752}
+[04:09:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=72, z=1750} class_2338{x=984, y=73, z=1751}
+[04:09:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=72, z=1750} class_2338{x=984, y=73, z=1752}
+[04:09:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=72, z=1750} class_2338{x=984, y=74, z=1751}
+[04:09:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=72, z=1750} class_2338{x=984, y=74, z=1750}
+[04:09:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=72, z=1750} class_2338{x=985, y=73, z=1750}
+[04:09:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=74, z=1751} class_2338{x=984, y=74, z=1749}
+[04:09:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=74, z=1751} class_2338{x=985, y=74, z=1752}
+[04:09:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=74, z=1751} class_2338{x=985, y=73, z=1751}
+[04:09:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=74, z=1751} class_2338{x=985, y=73, z=1752}
+[04:09:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=73, z=1753} class_2338{x=985, y=72, z=1752}
+[04:09:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=73, z=1753} class_2338{x=985, y=72, z=1751}
+[04:09:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=72, z=1752} class_2338{x=985, y=72, z=1753}
+[04:09:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=72, z=1752} class_2338{x=985, y=71, z=1753}
+[04:09:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=72, z=1752} class_2338{x=985, y=71, z=1754}
+[04:09:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=72, z=1752} class_2338{x=984, y=72, z=1752}
+[04:09:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=72, z=1752} class_2338{x=984, y=72, z=1753}
+[04:09:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=72, z=1754} class_2338{x=986, y=72, z=1753}
+[04:09:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=72, z=1754} class_2338{x=987, y=72, z=1753}
+[04:09:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=72, z=1754} class_2338{x=986, y=73, z=1752}
+[04:09:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=72, z=1754} class_2338{x=987, y=72, z=1752}
+[04:09:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=985, y=72, z=1754} class_2338{x=987, y=73, z=1752}
+[04:09:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=72, z=1753} class_2338{x=987, y=73, z=1753}
+[04:09:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=987, y=73, z=1754} class_2338{x=986, y=73, z=1753}
+[04:09:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=73, z=1753} class_2338{x=984, y=74, z=1752}
+[04:09:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=984, y=74, z=1753} class_2338{x=983, y=74, z=1752}
+[04:09:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=983, y=74, z=1753} class_2338{x=983, y=74, z=1751}
+[04:09:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=983, y=74, z=1753} class_2338{x=983, y=73, z=1751}
+[04:09:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=983, y=74, z=1753} class_2338{x=983, y=73, z=1752}
+[04:09:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=74, z=1753} class_2338{x=986, y=74, z=1752}
+[04:09:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=986, y=74, z=1753} class_2338{x=987, y=74, z=1752}
+[04:09:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=987, y=74, z=1753} class_2338{x=986, y=74, z=1751}
+[04:09:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=74, z=1752} class_2338{x=987, y=74, z=1751}
+[04:09:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=73, z=1752} class_2338{x=988, y=72, z=1752}
+[04:09:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=71, z=1752} class_2338{x=988, y=72, z=1751}
+[04:09:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=71, z=1752} class_2338{x=988, y=71, z=1751}
+[04:09:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=73, z=1749} class_2338{x=988, y=72, z=1747}
+[04:09:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=73, z=1749} class_2338{x=989, y=71, z=1747}
+[04:09:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=73, z=1749} class_2338{x=980, y=74, z=1748}
+[04:09:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=980, y=74, z=1749} class_2338{x=979, y=74, z=1749}
+[04:09:59] [ForkJoinPool.commonPool-worker-32/WARN]: failed to fetch skin on first join
+java.lang.IllegalStateException: not found
+	at fabric.net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:97) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at fabric.net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skin-restorer-2.0.1+1.21.jar:?]
+	at net.minecraft.class_3248.md44dfed$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:1557) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.md44dfed$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:1556) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[04:10:01] [Server thread/INFO]: Quyen27[/127.32.150.52:34373] logged in with entity id 91215 at (286.6814902796459, 2.0, 0.30000001192092896)
+[04:10:01] [Server thread/INFO]: Quyen27 joined the game
+[04:11:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1014, y=72, z=1747} class_2338{x=1021, y=72, z=1749}
+[04:11:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1014, y=72, z=1747} class_2338{x=1021, y=72, z=1750}
+[04:11:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1014, y=72, z=1747} class_2338{x=1020, y=72, z=1750}
+[04:11:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1014, y=72, z=1747} class_2338{x=1020, y=72, z=1751}
+[04:11:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1014, y=72, z=1747} class_2338{x=1021, y=72, z=1751}
+[04:11:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1014, y=72, z=1747} class_2338{x=1021, y=72, z=1752}
+[04:11:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1014, y=72, z=1747} class_2338{x=1022, y=72, z=1750}
+[04:11:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1014, y=72, z=1747} class_2338{x=1022, y=72, z=1751}
+[04:11:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1014, y=72, z=1747} class_2338{x=1023, y=72, z=1750}
+[04:11:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1014, y=72, z=1747} class_2338{x=1023, y=72, z=1751}
+[04:11:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1014, y=72, z=1747} class_2338{x=1023, y=72, z=1752}
+[04:11:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1014, y=72, z=1747} class_2338{x=1024, y=72, z=1751}
+[04:11:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1014, y=72, z=1747} class_2338{x=1024, y=72, z=1752}
+[04:11:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1014, y=72, z=1747} class_2338{x=1024, y=72, z=1753}
+[04:11:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1014, y=72, z=1747} class_2338{x=1025, y=72, z=1752}
+[04:11:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1014, y=72, z=1747} class_2338{x=1025, y=72, z=1753}
+[04:11:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1024, y=72, z=1754} class_2338{x=1023, y=72, z=1753}
+[04:11:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1023, y=72, z=1754} class_2338{x=1022, y=72, z=1753}
+[04:11:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1022, y=72, z=1754} class_2338{x=1022, y=72, z=1752}
+[04:11:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1022, y=72, z=1754} class_2338{x=1021, y=72, z=1753}
+[04:11:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1021, y=72, z=1754} class_2338{x=1022, y=73, z=1752}
+[04:11:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1022, y=73, z=1753} class_2338{x=1021, y=73, z=1752}
+[04:11:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1021, y=73, z=1753} class_2338{x=1021, y=73, z=1751}
+[04:11:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1021, y=73, z=1753} class_2338{x=1020, y=73, z=1752}
+[04:11:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1020, y=73, z=1753} class_2338{x=1020, y=73, z=1751}
+[04:11:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1019, y=73, z=1752} class_2338{x=1020, y=73, z=1750}
+[04:11:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1022, y=72, z=1754} class_2338{x=1020, y=72, z=1752}
+[04:11:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1022, y=72, z=1754} class_2338{x=1020, y=72, z=1753}
+[04:11:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1020, y=72, z=1754} class_2338{x=1025, y=73, z=1761}
+[04:11:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1020, y=72, z=1754} class_2338{x=1025, y=73, z=1762}
+[04:11:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1020, y=72, z=1754} class_2338{x=1025, y=73, z=1763}
+[04:11:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1025, y=73, z=1763} class_2338{x=1025, y=73, z=1764}
+[04:11:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1025, y=73, z=1763} class_2338{x=1026, y=73, z=1763}
+[04:11:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1025, y=73, z=1763} class_2338{x=1026, y=73, z=1762}
+[04:11:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1026, y=73, z=1763} class_2338{x=1027, y=73, z=1762}
+[04:11:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1026, y=73, z=1763} class_2338{x=1027, y=73, z=1763}
+[04:11:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1027, y=73, z=1764} class_2338{x=1026, y=73, z=1764}
+[04:11:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1027, y=73, z=1764} class_2338{x=1026, y=72, z=1764}
+[04:11:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1027, y=73, z=1764} class_2338{x=1025, y=72, z=1764}
+[04:11:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1027, y=73, z=1764} class_2338{x=1026, y=73, z=1761}
+[04:11:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1027, y=73, z=1764} class_2338{x=1025, y=72, z=1763}
+[04:11:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1027, y=73, z=1764} class_2338{x=1024, y=72, z=1763}
+[04:11:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1027, y=73, z=1764} class_2338{x=1024, y=73, z=1763}
+[04:11:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1027, y=73, z=1764} class_2338{x=1024, y=73, z=1762}
+[04:11:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1024, y=73, z=1763} class_2338{x=1024, y=73, z=1764}
+[04:11:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1024, y=73, z=1763} class_2338{x=1025, y=74, z=1764}
+[04:11:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1024, y=73, z=1763} class_2338{x=1024, y=74, z=1764}
+[04:11:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1024, y=73, z=1763} class_2338{x=1026, y=74, z=1764}
+[04:11:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1024, y=73, z=1763} class_2338{x=1024, y=72, z=1764}
+[04:11:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1024, y=73, z=1763} class_2338{x=1023, y=72, z=1764}
+[04:11:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1024, y=73, z=1763} class_2338{x=1024, y=74, z=1763}
+[04:11:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1024, y=73, z=1763} class_2338{x=1024, y=71, z=1764}
+[04:11:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1024, y=73, z=1763} class_2338{x=1025, y=71, z=1764}
+[04:11:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1026, y=71, z=1764} class_2338{x=1026, y=72, z=1763}
+[04:11:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1027, y=72, z=1763} class_2338{x=1026, y=72, z=1762}
+[04:11:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1027, y=72, z=1763} class_2338{x=1027, y=72, z=1762}
+[04:11:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1027, y=72, z=1763} class_2338{x=1025, y=72, z=1762}
+[04:11:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1027, y=72, z=1763} class_2338{x=1026, y=72, z=1761}
+[04:11:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1027, y=72, z=1763} class_2338{x=1027, y=72, z=1761}
+[04:11:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1027, y=72, z=1763} class_2338{x=1027, y=72, z=1760}
+[04:11:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1027, y=72, z=1763} class_2338{x=1025, y=72, z=1761}
+[04:11:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1027, y=72, z=1763} class_2338{x=1026, y=72, z=1760}
+[04:11:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1026, y=71, z=1760} class_2338{x=1026, y=72, z=1759}
+[04:11:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1026, y=72, z=1758} class_2338{x=1027, y=72, z=1759}
+[04:11:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1000, y=77, z=1759} class_2338{x=997, y=77, z=1760}
+[04:11:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1000, y=77, z=1759} class_2338{x=998, y=77, z=1760}
+[04:11:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1000, y=77, z=1759} class_2338{x=998, y=77, z=1761}
+[04:11:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1000, y=77, z=1759} class_2338{x=999, y=77, z=1761}
+[04:11:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=999, y=76, z=1761} class_2338{x=999, y=77, z=1762}
+[04:11:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=999, y=76, z=1762} class_2338{x=998, y=77, z=1762}
+[04:11:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=999, y=76, z=1762} class_2338{x=997, y=77, z=1761}
+[04:11:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=999, y=76, z=1762} class_2338{x=998, y=77, z=1763}
+[04:11:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=998, y=76, z=1763} class_2338{x=998, y=76, z=1762}
+[04:11:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=998, y=76, z=1763} class_2338{x=997, y=76, z=1762}
+[04:11:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=998, y=76, z=1763} class_2338{x=997, y=76, z=1761}
+[04:11:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=997, y=76, z=1760} class_2338{x=996, y=76, z=1761}
+[04:11:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=76, z=1760} class_2338{x=996, y=76, z=1762}
+[04:11:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=76, z=1760} class_2338{x=995, y=76, z=1762}
+[04:11:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=76, z=1760} class_2338{x=995, y=75, z=1762}
+[04:11:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=76, z=1760} class_2338{x=996, y=76, z=1763}
+[04:11:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=75, z=1762} class_2338{x=995, y=76, z=1763}
+[04:11:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=75, z=1762} class_2338{x=995, y=75, z=1763}
+[04:11:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=75, z=1762} class_2338{x=996, y=76, z=1764}
+[04:11:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=76, z=1764} class_2338{x=994, y=76, z=1764}
+[04:11:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=76, z=1764} class_2338{x=994, y=76, z=1763}
+[04:11:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=76, z=1764} class_2338{x=993, y=76, z=1763}
+[04:11:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=76, z=1764} class_2338{x=993, y=76, z=1762}
+[04:11:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=76, z=1764} class_2338{x=992, y=76, z=1762}
+[04:11:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=76, z=1764} class_2338{x=992, y=75, z=1762}
+[04:11:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=76, z=1761} class_2338{x=992, y=76, z=1763}
+[04:11:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=76, z=1761} class_2338{x=991, y=76, z=1762}
+[04:11:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=76, z=1761} class_2338{x=991, y=76, z=1763}
+[04:11:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=75, z=1762} class_2338{x=991, y=75, z=1763}
+[04:11:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=75, z=1762} class_2338{x=991, y=76, z=1764}
+[04:11:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=75, z=1762} class_2338{x=991, y=75, z=1764}
+[04:11:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=75, z=1763} class_2338{x=991, y=74, z=1763}
+[04:11:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=74, z=1762} class_2338{x=992, y=75, z=1763}
+[04:11:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=74, z=1762} class_2338{x=992, y=75, z=1764}
+[04:11:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=74, z=1762} class_2338{x=991, y=73, z=1763}
+[04:11:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=74, z=1762} class_2338{x=991, y=74, z=1764}
+[04:11:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=73, z=1763} class_2338{x=992, y=74, z=1764}
+[04:11:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=74, z=1763} class_2338{x=993, y=75, z=1763}
+[04:11:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=75, z=1764} class_2338{x=994, y=75, z=1763}
+[04:11:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=75, z=1764} class_2338{x=996, y=75, z=1763}
+[04:11:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=74, z=1763} class_2338{x=994, y=75, z=1762}
+[04:11:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=75, z=1761} class_2338{x=994, y=75, z=1762}
+[04:11:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=75, z=1761} class_2338{x=996, y=75, z=1762}
+[04:11:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=75, z=1761} class_2338{x=996, y=75, z=1761}
+[04:11:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=997, y=75, z=1761} class_2338{x=997, y=75, z=1762}
+[04:11:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=75, z=1761} class_2338{x=995, y=76, z=1761}
+[04:11:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=76, z=1760} class_2338{x=994, y=76, z=1761}
+[04:11:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=997, y=75, z=1761} class_2338{x=998, y=76, z=1761}
+[04:11:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=999, y=76, z=1761} class_2338{x=997, y=76, z=1763}
+[04:11:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=75, z=1764} class_2338{x=990, y=73, z=1763}
+[04:11:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=75, z=1764} class_2338{x=990, y=72, z=1763}
+[04:11:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=75, z=1764} class_2338{x=990, y=71, z=1763}
+[04:11:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=996, y=75, z=1764} class_2338{x=990, y=71, z=1764}
+[04:11:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=72, z=1764} class_2338{x=991, y=72, z=1763}
+[04:11:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=72, z=1764} class_2338{x=991, y=72, z=1764}
+[04:11:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=72, z=1764} class_2338{x=991, y=73, z=1764}
+[04:11:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=72, z=1764} class_2338{x=990, y=71, z=1764}
+[04:11:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=72, z=1764} class_2338{x=990, y=72, z=1765}
+[04:11:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=73, z=1764} class_2338{x=989, y=72, z=1764}
+[04:11:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=73, z=1764} class_2338{x=989, y=71, z=1764}
+[04:11:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=73, z=1764} class_2338{x=990, y=72, z=1764}
+[04:11:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=73, z=1764} class_2338{x=989, y=72, z=1763}
+[04:11:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=71, z=1764} class_2338{x=989, y=71, z=1763}
+[04:11:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=71, z=1764} class_2338{x=988, y=71, z=1763}
+[04:11:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=987, y=72, z=1763} class_2338{x=988, y=72, z=1764}
+[04:12:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=987, y=72, z=1763} class_2338{x=988, y=73, z=1764}
+[04:12:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=987, y=72, z=1763} class_2338{x=989, y=73, z=1765}
+[04:12:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=989, y=73, z=1766} class_2338{x=989, y=72, z=1765}
+[04:12:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=989, y=73, z=1766} class_2338{x=990, y=72, z=1765}
+[04:12:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=72, z=1766} class_2338{x=990, y=71, z=1765}
+[04:12:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=72, z=1766} class_2338{x=991, y=72, z=1765}
+[04:12:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=72, z=1766} class_2338{x=991, y=72, z=1766}
+[04:12:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=72, z=1766} class_2338{x=992, y=72, z=1765}
+[04:12:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=72, z=1766} class_2338{x=992, y=72, z=1766}
+[04:12:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=72, z=1766} class_2338{x=993, y=72, z=1766}
+[04:12:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=72, z=1766} class_2338{x=993, y=72, z=1767}
+[04:12:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=72, z=1766} class_2338{x=993, y=72, z=1765}
+[04:12:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=72, z=1766} class_2338{x=992, y=73, z=1764}
+[04:12:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=73, z=1765} class_2338{x=993, y=73, z=1764}
+[04:12:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=73, z=1765} class_2338{x=994, y=73, z=1765}
+[04:12:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=73, z=1765} class_2338{x=994, y=73, z=1764}
+[04:12:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=73, z=1765} class_2338{x=992, y=73, z=1763}
+[04:12:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=73, z=1765} class_2338{x=993, y=73, z=1763}
+[04:12:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=994, y=73, z=1763} class_2338{x=993, y=72, z=1763}
+[04:12:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=994, y=73, z=1763} class_2338{x=992, y=72, z=1763}
+[04:12:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=72, z=1763} class_2338{x=992, y=72, z=1764}
+[04:12:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=72, z=1763} class_2338{x=993, y=72, z=1764}
+[04:12:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=72, z=1763} class_2338{x=992, y=72, z=1765}
+[04:12:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=72, z=1763} class_2338{x=991, y=72, z=1765}
+[04:12:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=72, z=1763} class_2338{x=992, y=72, z=1766}
+[04:12:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=72, z=1763} class_2338{x=993, y=72, z=1766}
+[04:12:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=72, z=1763} class_2338{x=992, y=71, z=1766}
+[04:12:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=72, z=1763} class_2338{x=991, y=72, z=1766}
+[04:12:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=71, z=1766} class_2338{x=992, y=71, z=1767}
+[04:12:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=71, z=1766} class_2338{x=993, y=71, z=1766}
+[04:12:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=71, z=1766} class_2338{x=992, y=72, z=1765}
+[04:12:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=71, z=1766} class_2338{x=994, y=72, z=1767}
+[04:12:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=71, z=1766} class_2338{x=994, y=72, z=1766}
+[04:12:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=71, z=1766} class_2338{x=994, y=73, z=1766}
+[04:12:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=71, z=1766} class_2338{x=993, y=73, z=1765}
+[04:12:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=71, z=1766} class_2338{x=996, y=73, z=1767}
+[04:12:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=71, z=1766} class_2338{x=995, y=73, z=1766}
+[04:12:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=73, z=1765} class_2338{x=994, y=72, z=1765}
+[04:12:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=73, z=1765} class_2338{x=993, y=72, z=1764}
+[04:12:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=73, z=1765} class_2338{x=994, y=72, z=1764}
+[04:12:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=73, z=1765} class_2338{x=995, y=72, z=1765}
+[04:12:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=73, z=1765} class_2338{x=995, y=71, z=1765}
+[04:12:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=73, z=1765} class_2338{x=993, y=72, z=1765}
+[04:12:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=73, z=1765} class_2338{x=995, y=72, z=1766}
+[04:12:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=73, z=1765} class_2338{x=995, y=71, z=1766}
+[04:12:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=73, z=1765} class_2338{x=995, y=71, z=1767}
+[04:12:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=72, z=1767} class_2338{x=994, y=71, z=1767}
+[04:12:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=71, z=1769} class_2338{x=993, y=71, z=1767}
+[04:12:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=994, y=70, z=1768} class_2338{x=995, y=71, z=1767}
+[04:12:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=70, z=1766} class_2338{x=994, y=71, z=1766}
+[04:12:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=995, y=70, z=1766} class_2338{x=994, y=71, z=1765}
+[04:12:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=994, y=70, z=1765} class_2338{x=993, y=71, z=1765}
+[04:12:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=994, y=70, z=1765} class_2338{x=993, y=71, z=1764}
+[04:12:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=994, y=70, z=1765} class_2338{x=993, y=70, z=1764}
+[04:12:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=994, y=70, z=1765} class_2338{x=993, y=71, z=1763}
+[04:12:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=70, z=1763} class_2338{x=994, y=71, z=1764}
+[04:12:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=71, z=1762} class_2338{x=992, y=71, z=1763}
+[04:12:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=71, z=1762} class_2338{x=992, y=71, z=1764}
+[04:12:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=71, z=1762} class_2338{x=992, y=71, z=1765}
+[04:12:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=71, z=1762} class_2338{x=991, y=71, z=1765}
+[04:12:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=71, z=1762} class_2338{x=990, y=71, z=1764}
+[04:12:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=71, z=1762} class_2338{x=991, y=71, z=1766}
+[04:12:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=989, y=71, z=1765} class_2338{x=989, y=71, z=1764}
+[04:12:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=989, y=70, z=1764} class_2338{x=989, y=71, z=1763}
+[04:12:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=989, y=70, z=1764} class_2338{x=991, y=71, z=1764}
+[04:12:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=989, y=70, z=1764} class_2338{x=990, y=71, z=1763}
+[04:12:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=989, y=70, z=1764} class_2338{x=991, y=71, z=1763}
+[04:12:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=989, y=70, z=1764} class_2338{x=990, y=71, z=1762}
+[04:12:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=989, y=70, z=1764} class_2338{x=989, y=71, z=1762}
+[04:12:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=72, z=1766} class_2338{x=989, y=71, z=1762}
+[04:12:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=71, z=1762} class_2338{x=988, y=70, z=1760}
+[04:12:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=71, z=1762} class_2338{x=990, y=71, z=1762}
+[04:12:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=72, z=1762} class_2338{x=991, y=72, z=1762}
+[04:12:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=72, z=1762} class_2338{x=991, y=72, z=1762}
+[04:12:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=989, y=73, z=1762} class_2338{x=988, y=73, z=1762}
+[04:12:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=989, y=73, z=1762} class_2338{x=988, y=72, z=1763}
+[04:12:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=987, y=72, z=1763} class_2338{x=988, y=72, z=1762}
+[04:12:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=988, y=71, z=1762} class_2338{x=988, y=71, z=1763}
+[04:12:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=990, y=70, z=1763} class_2338{x=990, y=71, z=1762}
+[04:12:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=71, z=1762} class_2338{x=991, y=70, z=1765}
+[04:12:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=991, y=70, z=1765} class_2338{x=992, y=70, z=1765}
+[04:12:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=69, z=1765} class_2338{x=993, y=70, z=1765}
+[04:12:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=69, z=1764} class_2338{x=992, y=70, z=1764}
+[04:12:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=994, y=70, z=1765} class_2338{x=993, y=70, z=1766}
+[04:12:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=992, y=70, z=1767} class_2338{x=992, y=70, z=1766}
+[04:12:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=993, y=69, z=1766} class_2338{x=994, y=70, z=1766}
+[04:16:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1004, y=74, z=1752} class_2338{x=1008, y=75, z=1754}
+[04:16:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1011, y=72, z=1749} class_2338{x=1011, y=72, z=1750}
+[04:16:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1011, y=72, z=1749} class_2338{x=1012, y=72, z=1750}
+[04:16:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1011, y=72, z=1749} class_2338{x=1012, y=72, z=1751}
+[04:16:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1011, y=72, z=1749} class_2338{x=1013, y=72, z=1751}
+[04:16:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1011, y=72, z=1749} class_2338{x=1013, y=71, z=1751}
+[04:16:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1011, y=72, z=1749} class_2338{x=1013, y=72, z=1752}
+[04:16:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1011, y=72, z=1749} class_2338{x=1012, y=72, z=1752}
+[04:16:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1011, y=72, z=1749} class_2338{x=1011, y=72, z=1751}
+[04:16:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1011, y=72, z=1749} class_2338{x=1013, y=71, z=1752}
+[04:16:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1011, y=72, z=1749} class_2338{x=1013, y=72, z=1750}
+[04:16:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1014, y=72, z=1750} class_2338{x=1013, y=72, z=1749}
+[04:16:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1013, y=73, z=1750} class_2338{x=1014, y=72, z=1751}
+[04:16:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1013, y=73, z=1750} class_2338{x=1014, y=72, z=1752}
+[04:16:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1013, y=73, z=1750} class_2338{x=1014, y=71, z=1751}
+[04:16:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1013, y=73, z=1750} class_2338{x=1014, y=71, z=1752}
+[04:16:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1011, y=73, z=1751} class_2338{x=1011, y=72, z=1752}
+[04:16:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1011, y=73, z=1751} class_2338{x=1011, y=72, z=1753}
+[04:16:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1011, y=72, z=1754} class_2338{x=1012, y=72, z=1753}
+[04:16:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1011, y=72, z=1754} class_2338{x=1012, y=72, z=1754}
+[04:16:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1011, y=72, z=1754} class_2338{x=1013, y=72, z=1753}
+[04:16:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1011, y=72, z=1754} class_2338{x=1014, y=72, z=1753}
+[04:16:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1011, y=72, z=1754} class_2338{x=1014, y=71, z=1753}
+[04:17:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1016, y=72, z=1752} class_2338{x=1014, y=72, z=1754}
+[04:17:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1014, y=72, z=1755} class_2338{x=1013, y=72, z=1754}
+[04:17:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1014, y=72, z=1755} class_2338{x=1013, y=72, z=1755}
+[04:20:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1027, y=73, z=1764} class_2338{x=1021, y=72, z=1759}
+[04:22:30] [localSession-7-5/INFO]: Dangdayy has disconnected from the Java server because of Bedrock client disconnected
+[04:22:30] [Geyser Fabric connection thread-6-6/INFO]: Floodgate player logged in as .Dangdayy disconnected
+[04:22:30] [Server thread/INFO]: .Dangdayy lost connection: Disconnected
+[04:22:30] [Server thread/INFO]: .Dangdayy left the game
